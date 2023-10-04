@@ -1,7 +1,7 @@
 steps:
   # Docker Build
   - image: ubuntu
-    command: ls
+    command: [ls]
   - image: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 
            'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/docker-perl-image', 

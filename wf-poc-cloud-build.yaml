@@ -1,0 +1,19 @@
+# wf-perl.yaml
+
+name: perl-workflow 
+serviceAccount: "projects/cloud-aoss-1p-dev/serviceAccounts/cloudbuildgen2@cloud-aoss-1p-dev.iam.gserviceaccount.com"
+pipeline:
+  ref:
+    resolver: gcb-repo
+    params:
+    - name: repository
+      value: projects/cloud-aoss-1p-dev/locations/us-central1/connections/jeffin-test-conn
+/repositories/jeffinbiju1-poc-cloud-build
+    - name: revision
+      value: main
+    - name: pathInRepo
+      value: docker-perl-image.yaml
+options:
+  executionEnvironment:
+    workerPool: "projects/cloud-aoss-1p-dev/locations/us-central1/workerPools/jeffin-test-pool"
+

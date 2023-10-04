@@ -1,5 +1,4 @@
 # wf-perl.yaml
-
 name: perl-workflow 
 serviceAccount: "projects/cloud-aoss-1p-dev/serviceAccounts/cloudbuildgen2@cloud-aoss-1p-dev.iam.gserviceaccount.com"
 pipeline:

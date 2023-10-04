@@ -1,0 +1,17 @@
+steps:
+  - name: 'us-central1-docker.pkg.dev/cloud-aoss-dev/jeffinbiju-test/myimage@sha256:2266206ebd9863471ef833fc08da207af55c4c8df4a88fd8c2d59bd475a3406e'
+    script: |
+      #!/bin/sh
+      cpan install File::HomeDir
+      apt-get update
+      apt-get install libstring-shellquote-perl
+      apt-get install -y libwww-perl
+      apt-get install python3-pycurl
+      apt-get install -y python3-requests
+      apt-get install -y python3-debian
+      apt-get install -y equivs
+      apt-get install -y apt-utils
+      apt-get install -y mmdebstrap
+      ./debrebuild.pl --buildresults=./artifacts --builder=mmdebstrap gzip_1.10-2_all-amd64-source.buildinfo 
+
+

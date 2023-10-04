@@ -1,11 +1,11 @@
 steps:
   # Docker Build
-  - image: ubuntu
-    command: [ls]
-  - image: 'gcr.io/cloud-builders/docker'
+  - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 
            'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/docker-perl-image', 
            '.']
+
+  
 
   # Docker Push
   - image: 'gcr.io/cloud-builders/docker'

@@ -6,8 +6,7 @@ pipeline:
     resolver: gcb-repo
     params:
     - name: repository
-      value: projects/cloud-aoss-1p-dev/locations/us-central1/connections/jeffin-test-conn
-/repositories/jeffinbiju1-poc-cloud-build
+      value: projects/cloud-aoss-1p-dev/locations/us-central1/connections/jeffin-test-conn/repositories/jeffinbiju1-poc-cloud-build
     - name: revision
       value: main
     - name: pathInRepo

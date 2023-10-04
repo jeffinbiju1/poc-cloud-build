@@ -5,8 +5,6 @@ steps:
            'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/docker-perl-image', 
            '.']
 
-  
-
   # Docker Push
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 

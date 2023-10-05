@@ -3,6 +3,11 @@ steps:
   args: ["build", "-t", "us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/image", "."]
 images:
 - "us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/image"
+artifacts:
+  objects:
+    location: 'gs://jeffinbiju/cloud-aoss-1p-dev' 
+    paths: ['*'] 
+
 
   #steps:
   #- name: ubuntu

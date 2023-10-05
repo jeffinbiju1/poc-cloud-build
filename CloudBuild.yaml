@@ -2,6 +2,7 @@ steps:
   - name: "docker.io/library/perl"
     script: |
       #!/bin/sh
+      echo hello
       cpan install -y File::HomeDir
       apt-get update
       apt-get install -y libstring-shellquote-perl

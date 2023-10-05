@@ -2,10 +2,10 @@ steps:
   # Docker Build
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 
-           'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-apt-repo/myimage', 
+           'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/myimage', 
            '.']
 
   # Docker Pus h
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 
-           'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-apt-repo/myimage']
+           'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/myimage']

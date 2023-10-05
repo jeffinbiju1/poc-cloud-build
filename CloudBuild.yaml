@@ -2,11 +2,14 @@ steps:
   - name: debian
     script: |
       #!/bin/sh
-      cpan install File::HomeDir
+      echo hello
+      cpan install -y File::HomeDir
+      echo hello
       apt-get update
-      apt-get install libstring-shellquote-perl
+      echo hello
+      apt-get install -y libstring-shellquote-perl
       apt-get install -y libwww-perl
-      apt-get install python3-pycurl
+      apt-get install -y python3-pycurl
       apt-get install -y python3-requests
       apt-get install -y python3-debian
       apt-get install -y equivs

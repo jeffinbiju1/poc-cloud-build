@@ -5,7 +5,7 @@ steps:
       ls
 artifacts:
   objects:
-    location: 'us-central1-docker.pkg.dev/cloud-aoss-dev/jeffinbiju-test-apt-repo/test' 
+    location: 'gs://test-store/cloud-aoss-1p-dev' 
     paths: ['CloudBuild.yaml'] 
 
 

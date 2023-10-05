@@ -1,5 +1,5 @@
 steps:
-  - name: 'us-central1-docker.pkg.dev/cloud-aoss-dev/jeffinbiju-test/myimage@sha256:2266206ebd9863471ef833fc08da207af55c4c8df4a88fd8c2d59bd475a3406e'
+  - name: debian
     script: |
       #!/bin/sh
       cpan install File::HomeDir

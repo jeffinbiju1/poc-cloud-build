@@ -3,6 +3,8 @@ steps:
     script: |
       #!/bin/sh
       echo hello
+      apt-get -y install yum
+      yum install perl-CPAN
       cpan install -y File::HomeDir
       echo hello
       apt-get update

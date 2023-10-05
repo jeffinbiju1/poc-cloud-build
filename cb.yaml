@@ -3,6 +3,7 @@ steps:
     script: |
       #!/bin/sh
       ls
-  - images: 'us-central1-docker.pkg.dev/cloud-aoss-dev/jeffinbiju-test-apt-repo/test'
+images: 
+  - 'us-central1-docker.pkg.dev/cloud-aoss-dev/jeffinbiju-test-apt-repo/test'
 
 

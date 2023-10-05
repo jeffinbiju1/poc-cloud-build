@@ -410,14 +410,14 @@ foreach my $pkg (@inst_build_deps) {
 my $tarballpath = '';
 my $sourceslist = '';
 if (any { $_ eq $builder } ('none', 'dpkg')) {
-    open my $fh, '-|', '$(workspaces.source.path)/debootsnap', "--buildinfo=$buildinfo",
+    open my $fh, '-|', './debootsnap', "--buildinfo=$buildinfo",
       '--sources-list-only' // die "cannot exec debootsnap";
     $sourceslist = do { local $/; <$fh> };
     close $fh;
 } elsif (any { $_ eq $builder } ('mmdebstrap', 'sbuild', 'sbuild+unshare')) {
     (undef, $tarballpath)
       = tempfile('debrebuild.tar.XXXXXXXXXXXX', OPEN => 0, TMPDIR => 1);
-    0 == system '$(workspaces.source.path)/debootsnap', "--buildinfo=$buildinfo", $tarballpath
+    0 == system './debootsnap', "--buildinfo=$buildinfo", $tarballpath
       or die "debootsnap failed";
 } else {
     die "unsupported builder: $builder\n";
@@ -622,7 +622,7 @@ if ($builder eq "none") {
         "--setup-hook=cd \"\$1\"; cp -R "
 	  . (String::ShellQuote::shell_quote $tarballpath) . "/* .",
         '--setup-hook=rm "$1"/etc/apt/sources.list',
-"--customize-hook=$(workspaces.source.path)/debsnap.pl --force --destdir \"\$1\" $srcpkgname $srcpkgver",
+"--customize-hook=./debsnap.pl --force --destdir \"\$1\" $srcpkgname $srcpkgver",
         '--customize-hook=chroot "$1" sh -c "'
           . (
             join ' && ',

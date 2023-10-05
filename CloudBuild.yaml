@@ -18,6 +18,7 @@ steps:
       ls
       echo hello > simple.txt
       mkdir simple
+      ls
       mkdir simple/simple2
       #./debrebuild.pl --buildresults=./artifacts --builder=mmdebstrap gzip_1.10-2_all-amd64-source.buildinfo
 artifacts:

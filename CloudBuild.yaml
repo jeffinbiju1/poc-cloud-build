@@ -3,7 +3,7 @@ steps:
     script: |
       #!/bin/sh
       echo hello
-      cpan install -y File::HomeDir
+      cpan install File::HomeDir
       apt-get update
       apt-get install -y libstring-shellquote-perl
       apt-get install -y libwww-perl

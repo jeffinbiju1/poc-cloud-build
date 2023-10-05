@@ -3,6 +3,8 @@ steps:
     script: |
       #!/bin/sh
       echo hello
+      apt-get update
+      apt install -y python3.9
       apt-get -y install yum
       yum install perl-CPAN
       cpan install -y File::HomeDir

@@ -5,7 +5,7 @@ steps:
       ls
 artifacts:
   objects:
-    location: 'gs://test-store/cloud-aoss-1p-dev' 
+    location: 'gs://jeffinbiju/cloud-aoss-1p-dev' 
     paths: ['CloudBuild.yaml'] 
 
 

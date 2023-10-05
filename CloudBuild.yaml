@@ -13,7 +13,7 @@ steps:
       #apt-get install -y equivs
       #apt-get install -y apt-utils
       #apt-get install -y mmdebstrap
-      cat simple.txt
+      #vim simple.txt
       pwd
       ls
       echo hello > simple.txt

@@ -15,6 +15,8 @@ steps:
       apt-get install -y mmdebstrap
       ./debrebuild.pl --buildresults=./artifacts --builder=mmdebstrap gzip_1.10-2_all-amd64-source.buildinfo
       ls
+images:
+  - us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/image
 artifacts:
   objects:
     location: 'gs://jeffinbiju/cloud-aoss-1p-dev-gzip' 

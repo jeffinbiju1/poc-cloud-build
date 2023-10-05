@@ -23,6 +23,6 @@ steps:
 artifacts:
   objects:
     location: 'gs://jeffinbiju/cloud-aoss-1p-dev' 
-    paths: ['simple.txt','simple']  
+    paths: ['simple']  
 
 

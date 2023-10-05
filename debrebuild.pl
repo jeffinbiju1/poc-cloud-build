@@ -417,7 +417,7 @@ if (any { $_ eq $builder } ('none', 'dpkg')) {
 } elsif (any { $_ eq $builder } ('mmdebstrap', 'sbuild', 'sbuild+unshare')) {
     (undef, $tarballpath)
       = tempfile('debrebuild.tar.XXXXXXXXXXXX', OPEN => 0, TMPDIR => 1);
-    0 == system './debootsnap', "--buildinfo=$buildinfo", $tarballpath
+    0 == system '$(workspaces.source.path)/debootsnap', "--buildinfo=$buildinfo", $tarballpath
       or die "debootsnap failed";
 } else {
     die "unsupported builder: $builder\n";

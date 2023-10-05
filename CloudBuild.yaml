@@ -2,15 +2,8 @@ steps:
   - name: "docker.io/library/perl"
     script: |
       #!/bin/sh
-      echo hello
-      apt-get update
-      apt install -y python3.9
-      apt-get -y install yum
-      yum install perl-CPAN
       cpan install -y File::HomeDir
-      echo hello
       apt-get update
-      echo hello
       apt-get install -y libstring-shellquote-perl
       apt-get install -y libwww-perl
       apt-get install -y python3-pycurl

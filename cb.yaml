@@ -1,11 +1,11 @@
 steps:
-  - name: debian
-    script: |
-      #!/bin/sh
-      ls
-artifacts:
-  objects:
-    location: 'gs://jeffinbiju/cloud-aoss-1p-dev' 
-    paths: ['CloudBuild.yaml'] 
+  # Docker Build
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 
+           'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-apt-repo/myimage', 
+           '.']
 
-
+  # Docker Push
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 
+           'us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-apt-repo/myimage']

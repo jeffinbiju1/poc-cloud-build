@@ -1,5 +1,5 @@
 steps:
-  - name: "docker.io/library/hezengliang/docker-perl"
+  - name: "docker.io/library/perl"
     script: |
       #!/bin/sh
       echo hello

@@ -3,3 +3,7 @@ steps:
   args: ["build", "-t", "us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/image", "."]
 images:
 - "us-central1-docker.pkg.dev/cloud-aoss-1p-dev/jeffin-test-docker-repo/image"
+
+  #steps:
+  #- name: ubuntu
+

@@ -1,0 +1,142 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: debianutils
+Binary: debianutils
+Architecture: amd64
+Version: 4.11.2
+Checksums-Md5:
+ 68d08b47a5d8a619487bf619dbe64553 101160 debianutils_4.11.2_amd64.deb
+Checksums-Sha1:
+ 97bb21bc833b1a79e8da5ba975de99e0a73daede 101160 debianutils_4.11.2_amd64.deb
+Checksums-Sha256:
+ 83d21669c5957e3eaee20096a7d8c596bd07f57f1e95dc74f192b3fb7bb2e6a9 101160 debianutils_4.11.2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 27 Sep 2020 20:22:13 +0000
+Build-Path: /build/debianutils-mCEnif/debianutils-4.11.2
+Installed-Build-Depends:
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-7),
+ binutils (= 2.35.1-1),
+ binutils-common (= 2.35.1-1),
+ binutils-x86-64-linux-gnu (= 2.35.1-1),
+ bsdutils (= 1:2.36-3),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4),
+ cpp (= 4:10.2.0-1),
+ cpp-10 (= 10.2.0-9),
+ dash (= 0.5.10.2-7),
+ debconf (= 1.5.74),
+ debianutils (= 4.11.1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.20.5),
+ dpkg-dev (= 1.20.5),
+ findutils (= 4.7.0-1),
+ g++ (= 4:10.2.0-1),
+ g++-10 (= 10.2.0-9),
+ gcc (= 4:10.2.0-1),
+ gcc-10 (= 10.2.0-9),
+ gcc-10-base (= 10.2.0-9),
+ grep (= 3.4-1),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.58),
+ libacl1 (= 2.2.53-8),
+ libasan6 (= 10.2.0-9),
+ libatomic1 (= 10.2.0-9),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-3),
+ libaudit1 (= 1:2.8.5-3+b1),
+ libbinutils (= 2.35.1-1),
+ libblkid1 (= 2.36-3),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-3),
+ libc-dev-bin (= 2.31-3),
+ libc6 (= 2.31-3),
+ libc6-dev (= 2.31-3),
+ libcap-ng0 (= 0.7.9-2.2),
+ libcc1-0 (= 10.2.0-9),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.1-1),
+ libctf0 (= 2.35.1-1),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.254),
+ libdpkg-perl (= 1.20.5),
+ libgcc-10-dev (= 10.2.0-9),
+ libgcc-s1 (= 10.2.0-9),
+ libgcrypt20 (= 1.8.6-2),
+ libgdbm-compat4 (= 1.18.1-5.1),
+ libgdbm6 (= 1.18.1-5.1),
+ libgmp10 (= 2:6.2.0+dfsg-6),
+ libgomp1 (= 10.2.0-9),
+ libgpg-error0 (= 1.38-2),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.2.0-9),
+ liblsan0 (= 10.2.0-9),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmount1 (= 2.36-3),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-13),
+ libperl5.30 (= 5.30.3-4),
+ libquadmath0 (= 10.2.0-9),
+ libselinux1 (= 3.1-2),
+ libsmartcols1 (= 2.36-3),
+ libstdc++-10-dev (= 10.2.0-9),
+ libstdc++6 (= 10.2.0-9),
+ libsystemd0 (= 246.6-1),
+ libtinfo6 (= 6.2+20200918-1),
+ libtsan0 (= 10.2.0-9),
+ libubsan1 (= 10.2.0-9),
+ libudev1 (= 246.6-1),
+ libuuid1 (= 2.36-3),
+ libzstd1 (= 1.4.5+dfsg-4),
+ linux-libc-dev (= 5.8.10-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ make (= 4.3-4),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20200918-1),
+ ncurses-bin (= 6.2+20200918-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.3-4),
+ perl-base (= 5.30.3-4),
+ perl-modules-5.30 (= 5.30.3-4),
+ sed (= 4.7-1),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.30+dfsg-7),
+ util-linux (= 2.36-3),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1601227547"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/7vrlRgMAcjt3zQ5J9KdAI8x88oFAl9w9HcACgkQJ9KdAI8x
+88rWQBAAiBEDCEfR2U3eb96qkQi/8phqIG/xmbPA4l+/9U3R7cVr8svyP9noFMJ7
+iiSS7XqpkOqg0yyMbGhP96ynp+s0l6Qh7+O3rFRknLK7IIvqFMfm/ZcLAuEsyJPj
+Z13xljCXAAsEAvr7kVqQ7wu1KswQkUNE05ergP1/wK1Vo7VCWf2PVZrAF21JVIys
+oNZPk0i8bwR65FuwTikBlldBZpgkMQghIIOAMWtLbPbtcXVy4DyYlIiuEgjVPr9L
+w9W2QpUwncO5sqXBCda3qXkPlLMRJfEamWHw1cVr00m7yBpIWxoxCj9cIXwpo1/J
+NFn6PmbvaSFiIJSuS3raebOxOe/2vRQ01I9o11zlNdh/6VrAs2mYHHg4TLPXTj16
+LoR9V3Koj6pZ++ZN7Gdkt0ZenNcNZSEIv1mtsikrE+CieXI02utOhJCdXTrDLCCs
+xL95oE08+isbVI38bdo0Zqi3L3mV9cVlB4zt6qLMYw/bS6XjYuxyTsGEzymgGpRd
+pm0JepqtbDfSETQo09gvJBCuc6fN+h/xDG02McT5bjeq93E9UwBnAu7E0pJd4oID
+A6fh19Zl2ULoVVAf84BxYm5vQC0pYfaDkyLAYEiQII91vA+Bg4fK7QVGRZOQdW07
+ZZGwUzT36L31g9EbfBa9JMl7EJ5ooprZqYfOKv+qucHImZo6+Gc=
+=puJz
+-----END PGP SIGNATURE-----

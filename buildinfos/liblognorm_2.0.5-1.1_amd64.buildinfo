@@ -1,0 +1,252 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: liblognorm
+Binary: liblognorm-dev liblognorm5 liblognorm-utils
+Architecture: amd64
+Version: 2.0.5-1.1
+Checksums-Md5:
+ 58837569f199fec8dc9b297198fc1e26 170668 liblognorm-dev_2.0.5-1.1_amd64.deb
+ 8b3709c926dbdad34feeaa33c832ed27 13200 liblognorm-utils-dbgsym_2.0.5-1.1_amd64.deb
+ 7aae99104a844ab3a117d12815322f19 14328 liblognorm-utils_2.0.5-1.1_amd64.deb
+ 9aa5fa27e3fbf2200d32bffb45ef3264 176452 liblognorm5-dbgsym_2.0.5-1.1_amd64.deb
+ 12bb5ce55f42b362149e57f76319a629 64512 liblognorm5_2.0.5-1.1_amd64.deb
+Checksums-Sha1:
+ 073bf1aaeced1888f9ad86c4cbb5ea64c7d2ac28 170668 liblognorm-dev_2.0.5-1.1_amd64.deb
+ c85688e12bfba0bab172b68d76c38b13da8bd55d 13200 liblognorm-utils-dbgsym_2.0.5-1.1_amd64.deb
+ 3afeb28fde76fceb0904b937ced46ed6897466d2 14328 liblognorm-utils_2.0.5-1.1_amd64.deb
+ 819a4683efbd731fdcc3f333b67480f0445acc16 176452 liblognorm5-dbgsym_2.0.5-1.1_amd64.deb
+ 513ec5f146a0880584f48c49df74a3e486fdebd8 64512 liblognorm5_2.0.5-1.1_amd64.deb
+Checksums-Sha256:
+ f8e6244c0ac6bf48223eb7f320c954d2a6da03d21bb517bc52e2b492bab966f6 170668 liblognorm-dev_2.0.5-1.1_amd64.deb
+ 3b6f6df590e0cf81def9c0a7a7cb1c6d86bc813230b626d8ec8e93657635c85c 13200 liblognorm-utils-dbgsym_2.0.5-1.1_amd64.deb
+ b18d9eaa3018b3cd8d676074933742bf89ef73f1d5abc6bf007accd4f17047cc 14328 liblognorm-utils_2.0.5-1.1_amd64.deb
+ ae463d341c359041be777a4e3286befebfc1ff1dd8d68f4a008a55be28c54a0e 176452 liblognorm5-dbgsym_2.0.5-1.1_amd64.deb
+ 3feab76c9d4f9ddcef1a1c043c36aaaa1aa853d61ee3eac121587a91f94b0014 64512 liblognorm5_2.0.5-1.1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 15 Mar 2020 01:18:15 +0000
+Build-Path: /build/liblognorm-OTQ4MB/liblognorm-2.0.5
+Build-Tainted-By:
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-10),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-6),
+ binutils (= 2.34-4),
+ binutils-common (= 2.34-4),
+ binutils-x86-64-linux-gnu (= 2.34-4),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.34-0.1),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-2),
+ ca-certificates (= 20190110),
+ coreutils (= 8.30-3+b1),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.2.1-31),
+ dash (= 0.5.10.2-6),
+ debconf (= 1.5.73),
+ debhelper (= 12.9),
+ debianutils (= 4.9.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.6.3-2),
+ diffutils (= 1:3.7-3),
+ docutils-common (= 0.16+dfsg-1),
+ dpkg (= 1.19.7),
+ dpkg-dev (= 1.19.7),
+ dwz (= 0.13-5),
+ fdisk (= 2.34-0.1),
+ file (= 1:5.38-4),
+ findutils (= 4.7.0-1),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.2.1-31),
+ gcc (= 4:9.2.1-3.1),
+ gcc-10-base (= 10-20200304-1),
+ gcc-9 (= 9.2.1-31),
+ gcc-9-base (= 9.2.1-31),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-4),
+ gzip (= 1.10-1),
+ hostname (= 3.23),
+ icu-devtools (= 63.2-3),
+ init-system-helpers (= 1.57),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-6),
+ libarchive-zip-perl (= 1.68-1),
+ libasan5 (= 9.2.1-31),
+ libatomic1 (= 10-20200304-1),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-2),
+ libaudit1 (= 1:2.8.5-2+b1),
+ libbinutils (= 2.34-4),
+ libblkid1 (= 2.34-0.1),
+ libbsd0 (= 0.10.0-1),
+ libbz2-1.0 (= 1.0.8-2),
+ libc-bin (= 2.29-10),
+ libc-dev-bin (= 2.29-10),
+ libc6 (= 2.29-10),
+ libc6-dev (= 2.29-10),
+ libcap-ng0 (= 0.7.9-2.1+b2),
+ libcc1-0 (= 10-20200304-1),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.15-1),
+ libcrypt1 (= 1:4.4.15-1),
+ libctf-nobfd0 (= 2.34-4),
+ libctf0 (= 2.34-4),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.251),
+ libdebhelper-perl (= 12.9),
+ libdpkg-perl (= 1.19.7),
+ libelf1 (= 0.176-1.1),
+ libestr-dev (= 0.1.10-2.1+b1),
+ libestr0 (= 0.1.10-2.1+b1),
+ libexpat1 (= 2.2.9-1),
+ libfastjson-dev (= 0.99.8-2),
+ libfastjson4 (= 0.99.8-2),
+ libfdisk1 (= 2.34-0.1),
+ libffi7 (= 3.3-3),
+ libfile-stripnondeterminism-perl (= 1.6.3-2),
+ libgcc-9-dev (= 9.2.1-31),
+ libgcc-s1 (= 10-20200304-1),
+ libgcc1 (= 1:10-20200304-1),
+ libgcrypt20 (= 1.8.5-5),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.64.0-2),
+ libgmp10 (= 2:6.2.0+dfsg-4),
+ libgomp1 (= 10-20200304-1),
+ libgpg-error0 (= 1.37-1),
+ libicu-dev (= 63.2-3),
+ libicu63 (= 63.2-3),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10-20200304-1),
+ libjs-jquery (= 3.3.1~dfsg-3),
+ libjs-sphinxdoc (= 1.8.5-6),
+ libjs-underscore (= 1.9.1~dfsg-1),
+ liblsan0 (= 10-20200304-1),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.38-4),
+ libmagic1 (= 1:5.38-4),
+ libmount1 (= 2.34-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpdec2 (= 2.4.2-3),
+ libmpfr6 (= 4.0.2-1),
+ libncursesw6 (= 6.2-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-12+b1),
+ libperl5.30 (= 5.30.0-9),
+ libpipeline1 (= 1.5.2-2),
+ libpython3-stdlib (= 3.8.2-1),
+ libpython3.8-minimal (= 3.8.2-1),
+ libpython3.8-stdlib (= 3.8.2-1),
+ libquadmath0 (= 10-20200304-1),
+ libreadline8 (= 8.0-4),
+ libseccomp2 (= 2.4.2-2),
+ libselinux1 (= 3.0-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.34-0.1),
+ libsqlite3-0 (= 3.31.1-4),
+ libssl1.1 (= 1.1.1d-2),
+ libstdc++-9-dev (= 9.2.1-31),
+ libstdc++6 (= 10-20200304-1),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 245-1),
+ libtinfo6 (= 6.2-1),
+ libtool (= 2.4.6-14),
+ libtsan0 (= 10-20200304-1),
+ libubsan1 (= 10-20200304-1),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 245-1),
+ libunistring2 (= 0.9.10-2),
+ libuuid1 (= 2.34-0.1),
+ libxml2 (= 2.9.10+dfsg-4),
+ libxml2-dev (= 2.9.10+dfsg-4),
+ linux-libc-dev (= 5.4.19-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.2.1-1.2),
+ man-db (= 2.9.1-1),
+ mawk (= 1.3.4.20200120-2),
+ mime-support (= 3.64),
+ ncurses-base (= 6.2-1),
+ ncurses-bin (= 6.2-1),
+ openssl (= 1.1.1d-2),
+ patch (= 2.7.6-6),
+ perl (= 5.30.0-9),
+ perl-base (= 5.30.0-9),
+ perl-modules-5.30 (= 5.30.0-9),
+ pkg-config (= 0.29-6),
+ po-debconf (= 1.0.21),
+ python-babel-localedata (= 2.8.0+dfsg.1-2),
+ python3 (= 3.8.2-1),
+ python3-alabaster (= 0.7.8-1),
+ python3-attr (= 19.3.0-1),
+ python3-babel (= 2.8.0+dfsg.1-2),
+ python3-certifi (= 2019.11.28-1),
+ python3-chardet (= 3.0.4-4),
+ python3-distutils (= 3.8.2-2),
+ python3-docutils (= 0.16+dfsg-1),
+ python3-idna (= 2.8-1),
+ python3-imagesize (= 1.2.0-1),
+ python3-jinja2 (= 2.10.1-2),
+ python3-lib2to3 (= 3.8.2-2),
+ python3-markupsafe (= 1.1.0-1+b2),
+ python3-minimal (= 3.8.2-1),
+ python3-packaging (= 19.1-2),
+ python3-pkg-resources (= 44.0.0-1),
+ python3-pygments (= 2.3.1+dfsg-1),
+ python3-pyparsing (= 2.4.6-1),
+ python3-requests (= 2.22.0-2),
+ python3-roman (= 2.0.0-3),
+ python3-six (= 1.14.0-2),
+ python3-sphinx (= 1.8.5-6),
+ python3-tz (= 2019.3-1),
+ python3-urllib3 (= 1.25.8-1),
+ python3.8 (= 3.8.2-1),
+ python3.8-minimal (= 3.8.2-1),
+ readline-common (= 8.0-4),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sgml-base (= 1.29.1),
+ sphinx-common (= 1.8.5-6),
+ sysvinit-utils (= 2.96-2.1),
+ tar (= 1.30+dfsg-6+b1),
+ tzdata (= 2019c-3),
+ util-linux (= 2.34-0.1),
+ xml-core (= 0.18+nmu1),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1584230656"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEAhVek9X+wT43OcLs2XlcsAphr14FAl5tgloACgkQ2XlcsAph
+r15+BA/9EO6Agz2+clM5bNBHO+O9nVHv39BxWrEpB7duIeZW7aiSzHdFopaZCKcS
+VRW2sgnhYdplgq/nHrgbFZ++yKwVhn9XRvuHmhbNZThNgy4DO04EQTdGK8MdA2Ei
+54NRPTwhHFXwLWTjRyO0u7cdvo1/sC0i1Qg4Oe337n8mgf4lZ9+m9Eae8j+vjzEr
++6F76Fkk4nx2JuPLEqKUQYTNtVh/HS3yqbcY6SXHwGJbX5IcU46pA4VGTQy73YX5
+40lyy+ZQx83jWZLmxMjnelQ3RqE7/fRASzz7P8dqrCkTGH8P2H0QUrqiU/enbglZ
+iLq/jwiICD4ZKJXRTBUxJvoB/fle1k5oqWopu0pKFf5XzOCadfZKjEHRdt2phY0x
+PeqXjaeXgFZJSRDVLj5iQ/nfQbrsk8DwLZoP1MgSx+7MDjAXZMZpKtW0YiJLWaHl
+z/37MkuV64e+ydCZl485LHJf2RNmj0QqJ4/nhr8JOk020xMZO4LfCxPdAaDEnrcg
+I4Nadyv8rSVUd8I9vTAbNPUYPoqF7Sr8lgbVp5/2zUd4FX4DZohN94e5qPxC5xac
+DkbYNkHKVbJhO13m+RmmkjYvP1GQAQM1YkaOkqO89eWRhoUXND7UcYUmdgW/3rcc
+RfRm12ariyKOzmNRmbAy32xJvlIhhyynHaIZvqTjXTIvgmiUIww=
+=0KEK
+-----END PGP SIGNATURE-----

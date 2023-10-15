@@ -1,0 +1,207 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: protobuf-c (1.3.3-1)
+Binary: libprotobuf-c-dev libprotobuf-c1 libprotobuf-c1-dbgsym protobuf-c-compiler protobuf-c-compiler-dbgsym
+Architecture: amd64
+Version: 1.3.3-1+b2
+Binary-Only-Changes:
+ protobuf-c (1.3.3-1+b2) sid; urgency=low, binary-only=yes
+ .
+   * Binary-only non-maintainer upload for amd64; no source changes.
+   * Rebuild against protobuf 3.12.3
+ .
+  -- all / amd64 / i386 Build Daemon (x86-conova-01) <buildd_amd64-x86-conova-01@buildd.debian.org>  Wed, 08 Jul 2020 07:35:05 +0000
+Checksums-Md5:
+ efd1faee1704ab1527f2d3dea9548e57 34324 libprotobuf-c-dev_1.3.3-1+b2_amd64.deb
+ 4a57ff738cf40312628d6546ce7fa03f 55608 libprotobuf-c1-dbgsym_1.3.3-1+b2_amd64.deb
+ 612e81f3d598b9da9d20d10be975f6d5 27012 libprotobuf-c1_1.3.3-1+b2_amd64.deb
+ 3f63f94df397751f0e22aa0196eeadf0 1747668 protobuf-c-compiler-dbgsym_1.3.3-1+b2_amd64.deb
+ aa267ec501c40d5555d274d9279749fd 83804 protobuf-c-compiler_1.3.3-1+b2_amd64.deb
+Checksums-Sha1:
+ 91f24af05f0b814645ad044fa6b1ed9c934a4913 34324 libprotobuf-c-dev_1.3.3-1+b2_amd64.deb
+ 280bd26b1ddbbcc13c318ed29c5046940d623366 55608 libprotobuf-c1-dbgsym_1.3.3-1+b2_amd64.deb
+ df929d3a8e20f0629210cf0feb8ed5f9be15d9d1 27012 libprotobuf-c1_1.3.3-1+b2_amd64.deb
+ 87b2ca1c9f00d900b0779e05b14a106a3e082493 1747668 protobuf-c-compiler-dbgsym_1.3.3-1+b2_amd64.deb
+ 8aa44f2921b9ed99cf1f471c0f6486e4a4fdd721 83804 protobuf-c-compiler_1.3.3-1+b2_amd64.deb
+Checksums-Sha256:
+ 5f4283de10c9782e5d82611f23843843472ff2354d4cc4d87a931fb712963f43 34324 libprotobuf-c-dev_1.3.3-1+b2_amd64.deb
+ c630b5a1907c07a608d082dea5f3938e3d2d405c071ba1a203f6e02c6341f405 55608 libprotobuf-c1-dbgsym_1.3.3-1+b2_amd64.deb
+ 27e6799c96fe4ef1e721dd64d60bf70215f0d2a12983eca133997b84dcec0858 27012 libprotobuf-c1_1.3.3-1+b2_amd64.deb
+ e43fbe835f3f88cba915a2cb1252e15ed748ece1e9827ab6b370b3ea28bc434e 1747668 protobuf-c-compiler-dbgsym_1.3.3-1+b2_amd64.deb
+ 6be3efa76e547ed59632a5977a1ea9ed2b2c91533e152cd78f4e35edceb8b946 83804 protobuf-c-compiler_1.3.3-1+b2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 08 Jul 2020 07:35:52 +0000
+Build-Path: /build/protobuf-c-mkTneL/protobuf-c-1.3.3
+Build-Tainted-By:
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.2-3),
+ autopoint (= 0.19.8.1-10),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-6),
+ binutils (= 2.34-8),
+ binutils-common (= 2.34-8),
+ binutils-x86-64-linux-gnu (= 2.34-8),
+ bsdextrautils (= 2.35.2-7),
+ bsdutils (= 1:2.35.2-6),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-3),
+ coreutils (= 8.32-2),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.3.0-14),
+ dash (= 0.5.10.2-7),
+ debconf (= 1.5.74),
+ debhelper (= 13.2),
+ debianutils (= 4.11),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.8.1-2),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.20.3),
+ dpkg-dev (= 1.20.3),
+ dwz (= 0.13-5),
+ file (= 1:5.38-5),
+ findutils (= 4.7.0-1),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.3.0-14),
+ gcc (= 4:9.2.1-3.1),
+ gcc-10-base (= 10.1.0-4),
+ gcc-9 (= 9.3.0-14),
+ gcc-9-base (= 9.3.0-14),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-5),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.58),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-8),
+ libarchive-zip-perl (= 1.68-1),
+ libasan5 (= 9.3.0-14),
+ libatomic1 (= 10.1.0-4),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-3),
+ libaudit1 (= 1:2.8.5-3+b1),
+ libbinutils (= 2.34-8),
+ libblkid1 (= 2.35.2-6),
+ libbz2-1.0 (= 1.0.8-3),
+ libc-bin (= 2.30-8),
+ libc-dev-bin (= 2.30-8),
+ libc6 (= 2.30-8),
+ libc6-dev (= 2.30-8),
+ libcap-ng0 (= 0.7.9-2.2),
+ libcc1-0 (= 10.1.0-4),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.16-1),
+ libcrypt1 (= 1:4.4.16-1),
+ libctf-nobfd0 (= 2.34-8),
+ libctf0 (= 2.34-8),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.252),
+ libdebhelper-perl (= 13.2),
+ libdpkg-perl (= 1.20.3),
+ libelf1 (= 0.176-1.1),
+ libffi7 (= 3.3-4),
+ libfile-stripnondeterminism-perl (= 1.8.1-2),
+ libgcc-9-dev (= 9.3.0-14),
+ libgcc-s1 (= 10.1.0-4),
+ libgcrypt20 (= 1.8.5-5),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.64.4-1),
+ libgmp10 (= 2:6.2.0+dfsg-6),
+ libgomp1 (= 10.1.0-4),
+ libgpg-error0 (= 1.38-2),
+ libicu67 (= 67.1-2),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.1.0-4),
+ liblsan0 (= 10.1.0-4),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.38-5),
+ libmagic1 (= 1:5.38-5),
+ libmount1 (= 2.35.2-7),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-13),
+ libperl5.30 (= 5.30.3-4),
+ libpipeline1 (= 1.5.2-2),
+ libprotobuf-dev (= 3.12.3-2),
+ libprotobuf-lite23 (= 3.12.3-2),
+ libprotobuf23 (= 3.12.3-2),
+ libprotoc-dev (= 3.12.3-2),
+ libprotoc23 (= 3.12.3-2),
+ libquadmath0 (= 10.1.0-4),
+ libseccomp2 (= 2.4.3-1+b1),
+ libselinux1 (= 3.0-1+b3),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.35.2-6),
+ libstdc++-9-dev (= 9.3.0-14),
+ libstdc++6 (= 10.1.0-4),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 245.6-2),
+ libtinfo6 (= 6.2-1),
+ libtool (= 2.4.6-14),
+ libtsan0 (= 10.1.0-4),
+ libubsan1 (= 10.1.0-4),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 245.6-2),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.35.2-6),
+ libxml2 (= 2.9.10+dfsg-5+b1),
+ linux-libc-dev (= 5.7.6-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.3-4),
+ man-db (= 2.9.3-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-1),
+ ncurses-bin (= 6.2-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.3-4),
+ perl-base (= 5.30.3-4),
+ perl-modules-5.30 (= 5.30.3-4),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21),
+ protobuf-compiler (= 3.12.3-2),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-3),
+ tar (= 1.30+dfsg-7),
+ util-linux (= 2.35.2-6),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1594193705"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/7vrlRgMAcjt3zQ5J9KdAI8x88oFAl8Fd2EACgkQJ9KdAI8x
+88rrHhAAh0/uHTNEPKOoUoh1dpaJffYD1WO1rcZd2W/c/NPcc1O1K6CsnECXjsnE
+ifsccFU+9NUCLVl85DIZEIh8YFGm7VNxPLvO9gk966iqIhtD5dPi6C28Ijp9Q3Lz
+CRYr770tMhi+8YqPQFsAEX0UbPMeyNB9/LlOEHD4ZFuNd7F3sxNdO477XrDPT8Jp
+bdRzBFx8qiNDs0484tNRiUKjS/r+MCUdlcHmcSwvx4QtCduhO4ThiLjE/TFl9ir0
+FBS4vAWfjH2NIuemvDffHoyzBDx45E4q2hf/Fvadfosr+dm6pc4pU9/l/K98bd17
+se0TyqgrcS+tafGnSpmGHFZqoE7TgKYFzr/c5en+x6jZNmAO2WHo5h+HgxvopFzO
+1wFEbHAp1jqRncJDuDGY9AZtTjBMiEczauC7eDzyn6z46XET/F8tEx7oU0oi1JL1
+V+fsw7a4RD3mMGfh4QvqTcvDpyFYQWML95L/V/br/OuB5CETU530tUYfZhUV+oj7
+RMuHRlwZMi0LrQDYWhJsDcvEMY13Cx48yOEVEFeVXwhwea9i2VcquHZrW3rUX15e
+6QE5dj7B1iyKQMj8AGORgLfQtbHy5ANhgY7RVuSrbgo7v7gNSGkBXn+DA0y9/RVY
+9TraUxCEMK7MD5I6ZviiXb5HgowGad4umy1FXwtkZjngRN2nqh0=
+=9Co0
+-----END PGP SIGNATURE-----

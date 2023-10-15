@@ -1,0 +1,307 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: lvm2
+Binary: dmeventd dmeventd-dbgsym dmsetup dmsetup-dbgsym dmsetup-udeb libdevmapper-dev libdevmapper-event1.02.1 libdevmapper-event1.02.1-dbgsym libdevmapper1.02.1 libdevmapper1.02.1-dbgsym libdevmapper1.02.1-udeb liblvm2-dev liblvm2cmd2.03 liblvm2cmd2.03-dbgsym lvm2 lvm2-dbgsym lvm2-lockd lvm2-lockd-dbgsym lvm2-udeb
+Architecture: amd64
+Version: 2.03.11-2.1
+Checksums-Md5:
+ 0b090e3dd0deee9f744b6ec2e415e4d5 39272 dmeventd-dbgsym_1.02.175-2.1_amd64.deb
+ 8b0f380a66d66343cfe7622b0ad0751e 69392 dmeventd_1.02.175-2.1_amd64.deb
+ 4ff8ba7d6e4f52d303c712f1c5dcd847 40972 dmsetup-dbgsym_1.02.175-2.1_amd64.deb
+ 7f5910dca3a9d32526e1f78ae0bc09e5 42512 dmsetup-udeb_1.02.175-2.1_amd64.udeb
+ 34e3d0bd1371de4c7b8108578a0103e2 92056 dmsetup_1.02.175-2.1_amd64.deb
+ 1a1ef8d67b802b91736dee385b8f9cc6 52048 libdevmapper-dev_1.02.175-2.1_amd64.deb
+ b544ecb9985071a512aace4cd9e69433 11648 libdevmapper-event1.02.1-dbgsym_1.02.175-2.1_amd64.deb
+ fc878bf210354fa1a4b39f9b128ea856 23208 libdevmapper-event1.02.1_1.02.175-2.1_amd64.deb
+ 8579dcd83b2238525eb8f36a2bff5d8c 123448 libdevmapper1.02.1-dbgsym_1.02.175-2.1_amd64.deb
+ 28078b8efddc380c1fcc14f5adaca8e2 118180 libdevmapper1.02.1-udeb_1.02.175-2.1_amd64.udeb
+ a26fb16788f370a8d74c2e6ad49f33b8 142920 libdevmapper1.02.1_1.02.175-2.1_amd64.deb
+ 5d2726797060119524414cd72a506b82 15176 liblvm2-dev_2.03.11-2.1_amd64.deb
+ adf51d966bfd8bc6d39b4d452330f6a3 669172 liblvm2cmd2.03-dbgsym_2.03.11-2.1_amd64.deb
+ e821b10b5f2d41849a61fc427ebe68cd 711052 liblvm2cmd2.03_2.03.11-2.1_amd64.deb
+ 8af7dcd5cbc5bae8c703b99351f922be 766236 lvm2-dbgsym_2.03.11-2.1_amd64.deb
+ 22c63770f970ee65a7e089c10ea634db 132960 lvm2-lockd-dbgsym_2.03.11-2.1_amd64.deb
+ dfadf576febcdd98a2bc312ddf4a28c7 138376 lvm2-lockd_2.03.11-2.1_amd64.deb
+ f5d0567fd8eaf05e3f5ade0e979ede84 709008 lvm2-udeb_2.03.11-2.1_amd64.udeb
+ 8d48ea9d64dcd63e8460adfdefc0e171 1194124 lvm2_2.03.11-2.1_amd64.deb
+Checksums-Sha1:
+ c452fe828eac6df9dec7284b4fa8bc8fce4289fd 39272 dmeventd-dbgsym_1.02.175-2.1_amd64.deb
+ d2a2ff27df3ebc289a4e9b684c0aa694f38e4dd1 69392 dmeventd_1.02.175-2.1_amd64.deb
+ ca7151f0db10afff620f8047dd6a07c511cd016b 40972 dmsetup-dbgsym_1.02.175-2.1_amd64.deb
+ 02e61fe00cfe5c33c99424550b921f52080c3d6c 42512 dmsetup-udeb_1.02.175-2.1_amd64.udeb
+ c71dc841395e88fbca6a008e952dd1d40f38c58b 92056 dmsetup_1.02.175-2.1_amd64.deb
+ 667170606abe783bbfc347ffd0c0c8ce3aba82a7 52048 libdevmapper-dev_1.02.175-2.1_amd64.deb
+ 93de5f7cb88bc9357c42c8ea35ffd26ffe9bc1dc 11648 libdevmapper-event1.02.1-dbgsym_1.02.175-2.1_amd64.deb
+ 43eab5981ad28f27dc720cfb95f330f297aeecaf 23208 libdevmapper-event1.02.1_1.02.175-2.1_amd64.deb
+ 3f8e33aa28c3cf5dbeecbf03d6a3400c7a552f10 123448 libdevmapper1.02.1-dbgsym_1.02.175-2.1_amd64.deb
+ f03345ac5639103efd8efe37b4e67a85513316b6 118180 libdevmapper1.02.1-udeb_1.02.175-2.1_amd64.udeb
+ f8328e71f6399d3da7e766affb80592a56e06616 142920 libdevmapper1.02.1_1.02.175-2.1_amd64.deb
+ f85ce43952090dbf27bb478aa6d6b9c950da8517 15176 liblvm2-dev_2.03.11-2.1_amd64.deb
+ 367ae1a791232e0e8467c2bcafec80cf493b8641 669172 liblvm2cmd2.03-dbgsym_2.03.11-2.1_amd64.deb
+ a229b87e67fb5ad4472df4e8cd276b5bb5bd9f44 711052 liblvm2cmd2.03_2.03.11-2.1_amd64.deb
+ 4555eada997d19da831458b00db7aa0da38498af 766236 lvm2-dbgsym_2.03.11-2.1_amd64.deb
+ f3a2650ae5313cdc01786238be4eb151a8c533d7 132960 lvm2-lockd-dbgsym_2.03.11-2.1_amd64.deb
+ d6db6b1b1b262c490bad899be03b444b07d41c9e 138376 lvm2-lockd_2.03.11-2.1_amd64.deb
+ 180b8e103ece3f61d3b43383a0bb8fc7a07d4793 709008 lvm2-udeb_2.03.11-2.1_amd64.udeb
+ 890dcccaecb20979e9fdddcbf125993fbe39977b 1194124 lvm2_2.03.11-2.1_amd64.deb
+Checksums-Sha256:
+ e71e3336cdb8627e56850bb731f1fd96e3cfcfb1dd8a9e07e418483b6c898aa5 39272 dmeventd-dbgsym_1.02.175-2.1_amd64.deb
+ b91d22bafc4f60d42db9477a14b5f0fd15f4910f78e927a7c4c251bf6c3abccf 69392 dmeventd_1.02.175-2.1_amd64.deb
+ 421b0c14b8db28d8fc43be425ab2da8236e90258156a7701c7b8d031e3b14147 40972 dmsetup-dbgsym_1.02.175-2.1_amd64.deb
+ 96ae5795153959cf50e0c68203fb7f1cf1e64c619f293c3af2f5c0c802244a78 42512 dmsetup-udeb_1.02.175-2.1_amd64.udeb
+ 7384821ef6798ec840b996594b72ecd707db3496a727ab861c5712701f4b9196 92056 dmsetup_1.02.175-2.1_amd64.deb
+ 811a2a3d1955296f7a1a6bdf586595e12eb3c11c47dd76d5afabd33c6df3b764 52048 libdevmapper-dev_1.02.175-2.1_amd64.deb
+ 70992f0575d0cac2107019b003d3d7d95ec2fe41c5786fae08ed99565025d064 11648 libdevmapper-event1.02.1-dbgsym_1.02.175-2.1_amd64.deb
+ 2d29fcfa2bd56befb8c6a31deffde86b69ad8c686cfed15bd9f04527e6cff160 23208 libdevmapper-event1.02.1_1.02.175-2.1_amd64.deb
+ 9b9c19d43342b8222003ba36de92339645f1e94f09c3b324e4cd631228ba8c0b 123448 libdevmapper1.02.1-dbgsym_1.02.175-2.1_amd64.deb
+ 48f396e3ceb645dc410881cae6723253666c0d95783e95dc0d02e2d7c85d0256 118180 libdevmapper1.02.1-udeb_1.02.175-2.1_amd64.udeb
+ 74dfe455175a0181957ee2803f4810d26f4c6e00968b49cb67fe7a006e299eb1 142920 libdevmapper1.02.1_1.02.175-2.1_amd64.deb
+ 698886e7c8fe36603582849aa670e32261ba3df99ed90484d63534429749ed3f 15176 liblvm2-dev_2.03.11-2.1_amd64.deb
+ 93e88cb1e1a52b8903b9bbdab98f77d04075363960ee3825c56046b1e0823245 669172 liblvm2cmd2.03-dbgsym_2.03.11-2.1_amd64.deb
+ 2f9d50c9c965e77f942bfadc47f6949b6095543d0fbad86023983b69ace34ca5 711052 liblvm2cmd2.03_2.03.11-2.1_amd64.deb
+ 7e7d4b84062b7c9e00cb636bf408dbcf16220591a1a95881313753ff87fc2940 766236 lvm2-dbgsym_2.03.11-2.1_amd64.deb
+ 19d707ea4b6aa532179018a4a92009837f751719b4c353f6e6d18ea74ffa26e9 132960 lvm2-lockd-dbgsym_2.03.11-2.1_amd64.deb
+ cf021543cde41ca967240a8afb1328caabfc0d5a68aa3c2ddb681b3915d853a5 138376 lvm2-lockd_2.03.11-2.1_amd64.deb
+ 1531cad2ec8c2842116ca8dace118b4719f945b4b79a4de2416c8d8b4aa6e85a 709008 lvm2-udeb_2.03.11-2.1_amd64.udeb
+ c1253ce30a11b5f87090e1c639778108ea11671e8b68b96262a0f6210758cbf3 1194124 lvm2_2.03.11-2.1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Mon, 22 Feb 2021 22:28:29 +0000
+Build-Path: /build/lvm2-9XHswu/lvm2-2.03.11
+Installed-Build-Depends:
+ adduser (= 3.118),
+ autoconf (= 2.69-14),
+ autoconf-archive (= 20190106-2.1),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.49),
+ bash (= 5.1-2),
+ binutils (= 2.35.1-7),
+ binutils-common (= 2.35.1-7),
+ binutils-x86-64-linux-gnu (= 2.35.1-7),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.74),
+ debhelper (= 13.3.3),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.11.0-1),
+ diffutils (= 1:3.7-5),
+ dmsetup (= 2:1.02.175-2),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libaio-dev (= 0.3.112-9),
+ libaio1 (= 0.3.112-9),
+ libapparmor1 (= 2.13.6-9),
+ libarchive-zip-perl (= 1.68-1),
+ libargon2-1 (= 0~20171227-0.2),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.1-7),
+ libblkid-dev (= 2.36.1-7),
+ libblkid1 (= 2.36.1-7),
+ libbsd-dev (= 0.11.3-1),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcap2 (= 1:2.44-1),
+ libcc1-0 (= 10.2.1-6),
+ libcmap-dev (= 3.1.0-2),
+ libcmap4 (= 3.1.0-2),
+ libcom-err2 (= 1.46.1-1),
+ libcorosync-common-dev (= 3.1.0-2),
+ libcorosync-common4 (= 3.1.0-2),
+ libcpg-dev (= 3.1.0-2),
+ libcpg4 (= 3.1.0-2),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libcryptsetup12 (= 2:2.3.4-2),
+ libctf-nobfd0 (= 2.35.1-7),
+ libctf0 (= 2.35.1-7),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.3),
+ libdevmapper1.02.1 (= 2:1.02.175-2),
+ libdlm-dev (= 4.1.0-1),
+ libdlm3 (= 4.1.0-1),
+ libdlmcontrol-dev (= 4.1.0-1),
+ libdlmcontrol3 (= 4.1.0-1),
+ libdpkg-perl (= 1.20.7.1),
+ libedit-dev (= 3.1-20191231-2+b1),
+ libedit2 (= 3.1-20191231-2+b1),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-5),
+ libfile-stripnondeterminism-perl (= 1.11.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-3),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.7-1),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgnutls30 (= 3.7.0-7),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libhogweed6 (= 3.7-2),
+ libicu67 (= 67.1-6),
+ libidn2-0 (= 2.3.0-5),
+ libip4tc2 (= 1.8.7-1),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjson-c5 (= 0.15-2),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkmod2 (= 28-1),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmd-dev (= 1.0.3-3),
+ libmd0 (= 1.0.3-3),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libncurses-dev (= 6.2+20201114-2),
+ libncurses6 (= 6.2+20201114-2),
+ libncursesw6 (= 6.2+20201114-2),
+ libnettle8 (= 3.7-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-4),
+ libpam-modules-bin (= 1.4.0-4),
+ libpam-runtime (= 1.4.0-4),
+ libpam0g (= 1.4.0-4),
+ libpcre2-16-0 (= 10.36-2),
+ libpcre2-32-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre2-dev (= 10.36-2),
+ libpcre2-posix2 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-2),
+ libpipeline1 (= 1.5.3-1),
+ libqb-dev (= 2.0.2-1),
+ libqb100 (= 2.0.2-1),
+ libquadmath0 (= 10.2.1-6),
+ libquorum-dev (= 3.1.0-2),
+ libquorum5 (= 3.1.0-2),
+ libsanlock-client1 (= 3.8.2-2),
+ libsanlock-dev (= 3.8.2-2),
+ libsanlock1 (= 3.8.2-2),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libselinux1-dev (= 3.1-3),
+ libsemanage-common (= 3.1-1),
+ libsemanage1 (= 3.1-1+b2),
+ libsepol1 (= 3.1-1),
+ libsepol1-dev (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-7),
+ libssl1.1 (= 1.1.1j-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd-dev (= 247.3-1),
+ libsystemd0 (= 247.3-1),
+ libtasn1-6 (= 4.16.0-2),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev-dev (= 247.3-1),
+ libudev1 (= 247.3-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-7),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libzstd1 (= 1.4.8+dfsg-1),
+ linux-libc-dev (= 5.10.13-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ mount (= 2.36.1-7),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ passwd (= 1:4.8.1-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-2),
+ perl-base (= 5.32.1-2),
+ perl-modules-5.32 (= 5.32.1-2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sanlock (= 3.8.2-2),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ systemd (= 247.3-1),
+ systemd-timesyncd (= 247.3-1),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-7),
+ uuid-dev (= 2.36.1-7),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1614029954"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/7vrlRgMAcjt3zQ5J9KdAI8x88oFAmA0MBMACgkQJ9KdAI8x
+88o6HRAAgbOEKVahT0P1KWLYGRAiOc61EYYkM5gFHIbdIG6L5PO3TAYCpBB+tuz5
+BQ/5h8gEyK6Cif9iT2F9wKuIPEbwf+tFyLLPcA62vxeDqD8cjnWuqUPQjnizTbiS
+SNDdhDY++2vB4PH3X54SejkM8bJtMWIwUeJGb1z3sh3Yx/8y4gjwR1PuTNsPsGad
+ogB9hHew93YKCl5uMJK9PKYxQr+qEEu2QIO/j2KhNNAAFAIs4vgxkwoTrfbBGINb
+KeC9DzIhasNwV9XWsi0yOx2ifEPa/Z9fRP8XIufoeYbNSN5nqIqyfz9udkrv3NZ4
+t7aJKl8+3A5/xMYOPI5XFj7EoyF2Ndo5a8qAgex0uomh7Flbm/N+waR9hFqwb4MS
+7AHP7pX5wxTBvCKyJ1bIv5EQfIU9c29dQi6Z+mT4Nk3wBdCRTBxD8c6ud4fg4t7z
+0TNMNWKJ5QRXQij4qt59dU2bJUt+cTQr1ooQO276DcQy5rYfnlwbDPFwksVh+rKu
+rWqzfO9l5CdUWZAFDKIUwdkmYRCmybrE0hQgfJZMnxouCIqb0W78UWuOC7ntP63T
+tY9AJ/ZZdvHZflMw8wNViMRnwVmCQEj65IsDu1YU7vvx3T+kSvVga+oDn7MMlIrx
+RtZNwWp0xGDyg7BVBZ85M8GwSo4ftNZkMqKGqfo7RvYGpaxJPzM=
+=4Fr1
+-----END PGP SIGNATURE-----

@@ -1,0 +1,245 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: pam
+Binary: libpam-cracklib libpam-cracklib-dbgsym libpam-modules libpam-modules-bin libpam-modules-bin-dbgsym libpam-modules-dbgsym libpam0g libpam0g-dbgsym libpam0g-dev
+Architecture: amd64
+Version: 1.4.0-9+deb11u1
+Checksums-Md5:
+ 6d3c7add2d149cb0e1d752bf39ee2b08 15112 libpam-cracklib-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ 6393201eb197c98bcf18d23ec519ff18 90544 libpam-cracklib_1.4.0-9+deb11u1_amd64.deb
+ 01925aac6ee2764de0960cd1e2320277 92248 libpam-modules-bin-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ 79b3b2b56f6a63f0be4e5849ec09feb0 108096 libpam-modules-bin_1.4.0-9+deb11u1_amd64.deb
+ 92aa5f79c8cefed78c0aeb0ece4feffa 457472 libpam-modules-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ e8d03f75064f0a16a1b91d8a40b58101 325816 libpam-modules_1.4.0-9+deb11u1_amd64.deb
+ 6331b7abc6db7cf31df4a6f6e2cb6a1d 99380 libpam0g-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ 4eb108eefc67cdf690747ee9eaf13d1c 190512 libpam0g-dev_1.4.0-9+deb11u1_amd64.deb
+ b7057de6856c8bfe03abc33571989a98 129492 libpam0g_1.4.0-9+deb11u1_amd64.deb
+Checksums-Sha1:
+ ce3ed2a1c1b948aefbc38faed581096966240652 15112 libpam-cracklib-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ 5a3d1c64e7130bc5fff7f923b8ef944e487224d4 90544 libpam-cracklib_1.4.0-9+deb11u1_amd64.deb
+ fe91454750bccad24057460b7976427c3302ecca 92248 libpam-modules-bin-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ eef0b6bdb767b06c8752548a11c99ea5b053b51e 108096 libpam-modules-bin_1.4.0-9+deb11u1_amd64.deb
+ 73133cb680211a512dd5cbd6f0dd0aadad8d59d5 457472 libpam-modules-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ 749ed7ebdeb7c8521a7fdb4c87e4b6676a3a2c96 325816 libpam-modules_1.4.0-9+deb11u1_amd64.deb
+ d104adad4dd95cd2846b81bb2c04427ce06689e4 99380 libpam0g-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ 3b844d6b30d35158ab882dae245d21c3de1cd9fe 190512 libpam0g-dev_1.4.0-9+deb11u1_amd64.deb
+ 2ca12d1b1bb36f46428735d490f4b7cb018a8956 129492 libpam0g_1.4.0-9+deb11u1_amd64.deb
+Checksums-Sha256:
+ 5751bff033cddcc886666232b5f44a7d7148df2df6f87f140b7ec6afdb29454d 15112 libpam-cracklib-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ c240a6d47a5342c2353964deadbc69a213ec11a9c5135cbdf218faffee086658 90544 libpam-cracklib_1.4.0-9+deb11u1_amd64.deb
+ 7710239dba337343c70a26e871af94a472bba747a18a11afe333527dcd1c5aea 92248 libpam-modules-bin-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ abbbd181329c236676222d3e912df13f8d1d90a117559edd997d90006369e5c8 108096 libpam-modules-bin_1.4.0-9+deb11u1_amd64.deb
+ bf609eaa08bb33344c1485c2162fe03ffec67d60bd040cbe19ec5d1739db6b6c 457472 libpam-modules-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ ca1e121700bf4b3eb33e30e0774d3e63e1adae9d4b6a940ea3501225db3cc287 325816 libpam-modules_1.4.0-9+deb11u1_amd64.deb
+ 0fb7257de4ef9f3de267f495d196e57160a347ea10f2a18513a2363d429784a5 99380 libpam0g-dbgsym_1.4.0-9+deb11u1_amd64.deb
+ be1bd06f9a92e7cddf43de496396c2e2351c91bff0894a601be700763a015326 190512 libpam0g-dev_1.4.0-9+deb11u1_amd64.deb
+ 496771218fb585bb716fdae6ef8824dbfb5d544b4fa2f3cd4d0e4d7158ae2220 129492 libpam0g_1.4.0-9+deb11u1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Thu, 30 Sep 2021 21:03:23 +0000
+Build-Path: /build/pam-ncZHol/pam-1.4.0
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+b3),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8),
+ bsdutils (= 1:2.36.1-8),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffstat (= 1.64-1),
+ diffutils (= 1:3.7-5),
+ docbook-xml (= 4.5-9),
+ docbook-xsl (= 1.79.2+dfsg-1),
+ dpkg (= 1.20.9),
+ dpkg-dev (= 1.20.9),
+ dwz (= 0.13+20210201-1),
+ ed (= 1.17-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ flex (= 2.6.4-8),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit-dev (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13),
+ libc-dev-bin (= 2.31-13),
+ libc6 (= 2.31-13),
+ libc6-dev (= 2.31-13),
+ libcap-ng-dev (= 0.7.9-2.2+b1),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrack2 (= 2.9.6-3.4),
+ libcrack2-dev (= 2.9.6-3.4),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb-dev (= 5.3.1+nmu1),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdb5.3-dev (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.9),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libfl-dev (= 2.6.4-8),
+ libfl2 (= 2.6.4-8),
+ libgc1 (= 1:8.0.4-3),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgpm2 (= 1.20.7-8),
+ libgssapi-krb5-2 (= 1.18.3-6),
+ libicu67 (= 67.1-7),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-6),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6),
+ libkrb5support0 (= 1.18.3-6),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-8),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-9),
+ libpam-modules-bin (= 1.4.0-9),
+ libpam-runtime (= 1.4.0-9),
+ libpam0g (= 1.4.0-9),
+ libpcre2-16-0 (= 10.36-2),
+ libpcre2-32-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre2-dev (= 10.36-2),
+ libpcre2-posix2 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libselinux1-dev (= 3.1-3),
+ libsepol1 (= 3.1-1),
+ libsepol1-dev (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-8),
+ libssl1.1 (= 1.1.1k-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-6),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-6),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8),
+ libxml2 (= 2.9.10+dfsg-6.7),
+ libxml2-utils (= 2.9.10+dfsg-6.7),
+ libxslt1.1 (= 1.1.34-4),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.46-4),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4),
+ perl-base (= 5.32.1-4),
+ perl-modules-5.32 (= 5.32.1-4),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ quilt (= 0.66-2.1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sgml-data (= 2.0.11+nmu1),
+ sysvinit-utils (= 2.96-7),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-8),
+ w3m (= 0.5.3+git20210102-6),
+ xml-core (= 0.18+nmu1),
+ xsltproc (= 1.1.34-4),
+ xz-utils (= 5.2.5-2),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1630005083"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVvgiDm0iTi84B8TiOTy2rP5qAaMFAmFWJh8ACgkQOTy2rP5q
+AaOyqRAAtaIP2Ay1z+ZKksVIl1UmhbEy/ro6ZTJIw+tOVXEEvsZ3BciUy8DacQb4
+DGsrdebn85x65n2jMZLlJU5JvjUQcN78UU8zzyCr4yUjJtDx0KWfm+xBWvGbQKET
+v9WGPIv2BolcemAd1VP1qhYXXPUl6xgL/hiV2Fj4LRJDxNikAsUJTRWVma6Bu7FT
+gGcBjKVZgh9yZK8eL/rRqyLxeBZJMoUwP9r0LxXIaIBf246V1LtaAxq0gtmECkbt
+0Go8+7cVH35ZKzWwC4eQ4zrEjk9Fa5wptDCpe4vhBmBysV3Yj499z8VhJoxDPfbv
+7ESrotOw3bTjcLZRq0Eth+s4vb6SD1CknF3xqp3TzEbWunTDdLHlRQU8n/Kbdus9
+hq3b2bu/BjZv7WBnU1j9ODXBzipye3/T2avRgQ7xUFeSycEEGovuPtBvX6oEhXu/
+yx5AQ6isYCytSy0JN5g8j7cSv2iXicexF9bCIjNocGFEivBO2EpwIg7Tj3RsThTd
+vP7EVDIZ6wg1qQPBQThya1Paofj2AYkbBDaL6FPtUSZYSRHY/45W+cSXrBFHjDVK
+kDZAwzFHZQVlqqwjM+zxn1tDPPzPvIz2OG27b7oLs0bOwCRpFQIiEJLBTexaGdGX
+S+KDit18jnUEbHJgscrujzGp3m1AHQhwIgIk5paFCLaHWc/nIOM=
+=Ovh7
+-----END PGP SIGNATURE-----

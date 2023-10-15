@@ -1,0 +1,352 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: cyrus-sasl2
+Binary: libsasl2-2 libsasl2-2-dbgsym libsasl2-dev libsasl2-modules libsasl2-modules-db libsasl2-modules-db-dbgsym libsasl2-modules-dbgsym libsasl2-modules-gssapi-heimdal libsasl2-modules-gssapi-heimdal-dbgsym libsasl2-modules-gssapi-mit libsasl2-modules-gssapi-mit-dbgsym libsasl2-modules-ldap libsasl2-modules-ldap-dbgsym libsasl2-modules-otp libsasl2-modules-otp-dbgsym libsasl2-modules-sql libsasl2-modules-sql-dbgsym sasl2-bin sasl2-bin-dbgsym
+Architecture: amd64
+Version: 2.1.27+dfsg-2.1+deb11u1
+Checksums-Md5:
+ bed14dd102ba72f77cea53fde142f989 131020 libsasl2-2-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 3271ea7588eb09f6deb9a9aa8517b75b 105940 libsasl2-2_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ adbe07548769f2515a8b73421bf50dcd 280936 libsasl2-dev_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ dc7c11b3c7b083b8b674c81835caa44d 49716 libsasl2-modules-db-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 28ebaaa5eb82d3a90d1fd6405dce3fc1 69148 libsasl2-modules-db_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 3e854f164418f95c3bf65c3ea6c4175d 177740 libsasl2-modules-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 13058aaa9a1b6262b810614187b29b95 40896 libsasl2-modules-gssapi-heimdal-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 68c16a780a2592101430b707c70b43be 73204 libsasl2-modules-gssapi-heimdal_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ fcdb44b5c6f66758bd6aebc2a5dc44de 110660 libsasl2-modules-gssapi-mit-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ a47f72dcf3be09c49cee26d94cc8c1f2 93276 libsasl2-modules-gssapi-mit_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 98808923fc1cfbcb54a71b76b9c55879 29016 libsasl2-modules-ldap-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ d46a8f46535395dfaffe9d60f764a4be 68096 libsasl2-modules-ldap_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 0f53a7369d27c16689c68895d794fd80 44236 libsasl2-modules-otp-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 8d9fdb86c393bbc2af1222aff7af1648 81080 libsasl2-modules-otp_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ ab1b4eb4e6cf1a19496749ea07a3f1e9 47924 libsasl2-modules-sql-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ f95d31cb813ed2cea9bde48813ca51f3 70832 libsasl2-modules-sql_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 1fe3a6e0e5fcd055bd3acf0f9ab90f2c 103708 libsasl2-modules_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 39a82ed8b7358f382f334a117e29f103 192820 sasl2-bin-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 097ab0e49fe8a1ce1c86435ea5352c6c 160708 sasl2-bin_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+Checksums-Sha1:
+ b218aee9a8911fdbf5b7b84213e7a6e845550c72 131020 libsasl2-2-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ e2f3d5f8fee77f1d67aae18b02c9dcfc3985288e 105940 libsasl2-2_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 1f4d66b68030f0f6792cae3451c708d75a4b11af 280936 libsasl2-dev_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ a2e5a4678c4d4f2dc21a54227142d6035168db2e 49716 libsasl2-modules-db-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ b6f48d45c1a09b0f1575f72fa7724eeee2292e82 69148 libsasl2-modules-db_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 07883280144d8b13497cf58a07a2f03b9d3345c9 177740 libsasl2-modules-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 05451f21f8704b53484afedb831288ef38ac5f00 40896 libsasl2-modules-gssapi-heimdal-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 23c7bbb8d0d3cb45c62aed1ba88f11b9e3f4f94b 73204 libsasl2-modules-gssapi-heimdal_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 176980e1e109a9e32e4dbcebdbaf18cb9146992c 110660 libsasl2-modules-gssapi-mit-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 9cbf36ac0e69166cde062d53ed50196c2e7b05db 93276 libsasl2-modules-gssapi-mit_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 4d63655a4c54514213444aa18112d3479fb3dd7e 29016 libsasl2-modules-ldap-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 1e803aa692705ceb80e46c7c1f75b42c1e22e434 68096 libsasl2-modules-ldap_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ b2e2eecc35ba16e416677b42d623b1601b4d9b8c 44236 libsasl2-modules-otp-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ ce3c8ce80aef6e1a01a9510dbb98e6ed91e5cccb 81080 libsasl2-modules-otp_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ f804a11c6668354c973bb5bdc096afa3a2240000 47924 libsasl2-modules-sql-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 628a203b73c2c36f2afd2711592a9abdf00d9377 70832 libsasl2-modules-sql_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 05cabf72216fbece52177ff3aac77a40e6377a0a 103708 libsasl2-modules_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 3e855bd0b072b0d43908f125de30e2ee8be2554d 192820 sasl2-bin-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ ab1a3eca089dd4df94eac1a7c365511540e4da18 160708 sasl2-bin_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+Checksums-Sha256:
+ b802ba602a5c5ffa9c20a7f7a596d553015dfbb6764357730956fbd15640acf4 131020 libsasl2-2-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 2e86ab7a3329aad4b7350a9b067fe8f80b680302f2f82d94f73f9bf075404460 105940 libsasl2-2_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ c88b720741ff894e1ba1cd2c3e1a565a4de62c590c8a295f54f55d1b303df7e7 280936 libsasl2-dev_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 0d85ebe036e6a6cb79b4944bd8c5d75426d5c794e5eb9998553ef1d2db74dcbd 49716 libsasl2-modules-db-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 122bf3de4ca0ec873bc35bdde1f21ec9d91ace4f5245c3b1240e077f866e1ae9 69148 libsasl2-modules-db_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 9b7b729a7e58c923b4fa113eb1f32e0f58102ab447d36ef5181466f5a682ba91 177740 libsasl2-modules-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 407bd7ecc74e3a95639ccb382d3d580693976ac2c171b37ccfc04632dea0fd5c 40896 libsasl2-modules-gssapi-heimdal-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 361512018433b6ce9053cbd9f00376742eea6e5e9dea188252166f900f359d05 73204 libsasl2-modules-gssapi-heimdal_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ c1f4a02441d8c438429577244f19ba6af3ecea970007dd014170747bf0388eee 110660 libsasl2-modules-gssapi-mit-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ bb75925c43cb0debae9a869f02dbf8fddbf80f63078769eeafa33a9a3010c75f 93276 libsasl2-modules-gssapi-mit_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 7876e405cd5b2be250ef70122c0a7fe68df71969f713c0766d43c70beb3b38bb 29016 libsasl2-modules-ldap-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ cf4ba8867e6af14feb86846e9c6385998fb1bcd7cb4e6517e321f93dc34ee107 68096 libsasl2-modules-ldap_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 19bf652c2978737a756373d4449be13dbb7cd8a42217d6f9d140d76aa58dc1c1 44236 libsasl2-modules-otp-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 5323082bb197f725ca3cf85a7da8d2f49e36b3e626ff65796845b95b3fc92d0a 81080 libsasl2-modules-otp_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 0fc6441a35b485056183f3838ee212939dfc48059ed70c6f4f8b5152e446a2da 47924 libsasl2-modules-sql-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ 1b86445b6dbd9693fb45478fcb262bb80719c8624a0c5d2bf5920ecf99364913 70832 libsasl2-modules-sql_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ a4759df79c9e7e7cd9555112e3396b5c5d9198e6b8b6622bfd70672291370f46 103708 libsasl2-modules_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ e460f0c72884c7d0f0062c8174f7bb59d18120edbf13aea009d669993a71eb5a 192820 sasl2-bin-dbgsym_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+ a3c641f66d06e8a35557eefa76f6c5d1b6710a0628574e46872b21e2c2334c89 160708 sasl2-bin_2.1.27+dfsg-2.1+deb11u1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 25 Feb 2022 09:02:08 +0000
+Build-Path: /build/cyrus-sasl2-0Rvo98/cyrus-sasl2-2.1.27+dfsg
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u2),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+b3),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ ca-certificates (= 20210119),
+ chrpath (= 0.16-2+b1),
+ comerr-dev (= 2.1-1.46.2-2),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ default-libmysqlclient-dev (= 1.0.7),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffstat (= 1.64-1),
+ diffutils (= 1:3.7-5),
+ docbook (= 4.5-6),
+ docbook-to-man (= 1:2.0.0-45),
+ docutils-common (= 0.16+dfsg-4),
+ dpkg (= 1.20.9),
+ dpkg-dev (= 1.20.9),
+ dwz (= 0.13+20210201-1),
+ ed (= 1.17-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4),
+ heimdal-multidev (= 7.7.0+dfsg-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ krb5-multidev (= 1.18.3-6+deb11u1),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libasn1-8-heimdal (= 7.7.0+dfsg-2),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u2),
+ libc-dev-bin (= 2.31-13+deb11u2),
+ libc6 (= 2.31-13+deb11u2),
+ libc6-dev (= 2.31-13+deb11u2),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb-dev (= 5.3.1+nmu1),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdb5.3-dev (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.9),
+ libedit2 (= 3.1-20191231-2+b1),
+ libelf1 (= 0.183-1),
+ libexpat1 (= 2.2.10-2+deb11u2),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgnutls30 (= 3.7.1-5),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u1),
+ libgssapi3-heimdal (= 7.7.0+dfsg-2),
+ libgssrpc4 (= 1.18.3-6+deb11u1),
+ libhcrypto4-heimdal (= 7.7.0+dfsg-2),
+ libhdb9-heimdal (= 7.7.0+dfsg-2),
+ libheimbase1-heimdal (= 7.7.0+dfsg-2),
+ libheimntlm0-heimdal (= 7.7.0+dfsg-2),
+ libhogweed6 (= 3.7.3-1),
+ libhx509-5-heimdal (= 7.7.0+dfsg-2),
+ libicu67 (= 67.1-7),
+ libidn2-0 (= 2.3.0-5),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjs-jquery (= 3.5.1+dfsg+~3.5.5-7),
+ libjs-sphinxdoc (= 3.4.3-2),
+ libjs-underscore (= 1.9.1~dfsg-3),
+ libk5crypto3 (= 1.18.3-6+deb11u1),
+ libkadm5clnt-mit12 (= 1.18.3-6+deb11u1),
+ libkadm5clnt7-heimdal (= 7.7.0+dfsg-2),
+ libkadm5srv-mit12 (= 1.18.3-6+deb11u1),
+ libkadm5srv8-heimdal (= 7.7.0+dfsg-2),
+ libkafs0-heimdal (= 7.7.0+dfsg-2),
+ libkdb5-10 (= 1.18.3-6+deb11u1),
+ libkdc2-heimdal (= 7.7.0+dfsg-2),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-26-heimdal (= 7.7.0+dfsg-2),
+ libkrb5-3 (= 1.18.3-6+deb11u1),
+ libkrb5-dev (= 1.18.3-6+deb11u1),
+ libkrb5support0 (= 1.18.3-6+deb11u1),
+ libldap-2.4-2 (= 2.4.57+dfsg-3),
+ libldap2-dev (= 2.4.57+dfsg-3),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmariadb-dev (= 1:10.5.12-0+deb11u1),
+ libmariadb-dev-compat (= 1:10.5.12-0+deb11u1),
+ libmariadb3 (= 1:10.5.12-0+deb11u1),
+ libmd0 (= 1.0.3-3),
+ libmount1 (= 2.36.1-8),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-1),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2),
+ libnettle8 (= 3.7.3-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libosp5 (= 1.5.2-13+b2),
+ libotp0-heimdal (= 7.7.0+dfsg-2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpam0g-dev (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libpod-pom-perl (= 2.01-3),
+ libpod-pom-view-restructured-perl (= 1.000003-1),
+ libpq-dev (= 13.5-0+deb11u1),
+ libpq5 (= 13.5-0+deb11u1),
+ libpython3-stdlib (= 3.9.2-3),
+ libpython3.9-minimal (= 3.9.2-1),
+ libpython3.9-stdlib (= 3.9.2-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ libroken18-heimdal (= 7.7.0+dfsg-2),
+ libsasl2-2 (= 2.1.27+dfsg-2.1),
+ libsasl2-modules-db (= 2.1.27+dfsg-2.1),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsl0-heimdal (= 7.7.0+dfsg-2),
+ libsmartcols1 (= 2.36.1-8),
+ libsqlite3-0 (= 3.34.1-3),
+ libsqlite3-dev (= 3.34.1-3),
+ libssl-dev (= 1.1.1k-1+deb11u1),
+ libssl1.1 (= 1.1.1k-1+deb11u1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-6),
+ libtasn1-6 (= 4.16.0-2),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-6),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8),
+ libwind0-heimdal (= 7.7.0+dfsg-2),
+ libxml2 (= 2.9.10+dfsg-6.7),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.84-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mariadb-common (= 1:10.5.12-0+deb11u1),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ mysql-common (= 5.8+1.0.7),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ opensp (= 1.5.2-13+b2),
+ openssl (= 1.1.1k-1+deb11u1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ po-debconf (= 1.0.21+nmu1),
+ python-babel-localedata (= 2.8.0+dfsg.1-7),
+ python3 (= 3.9.2-3),
+ python3-alabaster (= 0.7.8-1.1),
+ python3-babel (= 2.8.0+dfsg.1-7),
+ python3-certifi (= 2020.6.20-1),
+ python3-chardet (= 4.0.0-1),
+ python3-distutils (= 3.9.2-1),
+ python3-docutils (= 0.16+dfsg-4),
+ python3-idna (= 2.10-1),
+ python3-imagesize (= 1.2.0-2),
+ python3-jinja2 (= 2.11.3-1),
+ python3-lib2to3 (= 3.9.2-1),
+ python3-markupsafe (= 1.1.1-1+b3),
+ python3-minimal (= 3.9.2-3),
+ python3-packaging (= 20.9-2),
+ python3-pkg-resources (= 52.0.0-4),
+ python3-pygments (= 2.7.1+dfsg-2.1),
+ python3-pyparsing (= 2.4.7-1),
+ python3-requests (= 2.25.1+dfsg-2),
+ python3-roman (= 2.0.0-5),
+ python3-six (= 1.16.0-2),
+ python3-snowballstemmer (= 2.1.0-1),
+ python3-sphinx (= 3.4.3-2),
+ python3-tz (= 2021.1-1),
+ python3-urllib3 (= 1.26.5-1~exp1),
+ python3.9 (= 3.9.2-1),
+ python3.9-minimal (= 3.9.2-1),
+ quilt (= 0.66-2.1),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sgml-data (= 2.0.11+nmu1),
+ sphinx-common (= 3.4.3-2),
+ sysvinit-utils (= 2.96-7),
+ tar (= 1.34+dfsg-1),
+ tzdata (= 2021a-1+deb11u2),
+ util-linux (= 2.36.1-8),
+ xml-core (= 0.18+nmu1),
+ xz-utils (= 5.2.5-2),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1645777650"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEgTtIulJqCiUOC8/RqX+JKfZgT24FAmIYmxYACgkQqX+JKfZg
+T27uHg/8ClJ4ajzbf9RM8AWFJljp2dvfGISUk+woXGZpwbrKjB+j2cOuK7XdVRhI
+1tIQQ4DaWsOtc6NFpY8IVczbdjtIxrP9DehAMre0rVSeTrHnQmelu2DTZYGA7LTW
+I/Hj+LBptSqzCSnhipDjQkr1kOsAfsJ7I2zZZhDXvJU9RrMEtvT1qVo7G370W+IB
+JWv+TNATzU5w0X0lvgZKr26uTz+i7XHWlKyqcnJC3utS3OG1SY4KD5hxN1vC+MvJ
+bktOwN8/vqb2469IofMLD44CLVpla3O8mbrdRAPF+zVGMQK2bbWy5QI/EcfRDUWq
+6e9cvi+AaBgV4dnxZi+fgG5DKs8E8Q/jzM4l0u55IbVsq9eonYuj/dddWPdnHWhe
+jLValCGM7cig7x1b/gFiZca+A6mmgTaB7nkXgT5/kBGBYrgw2z+yCpQ5UNBc4th5
+UF+7xAUWxxvmrpf0MG3NB7m3YeBZoqsm/SV/MKgsmg3soeKu3okOK57acoWdiGVk
+gdrj0RH5U5Wwhhg3X1b3jzXz83Fhu8J/A9G4HAtkKlHiXQR/AbU/AR/I4DmvgxqE
+cqOYiOHhtIL6piNchN5eDBKTPjo1lAh/+OEg5vTC4haDkLL/eaDmKHy565Ng+Mvk
+wQ8/0axoh7QQLC8QP4FP1C9u+25URy9gIrjslAPJLtkzhUoAehA=
+=vbVL
+-----END PGP SIGNATURE-----

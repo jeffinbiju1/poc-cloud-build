@@ -1,0 +1,195 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: efibootmgr
+Binary: efibootmgr
+Architecture: amd64
+Version: 17-1
+Checksums-Md5:
+ 9ff24476d094a10f2315173d217d454c 68556 efibootmgr-dbgsym_17-1_amd64.deb
+ 64e6f3fe53334c5e34cbdaa31c28b605 31164 efibootmgr_17-1_amd64.deb
+Checksums-Sha1:
+ d0b010611dd0d97e757bc02653cf78b4b68ee95a 68556 efibootmgr-dbgsym_17-1_amd64.deb
+ 057d00df031d468e4d43decc9c97c4edc166c217 31164 efibootmgr_17-1_amd64.deb
+Checksums-Sha256:
+ 15b891928a00045e3ab4e4c3b2f6f815c3cd185336d146172338b57f0fec9697 68556 efibootmgr-dbgsym_17-1_amd64.deb
+ 1dd9f633871f72e0bbb7d5701923c4f96cd0c57a568a72f166c5584d785a1142 31164 efibootmgr_17-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 19 Feb 2020 23:01:45 +0000
+Build-Path: /build/efibootmgr-A9YIBp/efibootmgr-17
+Build-Tainted-By:
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-10),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-5),
+ binutils (= 2.34-2),
+ binutils-common (= 2.34-2),
+ binutils-x86-64-linux-gnu (= 2.34-2),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.34-0.1),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-2),
+ coreutils (= 8.30-3+b1),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.2.1-28),
+ dash (= 0.5.10.2-6),
+ debconf (= 1.5.73),
+ debhelper (= 12.9),
+ debianutils (= 4.9.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.6.3-2),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.19.7),
+ dpkg-dev (= 1.19.7),
+ dwz (= 0.13-5),
+ fdisk (= 2.34-0.1),
+ file (= 1:5.38-4),
+ findutils (= 4.7.0-1),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.2.1-28),
+ gcc (= 4:9.2.1-3.1),
+ gcc-10-base (= 10-20200211-1),
+ gcc-9 (= 9.2.1-28),
+ gcc-9-base (= 9.2.1-28),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-4),
+ gzip (= 1.9-3+b1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.57),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-5),
+ libarchive-zip-perl (= 1.67-1),
+ libasan5 (= 9.2.1-28),
+ libatomic1 (= 10-20200211-1),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-2),
+ libaudit1 (= 1:2.8.5-2+b1),
+ libbinutils (= 2.34-2),
+ libblkid1 (= 2.34-0.1),
+ libbsd0 (= 0.10.0-1),
+ libbz2-1.0 (= 1.0.8-2),
+ libc-bin (= 2.29-10),
+ libc-dev-bin (= 2.29-10),
+ libc6 (= 2.29-10),
+ libc6-dev (= 2.29-10),
+ libcap-ng0 (= 0.7.9-2.1+b1),
+ libcc1-0 (= 10-20200211-1),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.10-10),
+ libcrypt1 (= 1:4.4.10-10),
+ libctf-nobfd0 (= 2.34-2),
+ libctf0 (= 2.34-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.251),
+ libdebhelper-perl (= 12.9),
+ libdpkg-perl (= 1.19.7),
+ libefiboot-dev (= 37-2),
+ libefiboot1 (= 37-2),
+ libefivar-dev (= 37-2),
+ libefivar1 (= 37-2),
+ libelf1 (= 0.176-1.1),
+ libfdisk1 (= 2.34-0.1),
+ libffi7 (= 3.3-3),
+ libfile-stripnondeterminism-perl (= 1.6.3-2),
+ libgcc-9-dev (= 9.2.1-28),
+ libgcc-s1 (= 10-20200211-1),
+ libgcc1 (= 1:10-20200211-1),
+ libgcrypt20 (= 1.8.5-3),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.62.4-2),
+ libgmp10 (= 2:6.2.0+dfsg-3),
+ libgomp1 (= 10-20200211-1),
+ libgpg-error0 (= 1.37-1),
+ libicu63 (= 63.2-2),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10-20200211-1),
+ liblsan0 (= 10-20200211-1),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.38-4),
+ libmagic1 (= 1:5.38-4),
+ libmount1 (= 2.34-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libncursesw6 (= 6.1+20191019-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-12+b1),
+ libperl5.30 (= 5.30.0-9),
+ libpipeline1 (= 1.5.2-2),
+ libpopt-dev (= 1.16-14),
+ libpopt0 (= 1.16-14),
+ libquadmath0 (= 10-20200211-1),
+ libseccomp2 (= 2.4.2-2),
+ libselinux1 (= 3.0-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.34-0.1),
+ libstdc++-9-dev (= 9.2.1-28),
+ libstdc++6 (= 10-20200211-1),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 244.3-1),
+ libtinfo6 (= 6.1+20191019-1),
+ libtool (= 2.4.6-13),
+ libtsan0 (= 10-20200211-1),
+ libubsan1 (= 10-20200211-1),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 244.3-1),
+ libunistring2 (= 0.9.10-2),
+ libuuid1 (= 2.34-0.1),
+ libxml2 (= 2.9.4+dfsg1-8),
+ linux-libc-dev (= 5.4.19-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.2.1-1.2),
+ man-db (= 2.9.0-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.1+20191019-1),
+ ncurses-bin (= 6.1+20191019-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.0-9),
+ perl-base (= 5.30.0-9),
+ perl-modules-5.30 (= 5.30.0-9),
+ pkg-config (= 0.29-6),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-2.1),
+ tar (= 1.30+dfsg-6+b1),
+ util-linux (= 2.34-0.1),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-1.2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1582150437"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEAhVek9X+wT43OcLs2XlcsAphr14FAl5NvlsACgkQ2XlcsAph
+r17jDQ/+J7BAwyZydn1WMTNLGgq68Xf3rF0oW+R4Sa5Fm/87mw7gjkRMC5taNsla
+PDuk4j3Ds2cS1JJ4AhQa22yyVD0fWZJ+T8SPbEavn00cwqQ2PzZ6piSfnuOafq8I
+9cPWbw7V4wY1pr4CSdxn7/5TeIKbruOZ3wxHSfPg408MHF75H79w4IMe4QigQjZe
+rQbaoo+dCouIyPqBQ1bq+6rV253x74TWjKl8gQC04jlTVwG11TlNzuoD6rHmVzK0
+FNqumufND+GQBPpVLJdogRQvY3WcV5WY2cO0mADNBEx6843a4gvfG+xLBOUKFbgD
+Jk6YzflSVLUGn+0ygPYE7PE1hoB2JpbS/E8VSBJGLeTGtgmcIVKsHTgds0tdVaI2
+9jY6DebmLHy0ceQxNq8S6rhAqWHRHDWxuvhfB8hHimiOG9P4tGhTCluy/mh06P8d
+sWMbJMMdj6101sq4GROfo7XMn3dlmFkuUxCA6NOTLoAzQbEFPYS3gPMfcema6xsB
+Ocd/rEqOApQm+zUGbmTEY7g5lvN+ZzDQnjEdiKOP3yMbfi9kM3n3oDIBj3B4nS5r
+/z4vRI6w30Jh5HdHU9b2OBDPA0kVy0i73PJn+pf/eE7uZPHFnFRfVJXFhEKsb9p+
+b+EAeN+MmMfqYg1RyqiBf+eJDLpyUBjLNEjIssj0N3iVnANdlFw=
+=yWfD
+-----END PGP SIGNATURE-----

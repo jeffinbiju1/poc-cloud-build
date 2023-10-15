@@ -1,0 +1,303 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: ncurses
+Binary: lib32ncurses-dev lib32ncurses6 lib32ncurses6-dbgsym lib32ncursesw6 lib32ncursesw6-dbgsym lib32tinfo6 lib32tinfo6-dbgsym libncurses-dev libncurses5 libncurses5-dbgsym libncurses5-dev libncurses6 libncurses6-dbgsym libncursesw5 libncursesw5-dbgsym libncursesw5-dev libncursesw6 libncursesw6-dbgsym libtinfo-dev libtinfo5 libtinfo5-dbgsym libtinfo6 libtinfo6-dbgsym libtinfo6-udeb ncurses-bin ncurses-bin-dbgsym ncurses-examples ncurses-examples-dbgsym
+Architecture: amd64
+Version: 6.2+20201114-2+deb11u1
+Checksums-Md5:
+ 433507961e49a814dcd5c96cf1642097 312432 lib32ncurses-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 49ef509cb48a9beb1cf8abcbfc6d2a73 254200 lib32ncurses6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 1b03167d96e492a51b2891b4f526009b 109216 lib32ncurses6_6.2+20201114-2+deb11u1_amd64.deb
+ d843c03c3f14fa180f1a4723af562b65 321124 lib32ncursesw6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ b246b14efb85001031bf1584459d1948 142724 lib32ncursesw6_6.2+20201114-2+deb11u1_amd64.deb
+ 33293da79b3d42d22cc8393f4399e37f 163228 lib32tinfo6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 3c0ce84a4f574da6d7abfe88051b6a34 340984 lib32tinfo6_6.2+20201114-2+deb11u1_amd64.deb
+ 8484dec55f46338b6bca8ed06b5d583c 343788 libncurses-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 01923f1a015d68094715ab48696b526b 268380 libncurses5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ dcafed2bd9901c130f1ea4c57802d59e 948 libncurses5-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 921963387aa5f2f2900f8ae8e03d422b 96708 libncurses5_6.2+20201114-2+deb11u1_amd64.deb
+ bf2420e4aa92769e9cd261a0aec932c9 290792 libncurses6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 239ad45f49018d3f9f18f0ecb513f153 102128 libncurses6_6.2+20201114-2+deb11u1_amd64.deb
+ 36eebd2978662504fc92403ec7c34600 331116 libncursesw5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ a3d3e2d3f3ec21f72961f9a985a6f4cf 948 libncursesw5-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 2cfd9213f4253f1dc1c5c319342d422d 119172 libncursesw5_6.2+20201114-2+deb11u1_amd64.deb
+ 8af52c3c3e23fbe26a8f97975e8f062b 369228 libncursesw6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 3133e8e0db4bced26c789aa9cf0d4bf2 132244 libncursesw6_6.2+20201114-2+deb11u1_amd64.deb
+ 7920c0683d3def93dc69a8fbf3113c3a 940 libtinfo-dev_6.2+20201114-2+deb11u1_amd64.deb
+ ab3a5bd5f29979f5c8dd53f37116f859 171872 libtinfo5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 188fc0a4de9774be8891a5bd9f923885 336488 libtinfo5_6.2+20201114-2+deb11u1_amd64.deb
+ b8c755a27bc38b59d65b3af8e5461ba3 182088 libtinfo6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 996999b458faf46faac86bb5b87745dd 54484 libtinfo6-udeb_6.2+20201114-2+deb11u1_amd64.udeb
+ d320090191004906a9fe71c575cac86c 340888 libtinfo6_6.2+20201114-2+deb11u1_amd64.deb
+ d11d5c24a289f03200569cd9afd407e4 189304 ncurses-bin-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ b1f9c841f989cea7d725e0133689b30d 428568 ncurses-bin_6.2+20201114-2+deb11u1_amd64.deb
+ 436693d71ab36afcdc48faa0aecb55ae 662776 ncurses-examples-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 2e9fdfc1023a502806c51ea400367965 539816 ncurses-examples_6.2+20201114-2+deb11u1_amd64.deb
+Checksums-Sha1:
+ 095cdd8dad4b383c561878591f7039933569f7ab 312432 lib32ncurses-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 43e093b3fef27a305f58ed0e0636b86221afb53b 254200 lib32ncurses6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ b3fa200cb590d803596d61503872a4588d12dce0 109216 lib32ncurses6_6.2+20201114-2+deb11u1_amd64.deb
+ 2d779570b1fa783ef7c83b92dfb10e5bbc4069de 321124 lib32ncursesw6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ ee21bcf0eee5c6d53c33e526558fe1d46d56df5d 142724 lib32ncursesw6_6.2+20201114-2+deb11u1_amd64.deb
+ 89a3a23a0c0630d8140ab1cd4a8254c7950b1e49 163228 lib32tinfo6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 8e808069667be6fc0f841c96a5a50767026facd0 340984 lib32tinfo6_6.2+20201114-2+deb11u1_amd64.deb
+ 9a133a7d56d6e37c5b97a08d6b28ead09de6c9fc 343788 libncurses-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 6f16ddefdc3bcd4f573b2310d526efa669f8f723 268380 libncurses5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 88dc17f0c79922b2708473ba3f67b89c03550117 948 libncurses5-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 86ee3ce9de01abd6430a155155b2dd3f01a5c7ef 96708 libncurses5_6.2+20201114-2+deb11u1_amd64.deb
+ aae914cf118f85f911a8fdb39705fcef4178f44d 290792 libncurses6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ bfdf26117cd39cae749e803f4c4f83e74da14eac 102128 libncurses6_6.2+20201114-2+deb11u1_amd64.deb
+ 528f59920925cb63304cbf3abb5e7786f5c727fa 331116 libncursesw5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 4b7eaae89afe8e8c3056462b5a45ffe8ad6aec6b 948 libncursesw5-dev_6.2+20201114-2+deb11u1_amd64.deb
+ a03019f8fb9d491d75fc542634e5be3a1d8dd144 119172 libncursesw5_6.2+20201114-2+deb11u1_amd64.deb
+ b89963b13dc7bac0eac5dc27d4ef8abfdc63f0ed 369228 libncursesw6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ aa519c3842f06ccf6bd8efbbf064234c086798dc 132244 libncursesw6_6.2+20201114-2+deb11u1_amd64.deb
+ 93a83875b5016a3a12a4c7649b197df9e1b60b2c 940 libtinfo-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 823e17613effadd9e99dedf20668864700281b78 171872 libtinfo5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ cf3d3f72d947db2f389a76bbe91c9e093ee1cb0e 336488 libtinfo5_6.2+20201114-2+deb11u1_amd64.deb
+ 9db15e61561e722db84d4dcb41c8440ad34be73a 182088 libtinfo6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 45a4bb7637205d4acf6cea80484f5898c3667828 54484 libtinfo6-udeb_6.2+20201114-2+deb11u1_amd64.udeb
+ ae28cabfdbdacdfd459430e3f96851168ad79d34 340888 libtinfo6_6.2+20201114-2+deb11u1_amd64.deb
+ 43733705bdb441dd719c0195d5832216adc64218 189304 ncurses-bin-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 732c7040d42aecebaf37b044465bb6ad3baf04bf 428568 ncurses-bin_6.2+20201114-2+deb11u1_amd64.deb
+ 9d30994be9ccf53863982598450afb161be7ad3f 662776 ncurses-examples-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 8b8f51e016b6e172e19479a4d40680ab4840ddc3 539816 ncurses-examples_6.2+20201114-2+deb11u1_amd64.deb
+Checksums-Sha256:
+ 95af34fab9558ee48048c1e203d21f382b3ca501f71219bd20dbdb6b28a2e9d3 312432 lib32ncurses-dev_6.2+20201114-2+deb11u1_amd64.deb
+ dd9f6196f3ed6f9e63da54bce4ea16efa84a89c8493bcfb2e92a5c4cc89e8ecd 254200 lib32ncurses6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ a21b1ddfcba2477090ffe7c10979d233e092f959d0488311488c101d238fd386 109216 lib32ncurses6_6.2+20201114-2+deb11u1_amd64.deb
+ 5714c490f5ff0cc87ef8b8c31060f457267c314e4af791d94abf9eb2906583a7 321124 lib32ncursesw6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ b425076d224ee9bafde8fc5bd25d6a1d73e009496d05b3babc74eeb878530c67 142724 lib32ncursesw6_6.2+20201114-2+deb11u1_amd64.deb
+ b9c08b91876d15a930b7a8aa35e9530e5ea18a3eacd38799e363b1b10e4a9b89 163228 lib32tinfo6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 267bec2b7903905f36fb5ffa8200408ee9c5d05d8f3f7741b9a1059abfb610b9 340984 lib32tinfo6_6.2+20201114-2+deb11u1_amd64.deb
+ 7993c1208752b3f2c686e0d1952126892fe5706ba14e595f51de690b999a500d 343788 libncurses-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 3fc4f42d48e5b6ed355fdeabb7deaff76590276d2ef418c268e9adfa71afe1d6 268380 libncurses5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ e118bd82973f79552d36688ff465644733d59b8ebe51c9f825cb359d0d4b8818 948 libncurses5-dev_6.2+20201114-2+deb11u1_amd64.deb
+ 2e5a46f31af0f8305a4de47873169f5f9abfe32b64a4ef23c671d767c75520d4 96708 libncurses5_6.2+20201114-2+deb11u1_amd64.deb
+ 425be7cf809900116cee1ac6ee4b6520a6888e00a4da2f1c2b0bec6ef90d3525 290792 libncurses6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 030173bda939906c849a022823b8b90a1984ccc249a8ee9b54ea1f08acc24e9e 102128 libncurses6_6.2+20201114-2+deb11u1_amd64.deb
+ b58b76f9a66c5b6097b8016b33cc7db0a85cb0353fa7830ece25fc1063817334 331116 libncursesw5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 02854159adb15f4ef8a5b736b45a3d9ec4b1400fbb0c8986045cfa3fb33d539f 948 libncursesw5-dev_6.2+20201114-2+deb11u1_amd64.deb
+ a9216e74f0c29df8b7c29d65f782b51e117c114ec6c7691c05312d3d52ac6d0b 119172 libncursesw5_6.2+20201114-2+deb11u1_amd64.deb
+ 63bb556484a6d18ef0f3ce90e5247ef5f68b886ffd9d19ab49d8f66e59b7ea0d 369228 libncursesw6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 4a53efece402caaa798649f74bfb63fe21ac2fbcacf302554e46fbd17e5b30fc 132244 libncursesw6_6.2+20201114-2+deb11u1_amd64.deb
+ 89424bb139db7efd0954af48422fcd5c81e2738ec7078f5e87a8084a0eb5e190 940 libtinfo-dev_6.2+20201114-2+deb11u1_amd64.deb
+ cfea2947b9a7a193e3d3be280a06887ed778c9f8c36bf649b3ce5830af450b10 171872 libtinfo5-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ d7580bca7cfd66b83cc2a8af3e70299841bae1348ae444539b9810da12e48973 336488 libtinfo5_6.2+20201114-2+deb11u1_amd64.deb
+ 55d6fc2f11a9ba4020e75b171dd0d13e7a38ab10ea5fa3b0c70aa7607ca6c356 182088 libtinfo6-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ 9b13bdfdb5bc20e8eecf69ad8c3416cefc21bf3f45181e2e43730c4f8da797fa 54484 libtinfo6-udeb_6.2+20201114-2+deb11u1_amd64.udeb
+ 92ac8a8c12f02a6fe08c47f33ea6fb313e1b9480484e26eab34e2058ea59fdb4 340888 libtinfo6_6.2+20201114-2+deb11u1_amd64.deb
+ 5a752a9c1e055112e5f542ee09ef8e57b3ab92de256de51cb5229441b6594c5f 189304 ncurses-bin-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ a3a4ff971cb3b18b3f7938ab2b9494118a22a423959c31d8c6c3ab16e905c096 428568 ncurses-bin_6.2+20201114-2+deb11u1_amd64.deb
+ 8b1c63ac1c3470673d7014cc73f6a7b4b57ad4bb360cbde0943e7dcab53fa18d 662776 ncurses-examples-dbgsym_6.2+20201114-2+deb11u1_amd64.deb
+ c8f1a657a6e672a6f57254353918e9e42ab52981df46d82d5c88254d26044fe9 539816 ncurses-examples_6.2+20201114-2+deb11u1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 24 Feb 2023 03:19:52 +0000
+Build-Path: /build/ncurses-IrLzNj/ncurses-6.2+20201114
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ autoconf-dickey (= 2.52+20210105-1),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u6),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+deb11u1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8+deb11u1),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ g++-10-multilib (= 10.2.1-6),
+ g++-multilib (= 4:10.2.1-1),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gcc-10-multilib (= 10.2.1-6),
+ gcc-multilib (= 4:10.2.1-1),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4+deb11u1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ lib32asan6 (= 10.2.1-6),
+ lib32atomic1 (= 10.2.1-6),
+ lib32gcc-10-dev (= 10.2.1-6),
+ lib32gcc-s1 (= 10.2.1-6),
+ lib32gomp1 (= 10.2.1-6),
+ lib32itm1 (= 10.2.1-6),
+ lib32quadmath0 (= 10.2.1-6),
+ lib32stdc++-10-dev (= 10.2.1-6),
+ lib32stdc++6 (= 10.2.1-6),
+ lib32ubsan1 (= 10.2.1-6),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8+deb11u1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u5),
+ libc-dev-bin (= 2.31-13+deb11u5),
+ libc6 (= 2.31-13+deb11u5),
+ libc6-dev (= 2.31-13+deb11u5),
+ libc6-dev-i386 (= 2.31-13+deb11u5),
+ libc6-dev-x32 (= 2.31-13+deb11u5),
+ libc6-i386 (= 2.31-13+deb11u5),
+ libc6-x32 (= 2.31-13+deb11u5),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.12),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgpm-dev (= 1.20.7-8),
+ libgpm2 (= 1.20.7-8),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u3),
+ libicu67 (= 67.1-7),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-6+deb11u3),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6+deb11u3),
+ libkrb5support0 (= 1.18.3-6+deb11u3),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2.1~deb11u1),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-8+deb11u1),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-8+deb11u1),
+ libssl1.1 (= 1.1.1n-0+deb11u3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-7+deb11u1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1+deb11u1),
+ libtirpc-dev (= 1.3.1-1+deb11u1),
+ libtirpc3 (= 1.3.1-1+deb11u1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-7+deb11u1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8+deb11u1),
+ libx32asan6 (= 10.2.1-6),
+ libx32atomic1 (= 10.2.1-6),
+ libx32gcc-10-dev (= 10.2.1-6),
+ libx32gcc-s1 (= 10.2.1-6),
+ libx32gomp1 (= 10.2.1-6),
+ libx32itm1 (= 10.2.1-6),
+ libx32quadmath0 (= 10.2.1-6),
+ libx32stdc++-10-dev (= 10.2.1-6),
+ libx32stdc++6 (= 10.2.1-6),
+ libx32ubsan1 (= 10.2.1-6),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.158-2),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-7+deb11u1),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-8+deb11u1),
+ xz-utils (= 5.2.5-2.1~deb11u1),
+ zlib1g (= 1:1.2.11.dfsg-2+deb11u2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1675883763"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHWxRmfLuR591d5l2LWlxuzKfiVUFAmP4LOIACgkQLWlxuzKf
+iVWZzBAAvE+IE28yuPXyW72Amzw0wxJpv7CzzoTH+TvNq9PsZx6iceCXD04sYS5y
+avNmL27UYkvHnkoZswCN9Ks5i9WJJZC7GsEsdlkDJLKS+1JijxBPHs5T0raZTQ6d
+f5ZBHIbinV8SXNOxQMRIHbMGTDpLEQAudsmP9t76GZZLtXSygILq1yV5EMB657bF
+QfUHk3gklu5r5FmnKu3bMKMmJdZHn/SHwoDOJw+pKYB2m9lkvx0J6kN1sDoDdOw6
+UVpx0NxsI3MC+VuALmpqlq05nJs66sWuL6EpJpVb+xMJht64Rrwu+GQlOS6W5W44
+kxbn1+6Z0PC5WfbxXLqriI/tksfQSDD6+nom7CHtgxDWhBXoZo7K42Qk84Uto6eM
+0XDxjfaxnrVs8cBYvPpT8r+KdWBCn/RlS+fopQMGnqGFWpGoDYjBGMGwNAH+76TJ
+98gEjzykNSWt2JT/syMTumZZTNmmyQUfbHnEDoIWSx/HJVi0OHUKxnDfyXrV1zK8
+2k6EltLXHbO+zhyANI56TguuPACurpO3MPbP4+/xiCem05os4FFGUTRt7HmSAYbJ
+WZFPFmiZE8Wfk3+nm58R0iXflmADoTBspUgDk3Pduqkv8ke8tfHakcSrJXpxV3IQ
+2c8e8V7l9RkprmK1C3FFx9GKgmnhoa/Z4RS/1BdSIdclB/Ajzvw=
+=9+kW
+-----END PGP SIGNATURE-----

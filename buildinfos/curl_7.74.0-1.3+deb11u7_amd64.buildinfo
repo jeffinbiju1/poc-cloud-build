@@ -1,0 +1,331 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: curl
+Binary: curl curl-dbgsym libcurl3-gnutls libcurl3-gnutls-dbgsym libcurl3-nss libcurl3-nss-dbgsym libcurl4 libcurl4-dbgsym libcurl4-gnutls-dev libcurl4-nss-dev libcurl4-openssl-dev
+Architecture: amd64
+Version: 7.74.0-1.3+deb11u7
+Checksums-Md5:
+ 6880e6b71145b6f5c0bbd385404a3a1b 144860 curl-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 444aaee8c7ca9d646d97f090a4282c81 270476 curl_7.74.0-1.3+deb11u7_amd64.deb
+ 62940e130263fb7e1bfad00b7ae67790 821224 libcurl3-gnutls-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 2e0217ea9d8105d75418feab08b16ed2 342744 libcurl3-gnutls_7.74.0-1.3+deb11u7_amd64.deb
+ 8fa91fd597159c4f9041bd39e3763827 864712 libcurl3-nss-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 28c64b941362114ba5e79d59df7e6b7c 350896 libcurl3-nss_7.74.0-1.3+deb11u7_amd64.deb
+ aa3e29e904e7e96ad0ca9d5d78959c3d 838880 libcurl4-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 5f3d499ac335868da67bd5583faf85e5 434124 libcurl4-gnutls-dev_7.74.0-1.3+deb11u7_amd64.deb
+ a2d1ba2e232da48b384b412b3c32e427 441412 libcurl4-nss-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 1b4a103a59dc00d3c377e373a9e284a6 436484 libcurl4-openssl-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 18732e7df3da8e75636f0aa4a63aef1e 346412 libcurl4_7.74.0-1.3+deb11u7_amd64.deb
+Checksums-Sha1:
+ a56ec3e0dd26fcd88d590098b35da48009b3df99 144860 curl-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 80c9d50f53673d869f7159217e24278aaf024562 270476 curl_7.74.0-1.3+deb11u7_amd64.deb
+ e9bfb336c2b2a274d400b9d4d81bdc3e1fcaacf0 821224 libcurl3-gnutls-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 1b3016fb054e1c27d8d6087f2cfda81fe9f1ae93 342744 libcurl3-gnutls_7.74.0-1.3+deb11u7_amd64.deb
+ 3a047bf70278c0a3b17c1ebc3b12f9dbe919ac65 864712 libcurl3-nss-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 0078a13c2da545e61d4582722785f2c92b919373 350896 libcurl3-nss_7.74.0-1.3+deb11u7_amd64.deb
+ 8248badbba5ea455f670469c011db780d6fc9b00 838880 libcurl4-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ b7111e525262611298d8607c03f15c5f7717df03 434124 libcurl4-gnutls-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 07cfa7fb64559f1a4c30c4b2066b48a92917f9ed 441412 libcurl4-nss-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 1b0e19eebc77979ef0689009e42141a6e78bc869 436484 libcurl4-openssl-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 86dada9190f8cda02687057301f1a8cb5390afb6 346412 libcurl4_7.74.0-1.3+deb11u7_amd64.deb
+Checksums-Sha256:
+ d0edc41079dd27b19160c69a067c324d4daa3ca477e392a6a26518b955b2e9cf 144860 curl-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 3230db0ef3c741f566005fa9916370def1a5c6b6a502279ddabcf4e817ee631e 270476 curl_7.74.0-1.3+deb11u7_amd64.deb
+ c4cc99878155471d40344777d13bd397aec7d3345e9f763a55522a70df5d294f 821224 libcurl3-gnutls-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 60bbf5a8a04b3c839f5e241980e0959c5ee4c9f8c6bade0d4c95547fe82fbbd6 342744 libcurl3-gnutls_7.74.0-1.3+deb11u7_amd64.deb
+ 03567661db40c8aec676c5c96abeed21a109508960759260c2b4a3d3c7d7731c 864712 libcurl3-nss-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 930cfa2a7570a18bdff5509bfcb01eff6592bf9f871a5b0adc84e830627f4be1 350896 libcurl3-nss_7.74.0-1.3+deb11u7_amd64.deb
+ f1161adbb74f81999ed88a39625043b36f094ec1e02ac9fb85c635f1d7d9b2c2 838880 libcurl4-dbgsym_7.74.0-1.3+deb11u7_amd64.deb
+ 3420f1820198e466d424be9c4588f21417de005aff45095c9ca2b1df2a64dcab 434124 libcurl4-gnutls-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 629fa4521ae5c99a6f6ae2a60a4202bcab59ea7d07c3129758e186524c2bab5b 441412 libcurl4-nss-dev_7.74.0-1.3+deb11u7_amd64.deb
+ 67bd1cfe60242fa0f0e013498fd8f947fd37bc60c2fdcd91678120c55be15cc4 436484 libcurl4-openssl-dev_7.74.0-1.3+deb11u7_amd64.deb
+ a603705e69966c80ff7a3df5073f6673fd9c66b8c42aecd415f9c5e457b4a30f 346412 libcurl4_7.74.0-1.3+deb11u7_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Thu, 23 Feb 2023 23:36:59 +0000
+Build-Path: /build/curl-lyr0Fy/curl-7.74.0
+Installed-Build-Depends:
+ adduser (= 3.118),
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u6),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+deb11u1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8+deb11u1),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ ca-certificates (= 20210119),
+ comerr-dev (= 2.1-1.46.2-2),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-exec (= 0.23.2),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffstat (= 1.64-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
+ dwz (= 0.13+20210201-1),
+ ed (= 1.17-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4+deb11u1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ krb5-multidev (= 1.18.3-6+deb11u3),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8+deb11u1),
+ libbrotli-dev (= 1.0.9-2+b2),
+ libbrotli1 (= 1.0.9-2+b2),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u5),
+ libc-dev-bin (= 2.31-13+deb11u5),
+ libc6 (= 2.31-13+deb11u5),
+ libc6-dev (= 2.31-13+deb11u5),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcbor0 (= 0.5.0+dfsg-2),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.12),
+ libedit2 (= 3.1-20191231-2+b1),
+ libelf1 (= 0.183-1),
+ libevent-2.1-7 (= 2.1.12-stable-1),
+ libexpat1 (= 2.2.10-2+deb11u5),
+ libffi7 (= 3.3-6),
+ libfido2-1 (= 1.6.0-2),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgcrypt20-dev (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp-dev (= 2:6.2.1+dfsg-1+deb11u1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgmpxx4ldbl (= 2:6.2.1+dfsg-1+deb11u1),
+ libgnutls-dane0 (= 3.7.1-5+deb11u3),
+ libgnutls-openssl27 (= 3.7.1-5+deb11u3),
+ libgnutls28-dev (= 3.7.1-5+deb11u3),
+ libgnutls30 (= 3.7.1-5+deb11u3),
+ libgnutlsxx28 (= 3.7.1-5+deb11u3),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error-dev (= 1.38-2),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u3),
+ libgssrpc4 (= 1.18.3-6+deb11u3),
+ libhogweed6 (= 3.7.3-1),
+ libicu67 (= 67.1-7),
+ libidn2-0 (= 2.3.0-5),
+ libidn2-dev (= 2.3.0-5),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjs-jquery (= 3.5.1+dfsg+~3.5.5-7),
+ libk5crypto3 (= 1.18.3-6+deb11u3),
+ libkadm5clnt-mit12 (= 1.18.3-6+deb11u3),
+ libkadm5srv-mit12 (= 1.18.3-6+deb11u3),
+ libkdb5-10 (= 1.18.3-6+deb11u3),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6+deb11u3),
+ libkrb5-dev (= 1.18.3-6+deb11u3),
+ libkrb5support0 (= 1.18.3-6+deb11u3),
+ libldap-2.4-2 (= 2.4.57+dfsg-3+deb11u1),
+ libldap2-dev (= 2.4.57+dfsg-3+deb11u1),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2.1~deb11u1),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmd0 (= 1.0.3-3),
+ libmount1 (= 2.36.1-8+deb11u1),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-1),
+ libmpfr6 (= 4.1.0-3),
+ libncurses6 (= 6.2+20201114-2),
+ libncursesw6 (= 6.2+20201114-2),
+ libnettle8 (= 3.7.3-1),
+ libnghttp2-14 (= 1.43.0-1),
+ libnghttp2-dev (= 1.43.0-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libnspr4 (= 2:4.29-1),
+ libnspr4-dev (= 2:4.29-1),
+ libnss3 (= 2:3.61-1+deb11u3),
+ libnss3-dev (= 2:3.61-1+deb11u3),
+ libp11-kit-dev (= 0.23.22-1),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libprocps8 (= 2:3.3.17-5),
+ libpsl-dev (= 0.21.0-1.2),
+ libpsl5 (= 0.21.0-1.2),
+ libpython3-stdlib (= 3.9.2-3),
+ libpython3.9-minimal (= 3.9.2-1),
+ libpython3.9-stdlib (= 3.9.2-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ librtmp-dev (= 2.4+20151223.gitfa8646d.1-2+b2),
+ librtmp1 (= 2.4+20151223.gitfa8646d.1-2+b2),
+ libsasl2-2 (= 2.1.27+dfsg-2.1+deb11u1),
+ libsasl2-modules-db (= 2.1.27+dfsg-2.1+deb11u1),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsemanage-common (= 3.1-1),
+ libsemanage1 (= 3.1-1+b2),
+ libsepol1 (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-8+deb11u1),
+ libsqlite3-0 (= 3.34.1-3),
+ libssh2-1 (= 1.9.0-2),
+ libssh2-1-dev (= 1.9.0-2),
+ libssl-dev (= 1.1.1n-0+deb11u4),
+ libssl1.1 (= 1.1.1n-0+deb11u4),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-7+deb11u1),
+ libtasn1-6 (= 4.16.0-2+deb11u1),
+ libtasn1-6-dev (= 4.16.0-2+deb11u1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1+deb11u1),
+ libtirpc-dev (= 1.3.1-1+deb11u1),
+ libtirpc3 (= 1.3.1-1+deb11u1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-7+deb11u1),
+ libunbound8 (= 1.13.1-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8+deb11u1),
+ libwrap0 (= 7.6.q-31),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.158-2),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ netbase (= 6.3),
+ nettle-dev (= 3.7.3-1),
+ openssh-client (= 1:8.4p1-5+deb11u1),
+ openssh-server (= 1:8.4p1-5+deb11u1),
+ openssh-sftp-server (= 1:8.4p1-5+deb11u1),
+ openssl (= 1.1.1n-0+deb11u3),
+ passwd (= 1:4.8.1-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ procps (= 2:3.3.17-5),
+ python3 (= 3.9.2-3),
+ python3-cffi-backend (= 1.14.5-1),
+ python3-click (= 7.1.2-1),
+ python3-colorama (= 0.4.4-1),
+ python3-cryptography (= 3.3.2-1),
+ python3-dnspython (= 2.0.0-1),
+ python3-flask (= 1.1.2-2),
+ python3-future (= 0.18.2-5),
+ python3-impacket (= 0.9.22-2),
+ python3-itsdangerous (= 1.1.0-3),
+ python3-jinja2 (= 2.11.3-1),
+ python3-ldap3 (= 2.8.1-1),
+ python3-ldapdomaindump (= 0.9.3-1),
+ python3-lib2to3 (= 3.9.2-1),
+ python3-markupsafe (= 1.1.1-1+b3),
+ python3-minimal (= 3.9.2-3),
+ python3-openssl (= 20.0.1-1),
+ python3-pkg-resources (= 52.0.0-4),
+ python3-pyasn1 (= 0.4.8-1),
+ python3-pycryptodome (= 3.9.7+dfsg1-1+b2),
+ python3-six (= 1.16.0-2),
+ python3-werkzeug (= 1.0.1+dfsg1-2),
+ python3.9 (= 3.9.2-1),
+ python3.9-minimal (= 3.9.2-1),
+ quilt (= 0.66-2.1),
+ readline-common (= 8.1-1),
+ runit-helper (= 2.10.3),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ stunnel4 (= 3:5.56+dfsg-10),
+ sysvinit-utils (= 2.96-7+deb11u1),
+ tar (= 1.34+dfsg-1),
+ tzdata (= 2021a-1+deb11u8),
+ ucf (= 3.0043),
+ util-linux (= 2.36.1-8+deb11u1),
+ xz-utils (= 5.2.5-2.1~deb11u1),
+ zlib1g (= 1:1.2.11.dfsg-2+deb11u2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2+deb11u2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1677190197"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEETrPl0/PCLhhyzVa6pXKW7Jh8MpIFAmP3+KIACgkQpXKW7Jh8
+MpIJ3RAAlx8+jhnDpC7c5s0PQrhNu+TOyqnp7bT1zqrXlcWZ0jYTLCe9e7ye9cxB
+ZCo8Ia0divg1YoVv9Ixph1YAzcfSdvIGbsjZqAiIB8gJ/muwQ7M4MaBmf/qxdao3
+SRBl9igAFQDtWsnEpyJrC8T/LPXTCHtQxbvGfM1Qqg1NaCVOxUV+MVf6cWM4pDSo
++OPVh7kl4pfuQlw6GUJDgdtish7s4MnEmEZ5sW20sFxSIUPwHwO/a1sNSqWX3tx3
+HiJAfsOgEc21PE+L21O0spCZWg4mI5Jp5BlZG2mFSL8RtC7fIn1ngdUkEpJxwXy0
+sXuDnOvxqhvU3YENNtpnUOZQs7G3gM0xFAuSNjp/gMKan3F5Bx+FMl0NuVcPcYTw
+Fsa/OO5EigAMvovCfm3dvalNj34X5fngAckpXRbq2U9/YZAmHUaT34bLbOwvJOIU
+ak9AdebiB5EMmGd+wRRBvGm1s0y4tjhpTdfEqVZnNq5zkgR2Cy6D+Y06MYbcYtEV
+7iM963fZyVBk4A5Z4haNw9D4MmglHbPLfMXXpqzRVF3pALvmvAIyJ2wmj2kEeZtd
+l2x4B94o+/qTHMr0+xdWd5epWiwzWFbSblg4AFM7/rIZctyaemIFpAuPttxkBffi
+imH4oEBBJvCtbguG6ApXxOdXlb2MqzEWgn8SO1bwYuzAd8Bm5qI=
+=ZR7u
+-----END PGP SIGNATURE-----

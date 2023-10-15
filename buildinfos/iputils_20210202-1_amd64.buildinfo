@@ -1,0 +1,243 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: iputils
+Binary: iputils-arping iputils-arping-dbgsym iputils-clockdiff iputils-clockdiff-dbgsym iputils-ping iputils-ping-dbgsym iputils-tracepath iputils-tracepath-dbgsym
+Architecture: amd64
+Version: 3:20210202-1
+Checksums-Md5:
+ f8942560047e10d3bfacf6333348105e 29188 iputils-arping-dbgsym_20210202-1_amd64.deb
+ 194014b5166c31769918196cdc0a8412 23472 iputils-arping_20210202-1_amd64.deb
+ 094cfe7d80c12f7a71c10d2b249c1734 16888 iputils-clockdiff-dbgsym_20210202-1_amd64.deb
+ 43752bfa6cec42a2233b8d5bd60de8ba 20760 iputils-clockdiff_20210202-1_amd64.deb
+ d2d1c437fb6cb1d482a5b18a68edb005 89440 iputils-ping-dbgsym_20210202-1_amd64.deb
+ 3b52ff7f46aa47eed2a18034af8be49e 49776 iputils-ping_20210202-1_amd64.deb
+ 097ab4380c556011e3754536b5b9b26a 33144 iputils-tracepath-dbgsym_20210202-1_amd64.deb
+ 556453c38d3bb21c67465f3ecf63b0c1 27540 iputils-tracepath_20210202-1_amd64.deb
+Checksums-Sha1:
+ 5d0191b25fbaf975e6f4d23341e6c457e64b81cd 29188 iputils-arping-dbgsym_20210202-1_amd64.deb
+ ba83f9da12b4582793880cdd163396285cbf2b5a 23472 iputils-arping_20210202-1_amd64.deb
+ 17d4f595d0849064c316181d904e7d38e27156e2 16888 iputils-clockdiff-dbgsym_20210202-1_amd64.deb
+ 1d66fe23547fc76c399b61783007bce127353011 20760 iputils-clockdiff_20210202-1_amd64.deb
+ b476377fc21fd59a7af67a636022edf4c7c311b1 89440 iputils-ping-dbgsym_20210202-1_amd64.deb
+ 30b47172bb76706d258a767c861a86a1dea21817 49776 iputils-ping_20210202-1_amd64.deb
+ 94a1841eef76772e3e5cfdf81f987f3fc8bd9ba2 33144 iputils-tracepath-dbgsym_20210202-1_amd64.deb
+ 093bb8eaa3b4cd03666f363e64eb553fda83e337 27540 iputils-tracepath_20210202-1_amd64.deb
+Checksums-Sha256:
+ 40e8b85fd17ed1671132ae99f47890d69b86c7fcedcb2a7683eb727d882958b9 29188 iputils-arping-dbgsym_20210202-1_amd64.deb
+ 305961246c88cb926500c842350ed215e721d93412cbf37450c3adcf0291d2a7 23472 iputils-arping_20210202-1_amd64.deb
+ 87abe76494ae25fb25f13cc09131bc6de85d5ec766c9381fd853d122e7804099 16888 iputils-clockdiff-dbgsym_20210202-1_amd64.deb
+ 8e8989e1425bdc273cf9b818be4e3c9bdd8bae02bee6febf22a8efe30fbcd0b7 20760 iputils-clockdiff_20210202-1_amd64.deb
+ 7293796e2ac81a16a970262afba0279978c635b1e39d9e0498dfd794857f8550 89440 iputils-ping-dbgsym_20210202-1_amd64.deb
+ 616ec3cb9f9610279c731bc3b9f8aee65c65f0d536fd284f502482497a6ef289 49776 iputils-ping_20210202-1_amd64.deb
+ 3e8b0505e923982e1778f302e194e0a1b352c674364597a1998c72b41edb044d 33144 iputils-tracepath-dbgsym_20210202-1_amd64.deb
+ 7dabf7612d09c7979a97e0b5eea19a57ec97790490534a99f964f16c378dbbd2 27540 iputils-tracepath_20210202-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Tue, 02 Feb 2021 19:28:51 +0000
+Build-Path: /build/iputils-PpGQ4j/iputils-20210202
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-3),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.48),
+ bash (= 5.1-2),
+ binutils (= 2.35.1-7),
+ binutils-common (= 2.35.1-7),
+ binutils-x86-64-linux-gnu (= 2.35.1-7),
+ bsdextrautils (= 2.36.1-6),
+ bsdutils (= 1:2.36.1-6),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.74),
+ debhelper (= 13.3.2),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.10.0-1),
+ diffutils (= 1:3.7-5),
+ docbook-xsl (= 1.79.2+dfsg-1),
+ docbook-xsl-ns (= 1.79.2+dfsg-1),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20210126-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-3),
+ gettext-base (= 0.21-3),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-9),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.1-7),
+ libblkid1 (= 2.36.1-6),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-dev (= 1:2.44-1),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcap2 (= 1:2.44-1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.45.7-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.1-7),
+ libctf0 (= 2.35.1-7),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.2),
+ libdpkg-perl (= 1.20.7.1),
+ libelf1 (= 0.182-3),
+ libexpat1 (= 2.2.10-1),
+ libffi7 (= 3.3-5),
+ libfile-stripnondeterminism-perl (= 1.10.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-2),
+ libgcrypt20-dev (= 1.8.7-2),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.4-3),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error-dev (= 1.38-2),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libicu67 (= 67.1-6),
+ libidn2-0 (= 2.3.0-5),
+ libidn2-dev (= 2.3.0-5),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-6),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-1),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-2),
+ libpam-modules-bin (= 1.4.0-2),
+ libpam-runtime (= 1.4.0-2),
+ libpam0g (= 1.4.0-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.0-6),
+ libpipeline1 (= 1.5.3-1),
+ libpython3-stdlib (= 3.9.1-1),
+ libpython3.9-minimal (= 3.9.1-3),
+ libpython3.9-stdlib (= 3.9.1-3),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-2+b2),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-6),
+ libsqlite3-0 (= 3.34.1-1),
+ libssl1.1 (= 1.1.1i-3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.2-5),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.2-5),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-6),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libxslt1.1 (= 1.1.34-4),
+ libzstd1 (= 1.4.8+dfsg-1),
+ linux-libc-dev (= 5.10.12-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ mailcap (= 3.68),
+ make (= 4.3-4),
+ man-db (= 2.9.3-2),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ meson (= 0.56.2-1),
+ mime-support (= 3.66),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ ninja-build (= 1.10.1-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.0-6),
+ perl-base (= 5.32.0-6),
+ perl-modules-5.32 (= 5.32.0-6),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ python3 (= 3.9.1-1),
+ python3-minimal (= 3.9.1-1),
+ python3-pkg-resources (= 51.3.3-1),
+ python3.9 (= 3.9.1-3),
+ python3.9-minimal (= 3.9.1-3),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.32+dfsg-1),
+ tzdata (= 2021a-1),
+ util-linux (= 2.36.1-6),
+ xml-core (= 0.18+nmu1),
+ xsltproc (= 1.1.34-4),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1612288156"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/7vrlRgMAcjt3zQ5J9KdAI8x88oFAmAZp/YACgkQJ9KdAI8x
+88rNqA//USF6f2EoJ300ltuumdeiJEk7yppP3q6srJUwczTg0qKwryxDD311cpa2
+e/5GuB5lfU05t58szkahHRCe2ks1Rdp9idb0p0/jMOQ1T8AaXBL7yCAzWN109yKJ
+T07UkOZgMJ5gRBDAfPlsIvI/+wCcHkTapw/Wx/4iZLnAFQJIgRZzWbzdW2EhWsly
+TzbHBStBpJuN/R6/bkVHAG6ulwqY8utxYI5GNPlB1TUHcP5we0rCa6Bp/M40bT/n
+0UyrIfv6qHOs32YwyLL1rVtZwIdHogZPEZUlKTPmA/Wt0hkXSLSuHD4GyGT1wPSv
+GgrgNq7vR1FdjZc39XAJMVChKQZfisluyXGFW5lcLI1tg+fJNqFU+Qkt4Fi1nMOl
+OkqlOAXF/tyLCsC3smGDMo7ujiV7fXmlcb8FqpeuuiWWIsaRGJFp3thL+4oi9H/N
+9r3ojKGp2vYgl0kYBnM+6b7vnnKEYbc/PwxNUvcr21bNcerxFsSB1tqT5rSD5ToJ
+sVao1ItMYaGIEXVenEhzOG3CtPytBWHhseR0+q5Ry282saSQYdkgfuXbpRMr/ymz
+yGUV/Vtyhdh5LpER1GDzDW8+vKN4kUhSMhSXAuED0fR+KONXdOg1MAhBTCAwetKe
+oSGZEYekajalz4Q4GGmBhfiUmYTngGLLa6ZoUoppcCKVJFMoOvA=
+=aiyK
+-----END PGP SIGNATURE-----

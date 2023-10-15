@@ -1,0 +1,194 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: argon2
+Binary: libargon2-dev libargon2-0 libargon2-1 argon2 libargon2-1-udeb
+Architecture: amd64
+Version: 0~20171227-0.2
+Checksums-Md5:
+ ac2183e3aa95a82f5cead9e653c7cbe7 59064 argon2-dbgsym_0~20171227-0.2_amd64.deb
+ b5151f4c1a2668c65cb07ff06c378245 22692 argon2_0~20171227-0.2_amd64.deb
+ 860d89991f78be3e35e3080d3c9bf7c4 6068 libargon2-0_0~20171227-0.2_amd64.deb
+ b483d225f32653d70bd3f7134c91ec6f 48536 libargon2-1-dbgsym_0~20171227-0.2_amd64.deb
+ 4b8a78ac13010b270a4c2b8e798d58e6 14012 libargon2-1-udeb_0~20171227-0.2_amd64.udeb
+ 76765e91db075f8a1c3e9a2907a5bd47 19640 libargon2-1_0~20171227-0.2_amd64.deb
+ 489dd0f1adaf17e311973493190d1946 24372 libargon2-dev_0~20171227-0.2_amd64.deb
+Checksums-Sha1:
+ 1e7c4bf1e9622c134c282cb07cb613ba02986c52 59064 argon2-dbgsym_0~20171227-0.2_amd64.deb
+ ab53e5620676cbd0db0150a1308feea55e947b2e 22692 argon2_0~20171227-0.2_amd64.deb
+ 404d1c39c7b7805a0890ac23f2235876d4175126 6068 libargon2-0_0~20171227-0.2_amd64.deb
+ 24d3c6d73076cdb132542997f4927d2118a4cbe9 48536 libargon2-1-dbgsym_0~20171227-0.2_amd64.deb
+ b2e853dff5f7657c23055e62a249c4bb80baffd2 14012 libargon2-1-udeb_0~20171227-0.2_amd64.udeb
+ d4fc3c783555cff8094a894741674c3ad97cc2f6 19640 libargon2-1_0~20171227-0.2_amd64.deb
+ 7cd6a7a8eabac16e2b7c35ed75c041bc85acb324 24372 libargon2-dev_0~20171227-0.2_amd64.deb
+Checksums-Sha256:
+ b4881b2feeb768a388a7ab967e6a04dc69ab30101902738ecdc35f90c3792864 59064 argon2-dbgsym_0~20171227-0.2_amd64.deb
+ e2b73879fe1bd35f6892493ac124c76a38f6f97cdc350dd407ec678818fbc8ce 22692 argon2_0~20171227-0.2_amd64.deb
+ 3b34bfe11dbfae921e6fdde63c9a1a8328e61d4c5c39951d8702382e11c8d6b2 6068 libargon2-0_0~20171227-0.2_amd64.deb
+ a401d6f9395d5576c8120a472401d3bc8a355f0d83f34009afd108cd97dd90aa 48536 libargon2-1-dbgsym_0~20171227-0.2_amd64.deb
+ bafe92def5c0d0b37c2d7cd581f8cbf1a2d0da17ab2d228b2cd412a1818ac1eb 14012 libargon2-1-udeb_0~20171227-0.2_amd64.udeb
+ 0d2be32c122d26bbd9b604fbe0072265e4978e07b0e1b7149ba364ba3cc5a302 19640 libargon2-1_0~20171227-0.2_amd64.deb
+ 3eeb0ff22f0749a5e65822de92329fb958e00dc4ce7fc862db6dcae8c049e2d8 24372 libargon2-dev_0~20171227-0.2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 13 Jan 2019 14:16:13 +0000
+Build-Path: /build/argon2-gyTjZ2/argon2-0~20171227
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-9),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-11),
+ binutils-common (= 2.31.1-11),
+ binutils-x86-64-linux-gnu (= 2.31.1-11),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.33-0.2),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-8 (= 8.2.0-14),
+ dash (= 0.5.10.2-4),
+ debconf (= 1.5.69),
+ debhelper (= 12),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-exec (= 0.23.1),
+ dh-strip-nondeterminism (= 1.0.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-3),
+ fdisk (= 2.33-0.2),
+ file (= 1:5.35-2),
+ findutils (= 4.6.0+git+20181018-1),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-14),
+ gcc (= 4:8.2.0-2),
+ gcc-8 (= 8.2.0-14),
+ gcc-8-base (= 8.2.0-14),
+ gettext (= 0.19.8.1-9),
+ gettext-base (= 0.19.8.1-9),
+ grep (= 3.3-1),
+ groff-base (= 1.22.4-2),
+ gzip (= 1.9-3),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56+nmu1),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan5 (= 8.2.0-14),
+ libatomic1 (= 8.2.0-14),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-2),
+ libaudit1 (= 1:2.8.4-2),
+ libbinutils (= 2.31.1-11),
+ libblkid1 (= 2.33-0.2),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libc-bin (= 2.28-4),
+ libc-dev-bin (= 2.28-4),
+ libc6 (= 2.28-4),
+ libc6-dev (= 2.28-4),
+ libcap-ng0 (= 0.7.9-1+b1),
+ libcc1-0 (= 8.2.0-14),
+ libcroco3 (= 0.6.12-3),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.246),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.175-2),
+ libfdisk1 (= 2.33-0.2),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 1.0.0-1),
+ libgcc-8-dev (= 8.2.0-14),
+ libgcc1 (= 1:8.2.0-14),
+ libgcrypt20 (= 1.8.4-4),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.2-3),
+ libgmp10 (= 2:6.1.2+dfsg-4),
+ libgomp1 (= 8.2.0-14),
+ libgpg-error0 (= 1.33-3),
+ libicu63 (= 63.1-5),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-14),
+ liblsan0 (= 8.2.0-14),
+ liblz4-1 (= 1.8.3-1),
+ liblzma5 (= 5.2.2-1.3),
+ libmagic-mgc (= 1:5.35-2),
+ libmagic1 (= 1:5.35-2),
+ libmount1 (= 2.33-0.2),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2~rc1-1),
+ libmpx2 (= 8.2.0-14),
+ libncurses6 (= 6.1+20181013-1),
+ libncursesw6 (= 6.1+20181013-1),
+ libpam-modules (= 1.1.8-4),
+ libpam-modules-bin (= 1.1.8-4),
+ libpam-runtime (= 1.1.8-4),
+ libpam0g (= 1.1.8-4),
+ libpcre3 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-3),
+ libpipeline1 (= 1.5.0-2),
+ libquadmath0 (= 8.2.0-14),
+ libseccomp2 (= 2.3.3-3),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.33-0.2),
+ libstdc++-8-dev (= 8.2.0-14),
+ libstdc++6 (= 8.2.0-14),
+ libsystemd0 (= 240-2),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-7),
+ libtsan0 (= 8.2.0-14),
+ libubsan1 (= 8.2.0-14),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 240-2),
+ libunistring2 (= 0.9.10-1),
+ libuuid1 (= 2.33-0.2),
+ libxml2 (= 2.9.4+dfsg1-7+b3),
+ linux-libc-dev (= 4.19.13-1),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.5-1),
+ mawk (= 1.3.3-17+b3),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-3),
+ perl-base (= 5.28.1-3),
+ perl-modules-5.28 (= 5.28.1-3),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.93-3),
+ tar (= 1.30+dfsg-4),
+ util-linux (= 2.33-0.2),
+ xz-utils (= 5.2.2-1.3),
+ zlib1g (= 1:1.2.11.dfsg-1)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="POSIX"
+ SOURCE_DATE_EPOCH="1547385659"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE56RkdImmGnu/qTMEtnmMmMOJfQ0FAlw7SC8ACgkQtnmMmMOJ
+fQ31vg//ZOB/2gJN8kBONxmYpJGn6WirSQ5YG5fetHIzrSGBhlY428OIU+haHR6z
+TR7wyfI49YevOasNHXQ6+bjYsrnqlF6TQBkRNZZF3wUNkqoIAifAP2raWhrhjYvM
+bS0elTcXEsTltX5BeIlxjcxMaqIS3ztaQS7m4+NRbh401U17UoiHdyeeRxOa6xsv
+LVLiNm6NCyemhke1iAk0ILpD4kYqKnJskf/3Jox4BEkf2z3FB/nhDQn2VSczpGZu
+ZzFmEdrYXgKRzfLde93l7jbHAYQqHga8F19B0rysqxQbCMHd9ZdTLsYZPicZo9i3
+QE+kvmwssd9huVDvSnTcFRSEd+2vy+r0Gq54v6j1ipWYG37m3i8Cj7xoNwXWpLHm
+x6xrjS/kfpwiGkHhkdvEiyS6PSPCguyVbZogkKFwKwgs0av3yzyR7MFQfCG8TMxN
+JtI7a9tbsDZGMe9gZiiSQzJnZ6z+JjnMDFdmeISD+KnsL0ZpqOXirMEHOePIdL3L
+UPzOGOQZiIq+FmgTsjhbmWb5zjexV1nEMMoW9ZxZsj5Lgfw+TW/4nLJT3mFRRwAr
+dCC4w6c+zytGF7qJjZ3104zbGfRl1KojAvm/aNTPxL0Pmz5txT4ft1xYozwsb93X
+R61KGtVv65PD7fBU98k+H/ZEogZvcmYhjH6UvFduS5dVI6sXT+4=
+=pwv8
+-----END PGP SIGNATURE-----

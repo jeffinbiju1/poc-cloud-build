@@ -1,0 +1,272 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: unbound
+Binary: libunbound-dev libunbound8 libunbound8-dbgsym python3-unbound python3-unbound-dbgsym unbound unbound-anchor unbound-anchor-dbgsym unbound-dbgsym unbound-host unbound-host-dbgsym
+Architecture: amd64
+Version: 1.13.1-1+deb11u1
+Checksums-Md5:
+ c3653e82f320fd1e4158deb967d50e2f 585104 libunbound-dev_1.13.1-1+deb11u1_amd64.deb
+ 6fc94683da03b141afd45d314f0e39d3 1416736 libunbound8-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ da5fda30fe2f37bc90f2e8cbcb784ba9 505008 libunbound8_1.13.1-1+deb11u1_amd64.deb
+ 648dc475787a0c068ee581b2a810d186 163852 python3-unbound-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ a15b71b25b41ddb5838c78cc1470cd09 189688 python3-unbound_1.13.1-1+deb11u1_amd64.deb
+ 1c73c9cdb1dae2d29b84e5e98a742cd2 72676 unbound-anchor-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 9a10bae735fd3f5427cb97c110ec85f1 169700 unbound-anchor_1.13.1-1+deb11u1_amd64.deb
+ b227cac5de5074828869e8debf70999b 5490100 unbound-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 46f0da1914e04394404afe9f8d8f78e7 127352 unbound-host-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 04f97ffaab5e4587d2806b03dda1c651 185736 unbound-host_1.13.1-1+deb11u1_amd64.deb
+ 83dc1dc50f743888f9e6ebc7072cf67c 868268 unbound_1.13.1-1+deb11u1_amd64.deb
+Checksums-Sha1:
+ 8879e51e743dd186651062ca1a6cf8986f7b793f 585104 libunbound-dev_1.13.1-1+deb11u1_amd64.deb
+ 6d21d4f3db39e0111e0bc9c5a9556b17ec26b5df 1416736 libunbound8-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ a23c9de491c61fb9d67e34b201df417481a6dc8a 505008 libunbound8_1.13.1-1+deb11u1_amd64.deb
+ 166b3a0e0feb705f346a49fb7abc3ae1641b9a77 163852 python3-unbound-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 0af0fbe85f5c02df2c7379e8350cfbb22c849ac5 189688 python3-unbound_1.13.1-1+deb11u1_amd64.deb
+ 3079e97d6ecdc15a336cba13d82e14f7fc1913cf 72676 unbound-anchor-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 28bce7b0a417b6ef1cdd3c75c8bfa589730690fb 169700 unbound-anchor_1.13.1-1+deb11u1_amd64.deb
+ 96213ed457999d7ad8f4d71e33ea13dd75dcc493 5490100 unbound-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ b0c4b9c34554e644ba94b36f8543060ea5567f90 127352 unbound-host-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ b91cf2a05d88bbdbb838c67d0d205b66519aa770 185736 unbound-host_1.13.1-1+deb11u1_amd64.deb
+ 7ccaa5cce6d6673b5d52d81532cf845580199526 868268 unbound_1.13.1-1+deb11u1_amd64.deb
+Checksums-Sha256:
+ 2eb33371edb75a0d66778ad1ce06747f78aa5e2bb639b7027faf1f7bf5d6cc40 585104 libunbound-dev_1.13.1-1+deb11u1_amd64.deb
+ 6d83293e9b8f05d01f35555dd0e035df0f17aa59eb1df56f5dafd00a0afaedff 1416736 libunbound8-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 3d8e66bfce167ca77f7d12b803bf1da3231921a8ff957b0ea85b02908d6768ff 505008 libunbound8_1.13.1-1+deb11u1_amd64.deb
+ d149ca7704178d6aa8dfd9ddbe02144f64db7d60abeaa2f3fe1384aa5a433005 163852 python3-unbound-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ fde22b2e62d6ecdb73482a33f05ae9a4f4f8c893c4b397d1aea6eb2649f8d885 189688 python3-unbound_1.13.1-1+deb11u1_amd64.deb
+ 9c47a5e543be1c7f045e265da56ad9dbe880e3dd37e8b5802306ee62469f5cb4 72676 unbound-anchor-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 0a88c4dc675f6ec82955f4998b9774527338b8ece50ca8a6a03965c9ecceafe0 169700 unbound-anchor_1.13.1-1+deb11u1_amd64.deb
+ 4a5dffd80576a7076e864550220d36e1751a9662771d1bb8b40dc13de1b1d9ed 5490100 unbound-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 3b7dfce3da1cbe2549b02a53c9e4e4f2b645bd9b3decbf300bd6db3ef59ea288 127352 unbound-host-dbgsym_1.13.1-1+deb11u1_amd64.deb
+ 3da85a9001627880b36fa4aa8e0c8e5e39d7d3ddf81a6c496677ccd91148d721 185736 unbound-host_1.13.1-1+deb11u1_amd64.deb
+ 8889ba0699fdf1309c9f6a71cbb61d69e9f2327f7bb8bf71abb869dfc930bccf 868268 unbound_1.13.1-1+deb11u1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 07 Apr 2023 19:12:34 +0000
+Build-Path: /build/unbound-6MHuLb/unbound-1.13.1
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u6),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+deb11u1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bison (= 2:3.7.5+dfsg-1),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8+deb11u1),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-apparmor (= 2.13.6-10),
+ dh-autoreconf (= 20),
+ dh-python (= 4.20201102+nmu1),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ flex (= 2.6.4-8),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4+deb11u1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8+deb11u1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u5),
+ libc-dev-bin (= 2.31-13+deb11u5),
+ libc6 (= 2.31-13+deb11u5),
+ libc6-dev (= 2.31-13+deb11u5),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.12),
+ libelf1 (= 0.183-1),
+ libevent-2.1-7 (= 2.1.12-stable-1),
+ libevent-core-2.1-7 (= 2.1.12-stable-1),
+ libevent-dev (= 2.1.12-stable-1),
+ libevent-extra-2.1-7 (= 2.1.12-stable-1),
+ libevent-openssl-2.1-7 (= 2.1.12-stable-1),
+ libevent-pthreads-2.1-7 (= 2.1.12-stable-1),
+ libexpat1 (= 2.2.10-2+deb11u5),
+ libexpat1-dev (= 2.2.10-2+deb11u5),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp-dev (= 2:6.2.1+dfsg-1+deb11u1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgmpxx4ldbl (= 2:6.2.1+dfsg-1+deb11u1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u3),
+ libhogweed6 (= 3.7.3-1),
+ libicu67 (= 67.1-7),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjs-jquery (= 3.5.1+dfsg+~3.5.5-7),
+ libjs-sphinxdoc (= 3.4.3-2),
+ libjs-underscore (= 1.9.1~dfsg-3),
+ libk5crypto3 (= 1.18.3-6+deb11u3),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6+deb11u3),
+ libkrb5support0 (= 1.18.3-6+deb11u3),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2.1~deb11u1),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-8+deb11u1),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-1),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2+deb11u1),
+ libnettle8 (= 3.7.3-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libprotobuf-c-dev (= 1.3.3-1+b2),
+ libprotobuf-c1 (= 1.3.3-1+b2),
+ libprotobuf23 (= 3.12.4-1),
+ libprotoc23 (= 3.12.4-1),
+ libpython3-dev (= 3.9.2-3),
+ libpython3-stdlib (= 3.9.2-3),
+ libpython3.9 (= 3.9.2-1),
+ libpython3.9-dev (= 3.9.2-1),
+ libpython3.9-minimal (= 3.9.2-1),
+ libpython3.9-stdlib (= 3.9.2-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-8+deb11u1),
+ libsqlite3-0 (= 3.34.1-3),
+ libssl-dev (= 1.1.1n-0+deb11u4),
+ libssl1.1 (= 1.1.1n-0+deb11u4),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd-dev (= 247.3-7+deb11u1),
+ libsystemd0 (= 247.3-7+deb11u1),
+ libtinfo6 (= 6.2+20201114-2+deb11u1),
+ libtirpc-common (= 1.3.1-1+deb11u1),
+ libtirpc-dev (= 1.3.1-1+deb11u1),
+ libtirpc3 (= 1.3.1-1+deb11u1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-7+deb11u1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8+deb11u1),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.158-2),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ nettle-dev (= 3.7.3-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ protobuf-c-compiler (= 1.3.3-1+b2),
+ python3 (= 3.9.2-3),
+ python3-dev (= 3.9.2-3),
+ python3-distutils (= 3.9.2-1),
+ python3-lib2to3 (= 3.9.2-1),
+ python3-minimal (= 3.9.2-3),
+ python3.9 (= 3.9.2-1),
+ python3.9-dev (= 3.9.2-1),
+ python3.9-minimal (= 3.9.2-1),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ swig (= 4.0.2-1),
+ swig4.0 (= 4.0.2-1),
+ sysvinit-utils (= 2.96-7+deb11u1),
+ tar (= 1.34+dfsg-1),
+ tzdata (= 2021a-1+deb11u8),
+ util-linux (= 2.36.1-8+deb11u1),
+ xz-utils (= 5.2.5-2.1~deb11u1),
+ zlib1g (= 1:1.2.11.dfsg-2+deb11u2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2+deb11u2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1680728807"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEi/TVpVg0yb7dq8QfDZWW6X29YdoFAmQwaygACgkQDZWW6X29
+YdqgVxAAkjEuvHkAMgHV8RDqbLrdhHoL0jOiJJZE65ThokHYefWjktovhE0W2PXV
++605e1Rrww5CEqK54M81YuiUI8twUEe7p76U6JzzJMd4PjNVCldOPNjeS6CYH709
+QqcowMvScXwsQhWwFz/ZTq+YlXa5ijsqPfEl+dpV0LLkdEnoFacxxr5senwkrCOM
+OTRYHrycsAjQfINzYt+0ZSgy14Rl+6fNO1uH3hd6YeFvW9dFw3sUD0vebCWl+eXr
+++bvWxdqOgiLkspzyoHRb9JZ1rjC3Z2uoiBtDpPhpVRj0ZINatesXBtYzzY8htPF
+sozJwRUf8sGI4VrSquc5d5pHKGitFQkirSG3KmY2O/icC9VUu9Bcw1U6uqLP2+4M
+s681PfpIiC6qTil0d+uwIQVFiLuRAiqRBdrvgwpTBy7kD/ACN6IGAyJucdVQEN+D
+tAzDxafwtQzjn1qV6VEAn3Ehl7hqxS0TjNnIi6PN4Yn2UgcOwy04nOCCvOYUGlzE
+xi1NozdVIKkuwhHiqYfb3Egbu9omKZiuWJ7Fl5Cv2e8jj2/Wnc7228h73D45PNFe
+a3jOHhkrGVb+67qPDRGV0wma6kBSFAaRjXIpWVwqzvz9voe0b5G1txSMB2VUfqGE
+FKst36IoAVdSzfGgc6mFOYRwV2dqYj5eqLm9g9phY0LrS0SMFcM=
+=hpcZ
+-----END PGP SIGNATURE-----

@@ -1,0 +1,218 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: rtmpdump (2.4+20151223.gitfa8646d.1-2)
+Binary: librtmp-dev librtmp1 librtmp1-dbgsym rtmpdump rtmpdump-dbgsym
+Architecture: amd64
+Version: 2.4+20151223.gitfa8646d.1-2+b2
+Binary-Only-Changes:
+ rtmpdump (2.4+20151223.gitfa8646d.1-2+b2) sid; urgency=low, binary-only=yes
+ .
+   * Binary-only non-maintainer upload for amd64; no source changes.
+   * Rebuild against nettle 3.6
+ .
+  -- amd64 / i386 Build Daemon (x86-csail-01) <buildd_amd64-x86-csail-01@buildd.debian.org>  Wed, 15 Jul 2020 22:27:10 +0000
+Checksums-Md5:
+ e01cd0cb58984363c5c6a65aff5fcb23 69860 librtmp-dev_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ fb9fab31ed80e944dfa76d9a510397b2 120920 librtmp1-dbgsym_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ d757abb668fc1ee0d9488805bfb4371e 60824 librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ a6af6c0f2d6764ea416f2c460888b193 84320 rtmpdump-dbgsym_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ 2f025df6ca1c5e5f4643044f9a1446b5 51236 rtmpdump_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+Checksums-Sha1:
+ 710fd207ce7cb84c70fbc5ddf300e9fb4b9417f4 69860 librtmp-dev_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ ea4e0e09ea4f0b7fe81ea981b3b346cd82546b28 120920 librtmp1-dbgsym_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ 529016adaf5f7b70271308d4a50070add2c10514 60824 librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ 1953027249b709985ae994cdeb82e19cd2998d81 84320 rtmpdump-dbgsym_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ 1b4133c8b5a1aff8f1cf6bc953774361333e1168 51236 rtmpdump_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+Checksums-Sha256:
+ 39e00e93ab4a31e392f290d90f72f057c224e58aed4718cab0ec35ee134a0141 69860 librtmp-dev_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ c6e5144d059fa61682f97a9200e7bbece5f6a1f7d95a3a4da75a6385ea829c20 120920 librtmp1-dbgsym_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ e1f69020dc2c466e421ec6a58406b643be8b5c382abf0f8989011c1d3df91c87 60824 librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ 2b8b280a22d054998cf67faf488333536020a12f32913f27acf6e6d4ef9e6922 84320 rtmpdump-dbgsym_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+ 407f3f8d482ddc33b3eb237c3f0bc24ee6e118f3d8e5f721dbb6d9a67c0bec43 51236 rtmpdump_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 15 Jul 2020 22:27:24 +0000
+Build-Path: /build/rtmpdump-zkXPvx/rtmpdump-2.4+20151223.gitfa8646d.1
+Build-Tainted-By:
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.2-3),
+ autopoint (= 0.19.8.1-10),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-6),
+ binutils (= 2.34.90.20200706-1),
+ binutils-common (= 2.34.90.20200706-1),
+ binutils-x86-64-linux-gnu (= 2.34.90.20200706-1),
+ bsdextrautils (= 2.35.2-7),
+ bsdutils (= 1:2.35.2-7),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-3),
+ coreutils (= 8.32-2),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.3.0-15),
+ dash (= 0.5.10.2-7),
+ debconf (= 1.5.74),
+ debhelper (= 13.2),
+ debianutils (= 4.11),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.9.0-1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.20.5),
+ dpkg-dev (= 1.20.5),
+ dwz (= 0.13-5),
+ file (= 1:5.38-5),
+ findutils (= 4.7.0-1),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.3.0-15),
+ gcc (= 4:9.2.1-3.1),
+ gcc-10-base (= 10.1.0-6),
+ gcc-9 (= 9.3.0-15),
+ gcc-9-base (= 9.3.0-15),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-5),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.58),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-8),
+ libarchive-zip-perl (= 1.68-1),
+ libasan5 (= 9.3.0-15),
+ libatomic1 (= 10.1.0-6),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-3),
+ libaudit1 (= 1:2.8.5-3+b1),
+ libbinutils (= 2.34.90.20200706-1),
+ libblkid1 (= 2.35.2-7),
+ libbz2-1.0 (= 1.0.8-3),
+ libc-bin (= 2.31-1),
+ libc-dev-bin (= 2.31-1),
+ libc6 (= 2.31-1),
+ libc6-dev (= 2.31-1),
+ libcap-ng0 (= 0.7.9-2.2),
+ libcc1-0 (= 10.1.0-6),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.16-1),
+ libcrypt1 (= 1:4.4.16-1),
+ libctf-nobfd0 (= 2.34.90.20200706-1),
+ libctf0 (= 2.34.90.20200706-1),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.253),
+ libdebhelper-perl (= 13.2),
+ libdpkg-perl (= 1.20.5),
+ libelf1 (= 0.176-1.1),
+ libevent-2.1-7 (= 2.1.12-stable-1),
+ libffi7 (= 3.3-4),
+ libfile-stripnondeterminism-perl (= 1.9.0-1),
+ libgcc-9-dev (= 9.3.0-15),
+ libgcc-s1 (= 10.1.0-6),
+ libgcrypt20 (= 1.8.6-2),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.64.4-1),
+ libgmp-dev (= 2:6.2.0+dfsg-6),
+ libgmp10 (= 2:6.2.0+dfsg-6),
+ libgmpxx4ldbl (= 2:6.2.0+dfsg-6),
+ libgnutls-dane0 (= 3.6.14-2+b1),
+ libgnutls-openssl27 (= 3.6.14-2+b1),
+ libgnutls28-dev (= 3.6.14-2+b1),
+ libgnutls30 (= 3.6.14-2+b1),
+ libgnutlsxx28 (= 3.6.14-2+b1),
+ libgomp1 (= 10.1.0-6),
+ libgpg-error0 (= 1.38-2),
+ libhogweed6 (= 3.6-2),
+ libicu67 (= 67.1-3),
+ libidn2-0 (= 2.3.0-1),
+ libidn2-dev (= 2.3.0-1),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.1.0-6),
+ liblsan0 (= 10.1.0-6),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.38-5),
+ libmagic1 (= 1:5.38-5),
+ libmount1 (= 2.35.2-7),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnettle8 (= 3.6-2),
+ libp11-kit-dev (= 0.23.20-1),
+ libp11-kit0 (= 0.23.20-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-13),
+ libperl5.30 (= 5.30.3-4),
+ libpipeline1 (= 1.5.2-2),
+ libquadmath0 (= 10.1.0-6),
+ libseccomp2 (= 2.4.3-1+b1),
+ libselinux1 (= 3.1-1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.35.2-7),
+ libstdc++-9-dev (= 9.3.0-15),
+ libstdc++6 (= 10.1.0-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 245.6-2),
+ libtasn1-6 (= 4.16.0-2),
+ libtasn1-6-dev (= 4.16.0-2),
+ libtinfo6 (= 6.2-1),
+ libtool (= 2.4.6-14),
+ libtsan0 (= 10.1.0-6),
+ libubsan1 (= 10.1.0-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 245.6-2),
+ libunbound8 (= 1.10.1-1+b1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.35.2-7),
+ libxml2 (= 2.9.10+dfsg-5+b1),
+ linux-libc-dev (= 5.7.6-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.3-4),
+ man-db (= 2.9.3-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-1),
+ ncurses-bin (= 6.2-1),
+ nettle-dev (= 3.6-2),
+ patch (= 2.7.6-6),
+ perl (= 5.30.3-4),
+ perl-base (= 5.30.3-4),
+ perl-modules-5.30 (= 5.30.3-4),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-3),
+ tar (= 1.30+dfsg-7),
+ util-linux (= 2.35.2-7),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1594852030"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEx2qAp5XopkFU4vi16b7h29oRFCQFAl8PgtAACgkQ6b7h29oR
+FCTjoRAAk6ztiSoA5risDALfVFcA3A1zc5Fp6el4jutp2PSm1tnp02noZ3JmYkrs
+8+4ja7HaYPF1hkJ9m9si5cE+sDFlCJAYc2PoXstNYUHIfqz2v8JINQXzhKcOvOUu
+slPtB3vbEWhod1n+Jc2HQ2ZTbUBQDXFyfi5EzBaFj1cXo7BgpVOEI4v47xC+zT/H
+jzuStYus7MBtfyYbzGPF7tq+ZWHd/EEgZRYoK1es8CEuAEiyx1xWnmbIn5w3N3of
+Z0zbvgOr1m3EF6t23qSyjH+6TiRNUQtd0t5TFn6H5Wohhd45d7FR269BtpVERHTJ
+mEQgc0yB2y13vNKgoMsH1D1RgyE+6Fx72oDMlS3B6/NnMMpXsvfxdkfeaPljQWMM
+q9cwzioJlgeXH2zuuN1TLVN40csCCexhunq9sLMG99I8uixum25oEphWp6a+nrPN
+lhX9R9hCE+n8EMYvlOeuMb8JoFSVbdWyQo+Hc9ueYVHpf0tbnWChWF2ZceRg4XDx
+uj3FphG9MDlKpibi8/veBh3YgxLelqOHX1scpv9VUKJvbBwG5kYLqjiObiIlnjaa
+kCgIdze5AZcQb0f9roJ+saf1hf0LaOC3mJcXCIk3tYenVKEm/IUNU7l6VeN971yg
+1SMuo1BkaMCGJVFksSscQw5JcbKF9ysiRX4jEme79qdCZ2bS8yU=
+=mq36
+-----END PGP SIGNATURE-----

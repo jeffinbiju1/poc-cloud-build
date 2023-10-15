@@ -1,0 +1,220 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: nano
+Binary: nano nano-dbgsym nano-tiny nano-tiny-dbgsym nano-udeb
+Architecture: amd64
+Version: 5.4-2+deb11u2
+Checksums-Md5:
+ 33a061d45c8a999c91217b7cf3364850 384644 nano-dbgsym_5.4-2+deb11u2_amd64.deb
+ d786ace83d9b7c47134b26db02491ee4 85736 nano-tiny-dbgsym_5.4-2+deb11u2_amd64.deb
+ 9fc2d2cd74ba2fe40dd2e7b7c0d01189 131656 nano-tiny_5.4-2+deb11u2_amd64.deb
+ bf9dbc207e4ee15553ae86262bcada4d 31988 nano-udeb_5.4-2+deb11u2_amd64.udeb
+ fa9083be20c420b9a4b30f7539ac45d2 656900 nano_5.4-2+deb11u2_amd64.deb
+Checksums-Sha1:
+ dbbecd9b3381cadff5dda8b297232c928dcf3dfb 384644 nano-dbgsym_5.4-2+deb11u2_amd64.deb
+ 42e500737d8e9fd33a7e6210bbb584309c640d07 85736 nano-tiny-dbgsym_5.4-2+deb11u2_amd64.deb
+ 6bc6967db63fd0b596acfdd95ad74ffe0fb36d20 131656 nano-tiny_5.4-2+deb11u2_amd64.deb
+ 1e3792ae747f5a6f80f3c5d20a38190c246b4f83 31988 nano-udeb_5.4-2+deb11u2_amd64.udeb
+ db9d3c8dea3f97df7d4ea944d501b86706529ef3 656900 nano_5.4-2+deb11u2_amd64.deb
+Checksums-Sha256:
+ c1b3a9c9f4a5a62182893b39880e4df15a2b430be78560d017d7ffeb1c6b6553 384644 nano-dbgsym_5.4-2+deb11u2_amd64.deb
+ d993a17bbd42b144fa5fecc493f0d93f18405469600f0455f76ede9b5ced2773 85736 nano-tiny-dbgsym_5.4-2+deb11u2_amd64.deb
+ 1b36592fd495f556efa6d7e2ca3c02c2f2cea11add576a3f27ad3df908e834a4 131656 nano-tiny_5.4-2+deb11u2_amd64.deb
+ 14679528e3541ff1614856373320b3658a83cc671ad04f557f7bccc8fe47ae55 31988 nano-udeb_5.4-2+deb11u2_amd64.udeb
+ 0c7b43ad51b7c1fc2cb86b5fa6a2ba317a8f796881947c01fcffd425dffb1784 656900 nano_5.4-2+deb11u2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 09 Dec 2022 20:56:13 +0000
+Build-Path: /build/nano-wsTAhS/nano-5.4
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u5),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+deb11u1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8+deb11u1),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4+deb11u1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8+deb11u1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u4),
+ libc-dev-bin (= 2.31-13+deb11u4),
+ libc6 (= 2.31-13+deb11u4),
+ libc6-dev (= 2.31-13+deb11u4),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.12),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u2),
+ libicu67 (= 67.1-7),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-6+deb11u2),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6+deb11u2),
+ libkrb5support0 (= 1.18.3-6+deb11u2),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2.1~deb11u1),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-8+deb11u1),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libncurses-dev (= 6.2+20201114-2),
+ libncurses5-dev (= 6.2+20201114-2),
+ libncurses6 (= 6.2+20201114-2),
+ libncursesw6 (= 6.2+20201114-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libpng-dev (= 1.6.37-3),
+ libpng16-16 (= 1.6.37-3),
+ libquadmath0 (= 10.2.1-6),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libslang2 (= 2.3.2-5),
+ libslang2-dev (= 2.3.2-5),
+ libsmartcols1 (= 2.36.1-8+deb11u1),
+ libssl1.1 (= 1.1.1n-0+deb11u3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-7+deb11u1),
+ libtext-unidecode-perl (= 1.30-1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1+deb11u1),
+ libtirpc-dev (= 1.3.1-1+deb11u1),
+ libtirpc3 (= 1.3.1-1+deb11u1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-7+deb11u1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8+deb11u1),
+ libxml-libxml-perl (= 2.0134+dfsg-2+b1),
+ libxml-namespacesupport-perl (= 1.12-1.1),
+ libxml-sax-base-perl (= 1.09-1.1),
+ libxml-sax-perl (= 1.02+dfsg-1),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.140-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-7+deb11u1),
+ tar (= 1.34+dfsg-1),
+ tex-common (= 6.16),
+ texinfo (= 6.7.0.dfsg.2-6),
+ ucf (= 3.0043),
+ util-linux (= 2.36.1-8+deb11u1),
+ xz-utils (= 5.2.5-2.1~deb11u1),
+ zlib1g (= 1:1.2.11.dfsg-2+deb11u2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2+deb11u2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1669986408"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHWxRmfLuR591d5l2LWlxuzKfiVUFAmOToPAACgkQLWlxuzKf
+iVV6YRAArjbzjlmqxXbjYLK3rlsNedwMPw6J8Ie/htlwosFgPkVRjecmyZn0WC/I
+m9q8Wlp55RkVkRJu62rTup5lh4s2wfHL1hR5CVqKhhk1QpAa3xFhcDohaahfZ/qV
+x+T5ozYvqELHX3Mg4TmGweSMNqztU50RanfgGjAJMwl7mINRCa7sM5jrjeKxq4Ga
+VtRSaoXHSOsUULZxXABh/tT6NNXfXuXqNAmw0eVtRWks0UOrg6gPt79s3sviqFYn
+lz1IjsX7hGsdc8ixJXAgkahpjGU1cfo3F8MM2kHLO3xkvzhQWh7DJeWjrrPO/4Tc
+hrzIRC0RQC3/bWtEDvb3zk9b5wQxQUB4iZTH2PhT3sc0RwAQeDDk3mYt9rUWszSh
+1Kyz1GjxbtNUn2rrE47r+SLZJxoZqDli/mjc4rz9jQysm0+2bgJbMRHP3iYgRmCf
+klGgjWQ4QXevMM6GlUcgW3O5CmnCByM3CN3sCh9Erhld8mesTy3SPmYOVO67UqqX
+okVPjAaG18CiFs0Q4lyuXTAVprZKq6WjAL4ojYReHMw/UqbCWmrFZvyVbuc8/ng6
+r/mD+dm+JWNxy4yELZHLh5Xpn97Nc1mxJjYgUCL1MnOJs78fDtKthYkH54UPJ/qZ
+CR+n4WdmK6q6z24EVPjcL8A1xHlT3KctCI88YlYSrNSL1j8uHzU=
+=Ltq4
+-----END PGP SIGNATURE-----

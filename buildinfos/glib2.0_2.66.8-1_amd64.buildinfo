@@ -1,0 +1,307 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: glib2.0
+Binary: libglib2.0-0 libglib2.0-0-dbgsym libglib2.0-bin libglib2.0-bin-dbgsym libglib2.0-dev libglib2.0-dev-bin libglib2.0-dev-bin-dbgsym libglib2.0-tests libglib2.0-tests-dbgsym libglib2.0-udeb
+Architecture: amd64
+Version: 2.66.8-1
+Checksums-Md5:
+ ac6e2d823e971c8ba337a68f5c499757 3879516 libglib2.0-0-dbgsym_2.66.8-1_amd64.deb
+ 298cee123af4f3c2762fc657916e0268 1370464 libglib2.0-0_2.66.8-1_amd64.deb
+ dfe159cffff7b8f67fb019786138d522 135848 libglib2.0-bin-dbgsym_2.66.8-1_amd64.deb
+ 0acd434b805092b326eb51300fab550a 140628 libglib2.0-bin_2.66.8-1_amd64.deb
+ 8ac8ab0a5730f9c2cc2f65d672a370d4 59236 libglib2.0-dev-bin-dbgsym_2.66.8-1_amd64.deb
+ 0622d1612f485586864a836063aaaa6b 178760 libglib2.0-dev-bin_2.66.8-1_amd64.deb
+ 2709f1483ec195e4a1da10f75c6b5861 1577084 libglib2.0-dev_2.66.8-1_amd64.deb
+ 4472d612d3f023289e227f17adcaf5e6 4042256 libglib2.0-tests-dbgsym_2.66.8-1_amd64.deb
+ 18493d2a76f612abb93e7728fc95daf0 1576860 libglib2.0-tests_2.66.8-1_amd64.deb
+ d220d2b55dba23a36c96753357d6c1e2 2163544 libglib2.0-udeb_2.66.8-1_amd64.udeb
+Checksums-Sha1:
+ 429fa4ecabd44f67240745ab367854de22c979bf 3879516 libglib2.0-0-dbgsym_2.66.8-1_amd64.deb
+ b03f6b5cdcfafa6a12c9d9486f303e848ff93433 1370464 libglib2.0-0_2.66.8-1_amd64.deb
+ c0958640d85ba6c8638b686129f249d7a8bd2577 135848 libglib2.0-bin-dbgsym_2.66.8-1_amd64.deb
+ ee401613a9bb8b59ddcac76449c40faa23879dfa 140628 libglib2.0-bin_2.66.8-1_amd64.deb
+ 8881be46dbbac45bceda76066d84129e24bf4beb 59236 libglib2.0-dev-bin-dbgsym_2.66.8-1_amd64.deb
+ 6ac8ccbde6fc7b1f37370382aca79d017fad669b 178760 libglib2.0-dev-bin_2.66.8-1_amd64.deb
+ cce6fddfc17e9b511858bf27a162b5f9338bec33 1577084 libglib2.0-dev_2.66.8-1_amd64.deb
+ 4453ed3e2c13de99f5f2f2d9245190f8b5043ef7 4042256 libglib2.0-tests-dbgsym_2.66.8-1_amd64.deb
+ b6504778b3c60029a32a62dbc90def7bc6257f83 1576860 libglib2.0-tests_2.66.8-1_amd64.deb
+ d3cc66c7fcd72cbf53976c3e694528c34c21176e 2163544 libglib2.0-udeb_2.66.8-1_amd64.udeb
+Checksums-Sha256:
+ e9ba4220033f47aff19274a3ac1a47d224b13aa0f0eab43a047ba8b85ed8a217 3879516 libglib2.0-0-dbgsym_2.66.8-1_amd64.deb
+ 995469490dcc8f667df8051a39dd5abd7149d849456c28af4e58cbfd6d6dc4f8 1370464 libglib2.0-0_2.66.8-1_amd64.deb
+ ea7f200394c392f8962d5351afd34c090c954c6019166387df9a4689aaf6e335 135848 libglib2.0-bin-dbgsym_2.66.8-1_amd64.deb
+ 5adf4c916832ad4203fed68faacd4552361cbccc22f66f4504a7ad6fc955bddd 140628 libglib2.0-bin_2.66.8-1_amd64.deb
+ 04037a8cdb22a6f27c9444a29bc04c7c83c5fb362e272c0910eaab2fbe2c92fa 59236 libglib2.0-dev-bin-dbgsym_2.66.8-1_amd64.deb
+ 2dbca7691d2b43545d7a89bafb4cc92a5e42c68085fa4d8989e74b1f5250f9c6 178760 libglib2.0-dev-bin_2.66.8-1_amd64.deb
+ 782fcfd549266048309b8da556377c16445bafe9f0aec31d9f246ac9b736d2aa 1577084 libglib2.0-dev_2.66.8-1_amd64.deb
+ 997bd8e6f68d4c133e5b8af8c996e30e3e30b43d39dbecd8b10d007942f3e830 4042256 libglib2.0-tests-dbgsym_2.66.8-1_amd64.deb
+ 24035732a4b07bad73d8bb773f97e0c2d3a9816b501229e78ad1d872e1e30206 1576860 libglib2.0-tests_2.66.8-1_amd64.deb
+ 9b0691b21f1029aa98b060f9bf69337eef0f35d5a9b6482a734b5c1d47d3f9a4 2163544 libglib2.0-udeb_2.66.8-1_amd64.udeb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 21 Mar 2021 18:48:23 +0000
+Build-Path: /build/glib2.0-9iBTj1/glib2.0-2.66.8
+Installed-Build-Depends:
+ adduser (= 3.118),
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.49),
+ bash (= 5.1-2+b1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20210120+802ebd4-1),
+ dbus (= 1.12.20-2),
+ debconf (= 1.5.75),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ desktop-file-utils (= 0.26-1),
+ dh-autoreconf (= 20),
+ dh-exec (= 0.23.3),
+ dh-python (= 4.20201102+nmu1),
+ dh-strip-nondeterminism (= 1.11.0-1),
+ diffutils (= 1:3.7-5),
+ docbook-xml (= 4.5-9),
+ docbook-xsl (= 1.79.2+dfsg-1),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.14-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ fontconfig-config (= 2.13.1-4.2),
+ fonts-dejavu-core (= 2.37-2),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ gir1.2-glib-2.0 (= 1.66.1-1+b1),
+ gnome-pkg-tools (= 0.21.2),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libapparmor1 (= 2.13.6-9),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid-dev (= 2.36.1-7),
+ libblkid1 (= 2.36.1-7),
+ libbrotli1 (= 1.0.9-2+b2),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-1),
+ libcrypt-dev (= 1:4.4.18-1),
+ libcrypt1 (= 1:4.4.18-1),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdbus-1-3 (= 1.12.20-2),
+ libdbus-1-dev (= 1.12.20-2),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.7.1),
+ libelf-dev (= 0.183-3),
+ libelf1 (= 0.183-3),
+ libexpat1 (= 2.2.10-2),
+ libffi-dev (= 3.3-6),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.11.0-1),
+ libfontconfig1 (= 2.13.1-4.2),
+ libfreetype6 (= 2.10.4+dfsg-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-3),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libgirepository-1.0-1 (= 1.66.1-1+b1),
+ libglib2.0-0 (= 2.66.7-2),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libice6 (= 2:1.0.10-1),
+ libicu67 (= 67.1-6),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-2),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmd0 (= 1.0.3-3),
+ libmount-dev (= 2.36.1-7),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-1),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-7),
+ libpam-modules-bin (= 1.4.0-7),
+ libpam-runtime (= 1.4.0-7),
+ libpam0g (= 1.4.0-7),
+ libpcre16-3 (= 2:8.39-13),
+ libpcre2-16-0 (= 10.36-2),
+ libpcre2-32-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre2-dev (= 10.36-2),
+ libpcre2-posix2 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libpcre3-dev (= 2:8.39-13),
+ libpcre32-3 (= 2:8.39-13),
+ libpcrecpp0v5 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-3),
+ libpipeline1 (= 1.5.3-1),
+ libpng16-16 (= 1.6.37-3),
+ libpython3-stdlib (= 3.9.2-2),
+ libpython3.9-minimal (= 3.9.2-1),
+ libpython3.9-stdlib (= 3.9.2-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libselinux1-dev (= 3.1-3),
+ libsemanage-common (= 3.1-1),
+ libsemanage1 (= 3.1-1+b2),
+ libsepol1 (= 3.1-1),
+ libsepol1-dev (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsm6 (= 2:1.2.3-1),
+ libsmartcols1 (= 2.36.1-7),
+ libsqlite3-0 (= 3.34.1-3),
+ libssl1.1 (= 1.1.1j-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-3),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-3),
+ libunistring2 (= 0.9.10-4),
+ libutempter0 (= 1.2.1-2),
+ libuuid1 (= 2.36.1-7),
+ libx11-6 (= 2:1.7.0-2),
+ libx11-data (= 2:1.7.0-2),
+ libxau6 (= 1:1.0.9-1),
+ libxaw7 (= 2:1.0.13-1.1),
+ libxcb1 (= 1.14-3),
+ libxdmcp6 (= 1:1.1.2-3),
+ libxext6 (= 2:1.3.3-1.1),
+ libxft2 (= 2.3.2-2),
+ libxinerama1 (= 2:1.1.4-2),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libxml2-utils (= 2.9.10+dfsg-6.3+b1),
+ libxmu6 (= 2:1.1.2-2+b3),
+ libxpm4 (= 1:3.5.12-1),
+ libxrender1 (= 1:0.9.10-1),
+ libxslt1.1 (= 1.1.34-4),
+ libxt6 (= 1:1.2.0-1),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.19-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ meson (= 0.57.0+really0.56.2-0.1),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ ninja-build (= 1.10.1-1),
+ passwd (= 1:4.8.1-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-3),
+ perl-base (= 5.32.1-3),
+ perl-modules-5.32 (= 5.32.1-3),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ python3 (= 3.9.2-2),
+ python3-dbus (= 1.2.16-5),
+ python3-distutils (= 3.9.2-1),
+ python3-gi (= 3.38.0-2),
+ python3-lib2to3 (= 3.9.2-1),
+ python3-minimal (= 3.9.2-2),
+ python3-pkg-resources (= 52.0.0-3),
+ python3.9 (= 3.9.2-1),
+ python3.9-minimal (= 3.9.2-1),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sgml-data (= 2.0.11+nmu1),
+ shared-mime-info (= 2.0-1),
+ sysvinit-utils (= 2.96-6),
+ tar (= 1.34+dfsg-1),
+ tzdata (= 2021a-1),
+ ucf (= 3.0043),
+ util-linux (= 2.36.1-7),
+ uuid-dev (= 2.36.1-7),
+ x11-common (= 1:7.7+22),
+ xbitmaps (= 1.1.1-2.1),
+ xml-core (= 0.18+nmu1),
+ xsltproc (= 1.1.34-4),
+ xterm (= 366-1),
+ xz-utils (= 5.2.5-2),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1616254519"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEo33KWLLUve5CxgHZGOxRpKJm/V0FAmBXlP4ACgkQGOxRpKJm
+/V0ZzQ//QAql/1p7ImfXw9H7s9QGBDY7AbhXxiQopkgVYYDME+v03XcbHFIC5ESP
+szwnd4utwqB7iZ8oeevYiNxo1OFRKR7xpKQifs33YND24ReyXWYS5JYBMPvlKwM9
+PkY31xZBmASZ1n0+zcigi+RD2T5ULtv6N7yZ54DLp/kNOse960/JWHMU14aOenN1
++8jLOabPoAT+S4N/rU9syoVqa72wQURaIDnRQn2+IkQL7IcQ6pzRaUZGQB434XRm
+mvMCK2r152CSQq1IBi+PYsqmzkCb5KD4FtDWBwVPha4oYUwzbBusZV8+v1sh2MoQ
+avAzl+C4mT595K/lVK62yHEHl79TiKd4cpjXo2NgJBmNMdzp8e8CH7ixx5AQTxoM
+dIEO/lqWN4yUSNpB5FJdv6rbyxffRCqYeseIrKy9Fi6RMB8CXORDFht17qLx6myg
+8yAP+NO7Fbd9oqQt3uACnjqxI0XiV+afqc+x8yrA4rmuaf5b2n0Xwtt2oWj+mw4h
+Hqwn1FBdf9O7PDC7NhkB9RvevJHwZng9XCY52by9vWAaPXPmbm9DIRyu4j/oRiq1
+XSZKnmTJjTuuMpeFVYbqWfg83zmiU7TseuFWntRzn7rovOYOmHqD4qssj5HRNtcz
+FAGyXZCpm7zNbWoEif+1jgUdcRvGHwCtHkih4fJVxYw+Hd48HAc=
+=xo70
+-----END PGP SIGNATURE-----

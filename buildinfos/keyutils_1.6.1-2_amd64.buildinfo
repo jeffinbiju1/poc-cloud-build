@@ -1,0 +1,213 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: keyutils
+Binary: keyutils libkeyutils1 libkeyutils-dev
+Architecture: amd64
+Version: 1.6.1-2
+Checksums-Md5:
+ 2089948b26d409cf523ee80b1cf79cdc 64496 keyutils-dbgsym_1.6.1-2_amd64.deb
+ 635f72c3cfeff3bb4551ad205b595955 52812 keyutils_1.6.1-2_amd64.deb
+ 05cbe249fdf48e0059b5387fda93cc78 52876 libkeyutils-dev_1.6.1-2_amd64.deb
+ 48b3d4c208b40d2a78b5d89d25a6ce01 15004 libkeyutils1-dbgsym_1.6.1-2_amd64.deb
+ bb188eb33c83eb9e7563089313ea1321 15444 libkeyutils1_1.6.1-2_amd64.deb
+Checksums-Sha1:
+ 86d6ab9d5ed54cb8804c0ce8c7e4e1169136a129 64496 keyutils-dbgsym_1.6.1-2_amd64.deb
+ 5459374b6902d949d5d257a081e12af7517ddd36 52812 keyutils_1.6.1-2_amd64.deb
+ f8bb50f1f8294f55c1981a50c10e7d3c20516935 52876 libkeyutils-dev_1.6.1-2_amd64.deb
+ 226e66d8eaeaaee9ce1a8cd213c4c9a07c41a531 15004 libkeyutils1-dbgsym_1.6.1-2_amd64.deb
+ 02835c832badc9faa0de150928432d55559d7797 15444 libkeyutils1_1.6.1-2_amd64.deb
+Checksums-Sha256:
+ a56fc7b79da04ba9c2596c89b956b1b7645ab3ce8f2bbef7f2661a1b7941756a 64496 keyutils-dbgsym_1.6.1-2_amd64.deb
+ d446262eef6718cce886a8ef13c485a5bce49f58d0b07bd6c22b6f9f5790d349 52812 keyutils_1.6.1-2_amd64.deb
+ d8da1355589e0eabb0498fb32302f081a0b7879224310f9be8a6bf41ad81dfed 52876 libkeyutils-dev_1.6.1-2_amd64.deb
+ e6e99f0712c0de95207e61ef7582d4693731bc50ecd6fa52101889e81de1a9c3 15004 libkeyutils1-dbgsym_1.6.1-2_amd64.deb
+ f01060b434d8cad3c58d5811d2082389f11b3db8152657d6c22c1d298953f2a5 15444 libkeyutils1_1.6.1-2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Mon, 10 Feb 2020 17:04:32 +0000
+Build-Path: /build/keyutils-1FlVd5/keyutils-1.6.1
+Build-Tainted-By:
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-10),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-5),
+ binutils (= 2.34-2),
+ binutils-common (= 2.34-2),
+ binutils-x86-64-linux-gnu (= 2.34-2),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.34-0.1),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-2),
+ coreutils (= 8.30-3+b1),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.2.1-28),
+ dash (= 0.5.10.2-6),
+ debconf (= 1.5.73),
+ debhelper (= 12.9),
+ debianutils (= 4.9.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.6.3-2),
+ diffutils (= 1:3.7-3),
+ distro-info-data (= 0.43),
+ dpkg (= 1.19.7),
+ dpkg-dev (= 1.19.7),
+ dwz (= 0.13-5),
+ fdisk (= 2.34-0.1),
+ file (= 1:5.38-4),
+ findutils (= 4.7.0-1),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.2.1-28),
+ gcc (= 4:9.2.1-3.1),
+ gcc-10-base (= 10-20200204-1),
+ gcc-9 (= 9.2.1-28),
+ gcc-9-base (= 9.2.1-28),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-4),
+ gzip (= 1.9-3+b1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.57),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-5),
+ libarchive-zip-perl (= 1.67-1),
+ libasan5 (= 9.2.1-28),
+ libatomic1 (= 10-20200204-1),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-2),
+ libaudit1 (= 1:2.8.5-2+b1),
+ libbinutils (= 2.34-2),
+ libblkid1 (= 2.34-0.1),
+ libbsd0 (= 0.10.0-1),
+ libbz2-1.0 (= 1.0.8-2),
+ libc-bin (= 2.29-10),
+ libc-dev-bin (= 2.29-10),
+ libc6 (= 2.29-10),
+ libc6-dev (= 2.29-10),
+ libcap-ng0 (= 0.7.9-2.1+b1),
+ libcc1-0 (= 10-20200204-1),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.10-10),
+ libcrypt1 (= 1:4.4.10-10),
+ libctf-nobfd0 (= 2.34-2),
+ libctf0 (= 2.34-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.251),
+ libdebhelper-perl (= 12.9),
+ libdpkg-perl (= 1.19.7),
+ libelf1 (= 0.176-1.1),
+ libexpat1 (= 2.2.9-1),
+ libfdisk1 (= 2.34-0.1),
+ libffi7 (= 3.3-3),
+ libfile-stripnondeterminism-perl (= 1.6.3-2),
+ libgcc-9-dev (= 9.2.1-28),
+ libgcc-s1 (= 10-20200204-1),
+ libgcc1 (= 1:10-20200204-1),
+ libgcrypt20 (= 1.8.5-3),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.62.4-2),
+ libgmp10 (= 2:6.2.0+dfsg-3),
+ libgomp1 (= 10-20200204-1),
+ libgpg-error0 (= 1.36-7),
+ libicu63 (= 63.2-2),
+ libisl22 (= 0.22-2),
+ libitm1 (= 10-20200204-1),
+ liblsan0 (= 10-20200204-1),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.38-4),
+ libmagic1 (= 1:5.38-4),
+ libmount1 (= 2.34-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpdec2 (= 2.4.2-2),
+ libmpfr6 (= 4.0.2-1),
+ libncursesw6 (= 6.1+20191019-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-12+b1),
+ libperl5.30 (= 5.30.0-9),
+ libpipeline1 (= 1.5.2-2),
+ libpython3-stdlib (= 3.7.5-3),
+ libpython3.7-minimal (= 3.7.6-1+b1),
+ libpython3.7-stdlib (= 3.7.6-1+b1),
+ libquadmath0 (= 10-20200204-1),
+ libreadline8 (= 8.0-3),
+ libseccomp2 (= 2.4.2-2),
+ libselinux1 (= 3.0-1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.34-0.1),
+ libsqlite3-0 (= 3.31.1-2),
+ libssl1.1 (= 1.1.1d-2),
+ libstdc++-9-dev (= 9.2.1-28),
+ libstdc++6 (= 10-20200204-1),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 244.2-1),
+ libtinfo6 (= 6.1+20191019-1),
+ libtool (= 2.4.6-12),
+ libtsan0 (= 10-20200204-1),
+ libubsan1 (= 10-20200204-1),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 244.2-1),
+ libunistring2 (= 0.9.10-2),
+ libuuid1 (= 2.34-0.1),
+ libxml2 (= 2.9.4+dfsg1-8),
+ linux-libc-dev (= 5.4.13-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ lsb-release (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.2.1-1.2),
+ man-db (= 2.9.0-2),
+ mawk (= 1.3.4.20200120-1),
+ mime-support (= 3.64),
+ ncurses-base (= 6.1+20191019-1),
+ ncurses-bin (= 6.1+20191019-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.0-9),
+ perl-base (= 5.30.0-9),
+ perl-modules-5.30 (= 5.30.0-9),
+ po-debconf (= 1.0.21),
+ python3 (= 3.7.5-3),
+ python3-minimal (= 3.7.5-3),
+ python3.7 (= 3.7.6-1+b1),
+ python3.7-minimal (= 3.7.6-1+b1),
+ readline-common (= 8.0-3),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-2.1),
+ tar (= 1.30+dfsg-6+b1),
+ util-linux (= 2.34-0.1),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-1.2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1581351816"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEx2qAp5XopkFU4vi16b7h29oRFCQFAl5BjSMACgkQ6b7h29oR
+FCSaaQ/+JXaLzFVbxG8pbmziJxa0116CemUUUJp6fJ0/Smi1JmhYFNr0GLibPkSh
+3igK8KabDgNEK84OLzxn92PIO/147WcuOQBZZi53kkYBfeKYTYoA8vi6PT0DOWwj
+mW3eJi85j1UIoKrvrzSui3bppsWUllPIFHRwfBos9nvUINKhaGyWwLEcoH1tMhRr
+luQTDg9Z9iudgBP2Ts98JfMF8UFQTemMAivvVccrU7KEB2Cp/+VAqUJcJxUQhR1E
+WoIAzg8RSswymar2UPiZhsS9Y8nzRR+9dbnogXcF/dfCbizDEbd0EY0sjHJo/2TZ
+/PrIDmzeg/iF5WuAriXrQKBMfvmhMbdIb5kuItE4xPLEuPwMvVDGaCN7X9RNrmEt
+fKeOXu0PzIzNMl9VezU3HfemhSzwrX1wRU7uBHI30Beqlj5DwX8b8AaJBXmhz6dP
+aZFUvW1AqqpUaXJvS9eIBSWssE9QVgFlAknfr6dv6hGjU600Z/HHRm3Vg/1K+/os
+7z7lf6LHfXPd3YcYjm2V8iw1CMKo8yXf85qCwqn75DhsByvZWjqERD7Kjx6+xQNs
+yY5pDepaZHuAxFn4teBCvdulzyej0tx1JjYTT3+3s5ayHHXOxAcLxXVBNCHkgBeD
+K0ie021jdqqKIQiykL/Uo5XquAXczciCentj7uXcGaPmRbH5SEw=
+=5Ofy
+-----END PGP SIGNATURE-----

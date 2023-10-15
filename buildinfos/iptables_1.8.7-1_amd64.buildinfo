@@ -1,0 +1,239 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: iptables
+Binary: iptables iptables-dbgsym libip4tc-dev libip4tc2 libip4tc2-dbgsym libip6tc-dev libip6tc2 libip6tc2-dbgsym libiptc-dev libiptc0 libxtables-dev libxtables12 libxtables12-dbgsym
+Architecture: amd64
+Version: 1.8.7-1
+Checksums-Md5:
+ 250e8080924c2629082d61536d4be209 947968 iptables-dbgsym_1.8.7-1_amd64.deb
+ 87710cf943a69cb5d2877f366397eaf5 382476 iptables_1.8.7-1_amd64.deb
+ 2b41ebaf5d0017e816e167694ac5ee13 25068 libip4tc-dev_1.8.7-1_amd64.deb
+ 4b222e03cd8169894d2ccae1a893a94f 40552 libip4tc2-dbgsym_1.8.7-1_amd64.deb
+ 1d40a2caba523e29e4f8ac54664f2873 34640 libip4tc2_1.8.7-1_amd64.deb
+ dcbbabd978d205ebb61753403a949a8d 24392 libip6tc-dev_1.8.7-1_amd64.deb
+ 8bd260a0044ff8d31739beeeaf028a69 41424 libip6tc2-dbgsym_1.8.7-1_amd64.deb
+ 8939875d34da6d6d60aebdab2dfbf450 35016 libip6tc2_1.8.7-1_amd64.deb
+ afc24d3d228d31f5864e91d81375d1c6 22908 libiptc-dev_1.8.7-1_amd64.deb
+ 81987c0375d092478e943d3c6d2a6586 22528 libiptc0_1.8.7-1_amd64.deb
+ 63a0bbb9bb7ee2e97dd2ba4e09bc6bca 28340 libxtables-dev_1.8.7-1_amd64.deb
+ a8f5b6b2ba1afea5254c7c74128660d5 65308 libxtables12-dbgsym_1.8.7-1_amd64.deb
+ 38fb2553ac0fadc0e7981937b463a0ed 45052 libxtables12_1.8.7-1_amd64.deb
+Checksums-Sha1:
+ 2b991fabc9c4c74edc062caf8f9df9e11a3a40ad 947968 iptables-dbgsym_1.8.7-1_amd64.deb
+ 7c738419dba2a69c7393c6e265ac6e98414c264d 382476 iptables_1.8.7-1_amd64.deb
+ 9ff8cc1aea44059361369f91a2ff778063835410 25068 libip4tc-dev_1.8.7-1_amd64.deb
+ b7139d7bf681b5d56f18b398e32d04f854a80574 40552 libip4tc2-dbgsym_1.8.7-1_amd64.deb
+ a4e59fda9d5e27b720167be6e9882194c6ca1fd0 34640 libip4tc2_1.8.7-1_amd64.deb
+ 5b0868ddc3476566e8f02d11a00b2df77c9cc046 24392 libip6tc-dev_1.8.7-1_amd64.deb
+ e1ecf57b589275b589fc1dbca822c84a1669ba34 41424 libip6tc2-dbgsym_1.8.7-1_amd64.deb
+ 6840409094ee46a1a2630c0b764b0e92f213d405 35016 libip6tc2_1.8.7-1_amd64.deb
+ 852f3e6a01c14905a0423ba9bb3bce920bae9cd7 22908 libiptc-dev_1.8.7-1_amd64.deb
+ 7e17a6f1425a2e99275d3dca7f5d68779de08f1c 22528 libiptc0_1.8.7-1_amd64.deb
+ 81daf4625cc04bc25ed860ecc6ab0ea7b087dd69 28340 libxtables-dev_1.8.7-1_amd64.deb
+ b68e40276fd60d89fff558192359b9c0d16d8862 65308 libxtables12-dbgsym_1.8.7-1_amd64.deb
+ 2c86c8092aa27c61c4c3a78ee786b5330002c844 45052 libxtables12_1.8.7-1_amd64.deb
+Checksums-Sha256:
+ 7192c5a2db263827b216986a8d99b3ac818988aa80d5e906d10679dfada9fac3 947968 iptables-dbgsym_1.8.7-1_amd64.deb
+ 4f971e44b8157ede6367d794fe183a8e39957990d1971d4004de58c91a830356 382476 iptables_1.8.7-1_amd64.deb
+ d8ff0cdc9bc1b33e1fcb2abc8bc4d6aad2a704cfe58c5552c5b8286a02ae85ad 25068 libip4tc-dev_1.8.7-1_amd64.deb
+ b7d0726d0efeb32efcd83d299a102caaabaafdea18ed490f7034f7956fd60770 40552 libip4tc2-dbgsym_1.8.7-1_amd64.deb
+ 7adeb63d9a350794b8234082082608d1b81097f5b177a9d16c28b72584c4f527 34640 libip4tc2_1.8.7-1_amd64.deb
+ 215cd286b019230db7f3800dc046595f3a509db726ed535cab3ab8608576b1b4 24392 libip6tc-dev_1.8.7-1_amd64.deb
+ 3064c2b05067b3f8f0855c6f0fd177001cde56822f61150fe6f02f4d94919aaf 41424 libip6tc2-dbgsym_1.8.7-1_amd64.deb
+ f6756882ae06fc61d7af02b3665893f53721590b87be338477ec8d8c99e17732 35016 libip6tc2_1.8.7-1_amd64.deb
+ 3f9d4fa528b1a3e2601ea8d7c06fe8118f6a0394f85bc903d443a370fb9c8204 22908 libiptc-dev_1.8.7-1_amd64.deb
+ 491132a252b8725869681b969dd6d1b107b0a38126cb3642e464fa437e2fc411 22528 libiptc0_1.8.7-1_amd64.deb
+ 4e50d6c0687ff893f213889879ac29e9262dae237ac4ec48efcf16b2ede57944 28340 libxtables-dev_1.8.7-1_amd64.deb
+ 4f6980220b9490cb8422610232b99d196b2325e357f03e4dd64ed27f5db9df01 65308 libxtables12-dbgsym_1.8.7-1_amd64.deb
+ 9702a4be6f267b58c8fc1cfa0747bbefccb8b9a9af2a3547535533fbf2a7c14d 45052 libxtables12_1.8.7-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 17 Jan 2021 18:06:33 +0000
+Build-Path: /build/iptables-PqVmUw/iptables-1.8.7
+Build-Tainted-By:
+ merged-usr-via-aliased-dirs
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-3),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.48),
+ bash (= 5.1-2),
+ binutils (= 2.35.1-7),
+ binutils-common (= 2.35.1-7),
+ binutils-x86-64-linux-gnu (= 2.35.1-7),
+ bison (= 2:3.7.4+dfsg-1),
+ bsdextrautils (= 2.36.1-5),
+ bsdutils (= 1:2.36.1-5),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.74),
+ debhelper (= 13.3.1),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.9.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20201015-2),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ flex (= 2.6.4-8),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-3),
+ gettext-base (= 0.21-3),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-5),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-9),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.1-7),
+ libblkid1 (= 2.36.1-5),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.45.6-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.1-7),
+ libctf0 (= 2.35.1-7),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.1),
+ libdpkg-perl (= 1.20.7.1),
+ libelf1 (= 0.182-3),
+ libffi7 (= 3.3-5),
+ libfile-stripnondeterminism-perl (= 1.9.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-2),
+ libgdbm-compat4 (= 1.19-1),
+ libgdbm6 (= 1.19-1),
+ libglib2.0-0 (= 2.66.4-1),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libicu67 (= 67.1-6),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmnl-dev (= 1.0.4-3),
+ libmnl0 (= 1.0.4-3),
+ libmount1 (= 2.36.1-5),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnetfilter-conntrack-dev (= 1.0.8-1),
+ libnetfilter-conntrack3 (= 1.0.8-1),
+ libnfnetlink-dev (= 1.0.1-3+b1),
+ libnfnetlink0 (= 1.0.1-3+b1),
+ libnftnl-dev (= 1.1.8-2),
+ libnftnl11 (= 1.1.8-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-2),
+ libpam-modules-bin (= 1.4.0-2),
+ libpam-runtime (= 1.4.0-2),
+ libpam0g (= 1.4.0-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.0-6),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-2+b2),
+ libsigsegv2 (= 2.12-3),
+ libsmartcols1 (= 2.36.1-5),
+ libssl1.1 (= 1.1.1i-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.2-4),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.2-4),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-5),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libzstd1 (= 1.4.8+dfsg-1),
+ linux-libc-dev (= 5.10.5-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.3-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.0-6),
+ perl-base (= 5.32.0-6),
+ perl-modules-5.32 (= 5.32.0-6),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.32+dfsg-1),
+ util-linux (= 2.36.1-5),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="C.UTF-8"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1610906722"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE3ZhhqyPcMzOJLgepaOcTmB0VFfgFAmAEfPQACgkQaOcTmB0V
+FfiXFg/9FQbM7LycoDbneYwqwnBdkWo+mlink1sIMMgD9aCdlPorpYswl+BoiFdO
+9bSkuU2bKof4NGfMXo+x8qdrXATCqdLWecSVeRRMhRB8uPey0yXr+GyANJ5f21nB
+5aSYvHyTh2hU4McY87M1SFz4awxhZOHH0XyzwnAFLTqnPk/96H0FHKKRzPo2ACgI
+uLWhQJu378Bi7k/W6UYXoJVZULmDaaa3Y8gjHn3BdIw7TXr5ZlMquQ8GTJLWPdDg
+SzL6xgUdek+TsJOnA2rZKDQF33eIM7LjMBcQfovK5v3PNgTsXrrdH6cRao4HoBWD
+GBzYAXYQ1IJosRHEKz6oUME6FCQ7ynnUkUWQzPTiFaRXro+1MKVmnKpjeGdR1erb
+qK7iO7Xfh0YHHO68kBIPu5f358AKu5bKj2DJsVR6n4xTeMggqUZpCWqQSz6/OGdy
+6bFHj70sPUZCDdUDaytBFW8t9PWh4c0ZGwyhiJwdoL4PgFK8PEdwwcKktMGBWROj
+lEI+Dzg/u/ukaVlTLilGiHDfFht66c9H0Ns4i65gnPDzdhLvZwcQPzW8wpDEti7W
+cArBIfKudX97LhGn+UruROJ9j4jfXPMZ7Ol4MRcg05leCQH8lcf2yX1PtHS1ZYxt
+h+V2EjDpEW3W7Seh5PnwHDaUH7GkywV+RqNeOjdM4iHur89SO24=
+=hBJz
+-----END PGP SIGNATURE-----

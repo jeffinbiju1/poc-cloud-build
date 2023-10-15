@@ -1,0 +1,163 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: cpio
+Binary: cpio
+Architecture: amd64
+Version: 2.13+dfsg-4
+Checksums-Md5:
+ 7ba8db2514c84d9e27fb636cf02fb4fa 244144 cpio_2.13+dfsg-4_amd64.deb
+Checksums-Sha1:
+ 708ed58ce9bc0b23ba452f9435f6da6d9fe2ba57 244144 cpio_2.13+dfsg-4_amd64.deb
+Checksums-Sha256:
+ 34071be88dae063892af8818eec2532a19b4ea09c45efd4e9973de4c4d88ccb7 244144 cpio_2.13+dfsg-4_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Thu, 17 Sep 2020 16:14:36 +0000
+Build-Path: /build/cpio-BuDb67/cpio-2.13+dfsg
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-7),
+ binutils (= 2.35-3),
+ binutils-common (= 2.35-3),
+ binutils-x86-64-linux-gnu (= 2.35-3),
+ bsdutils (= 1:2.36-3),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-3),
+ cpp (= 4:10.1.0-1),
+ cpp-10 (= 10.2.0-8),
+ dash (= 0.5.10.2-7),
+ debconf (= 1.5.74),
+ debianutils (= 4.11.1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.20.5),
+ dpkg-dev (= 1.20.5),
+ findutils (= 4.7.0-1),
+ g++ (= 4:10.1.0-1),
+ g++-10 (= 10.2.0-8),
+ gcc (= 4:10.1.0-1),
+ gcc-10 (= 10.2.0-8),
+ gcc-10-base (= 10.2.0-8),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.58),
+ libacl1 (= 2.2.53-8),
+ libasan6 (= 10.2.0-8),
+ libatomic1 (= 10.2.0-8),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-3),
+ libaudit1 (= 1:2.8.5-3+b1),
+ libbinutils (= 2.35-3),
+ libblkid1 (= 2.36-3),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-3),
+ libc-dev-bin (= 2.31-3),
+ libc6 (= 2.31-3),
+ libc6-dev (= 2.31-3),
+ libcap-ng0 (= 0.7.9-2.2),
+ libcc1-0 (= 10.2.0-8),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35-3),
+ libctf0 (= 2.35-3),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.253),
+ libdpkg-perl (= 1.20.5),
+ libffi7 (= 3.3-4),
+ libgcc-10-dev (= 10.2.0-8),
+ libgcc-s1 (= 10.2.0-8),
+ libgcrypt20 (= 1.8.6-2),
+ libgdbm-compat4 (= 1.18.1-5.1),
+ libgdbm6 (= 1.18.1-5.1),
+ libglib2.0-0 (= 2.66.0-2),
+ libgmp10 (= 2:6.2.0+dfsg-6),
+ libgomp1 (= 10.2.0-8),
+ libgpg-error0 (= 1.38-2),
+ libicu67 (= 67.1-4),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.2.0-8),
+ liblsan0 (= 10.2.0-8),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmount1 (= 2.36-3),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-13),
+ libperl5.30 (= 5.30.3-4),
+ libquadmath0 (= 10.2.0-8),
+ libselinux1 (= 3.1-2),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.36-3),
+ libstdc++-10-dev (= 10.2.0-8),
+ libstdc++6 (= 10.2.0-8),
+ libsystemd0 (= 246.5-1),
+ libtext-unidecode-perl (= 1.30-1),
+ libtinfo6 (= 6.2-1),
+ libtsan0 (= 10.2.0-8),
+ libubsan1 (= 10.2.0-8),
+ libudev1 (= 246.5-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36-3),
+ libxml-libxml-perl (= 2.0134+dfsg-2),
+ libxml-namespacesupport-perl (= 1.12-1),
+ libxml-sax-base-perl (= 1.09-1),
+ libxml-sax-perl (= 1.02+dfsg-1),
+ libxml2 (= 2.9.10+dfsg-6),
+ libzstd1 (= 1.4.5+dfsg-4),
+ linux-libc-dev (= 5.8.7-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.3-4),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-1),
+ ncurses-bin (= 6.2-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.3-4),
+ perl-base (= 5.30.3-4),
+ perl-modules-5.30 (= 5.30.3-4),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.30+dfsg-7),
+ tex-common (= 6.15),
+ texinfo (= 6.7.0.dfsg.2-5),
+ ucf (= 3.0043),
+ util-linux (= 2.36-3),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1600341378"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEo33KWLLUve5CxgHZGOxRpKJm/V0FAl9ji24ACgkQGOxRpKJm
+/V0yDRAAklcgNW1xQvmo8m0Cvzws700ios/zZerarCvP89apxuCwekSOdA21IzIb
+hm8c8Q7xdizvWYHDYvPGJGc3HJ2Y0Ce2t5V1yDBkzpctpQ7QnUU3AqqQ+EsiU2gk
+cmUUt5bGWYlr11i48iS0pxiFu3V+EE1JWOusmQZgjTfklYr/iS4qKP6I5lLV3Ob5
+FJT9yueNO1rvicq2SykMv4/0KoWkBubTDbvcOG8pTobCA8DReK0dc8tuKMbBJA7z
+xMgT9WblN51izPKiJF1Z7sEcoRvqgAPIiafXSLpwQYYKv68zYNcQ6+O7kg8ZECNg
+OGNcGGz9VSWejMo0xVcryuZcitZQ5gWlF8z1G6p1vlJh0m7tjZNm7o6z7gKDr5zp
+tLRtB/6yBNobBo0jzgJTRXSmxohpreTzks68iXuzuPrPchgB6sDS+ZoCPWjwzusw
+XGLlKOfYcf1SWjoUwVZ7wqX2rhihzEVEAIvYLH890Ke4IKHjiEjOWtj/5+JgAB69
+Q7nPRgGLuc67bOiRIumdAsdnK/0fy/j4+RMUdG2q9al9hSmP9fJhcja+myU70nN+
+9YUbMRQGHQ1dNUCNhBmGoAkcSDPvz1sJfPehD5Du71Q217CSqcLp3i4yDt1GE0Am
+g+kP/ZbpQQ5dhLTPGulgcNC7fkpwN2D0492yHfwCXhapdfqMg3c=
+=xt9o
+-----END PGP SIGNATURE-----

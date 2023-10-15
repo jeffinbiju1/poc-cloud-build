@@ -1,0 +1,207 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: fstrm (0.6.0-1)
+Binary: libfstrm0 libfstrm-dev fstrm-bin
+Architecture: amd64
+Version: 0.6.0-1+b1
+Binary-Only-Changes:
+ fstrm (0.6.0-1+b1) sid; urgency=low, binary-only=yes
+ .
+   * Binary-only non-maintainer upload for amd64; no source changes.
+   * Rebuild against libevent 2.1.7
+ .
+  -- amd64 / i386 Build Daemon (x86-ubc-01) <buildd_amd64-x86-ubc-01@buildd.debian.org>  Wed, 13 Nov 2019 19:27:07 +0000
+Checksums-Md5:
+ cad5ece1e9a6bdbd472c73ad70c4db2b 94592 fstrm-bin-dbgsym_0.6.0-1+b1_amd64.deb
+ a1a707c478c9c04572006a4a4902cc76 34796 fstrm-bin_0.6.0-1+b1_amd64.deb
+ fcd8c1e34c12554c44be4b36309c27c8 34124 libfstrm-dev_0.6.0-1+b1_amd64.deb
+ 3abdb7409e028c6017472b47ad1f3af1 65796 libfstrm0-dbgsym_0.6.0-1+b1_amd64.deb
+ 96fdef8d773b5e3ba8ee5ef248b2878b 21536 libfstrm0_0.6.0-1+b1_amd64.deb
+Checksums-Sha1:
+ 5609ea86ee3e8ba87a747cd7717a7b1f362362a9 94592 fstrm-bin-dbgsym_0.6.0-1+b1_amd64.deb
+ 10254ad54b89813d73be4010d5d46f971945b065 34796 fstrm-bin_0.6.0-1+b1_amd64.deb
+ 8557a22c9d82e717e770a8268f212ce0131ba4f7 34124 libfstrm-dev_0.6.0-1+b1_amd64.deb
+ cc6b3aa9f9fc8671449b43d8105386eb761a53a1 65796 libfstrm0-dbgsym_0.6.0-1+b1_amd64.deb
+ 1e1b3d888e297165bf8a0530be2a0583cb635d07 21536 libfstrm0_0.6.0-1+b1_amd64.deb
+Checksums-Sha256:
+ 133d54c6e358c539a7218c41b7e3688401d36c34deed221c6b0d33a88a76beb4 94592 fstrm-bin-dbgsym_0.6.0-1+b1_amd64.deb
+ 4f1f40747d57240a3308a13ba16640dd8da4e1f906b7a2c4c2d7a773f723072b 34796 fstrm-bin_0.6.0-1+b1_amd64.deb
+ 70ead57301494d7e6be9d65dd5fc6e5eeb706799da64bc9e6e57a16bab1f9f79 34124 libfstrm-dev_0.6.0-1+b1_amd64.deb
+ 231b0c4e6e60eeb9cff2bcee9a267b29bb797a5260b4a9b92cef8a4d4a1a9dbb 65796 libfstrm0-dbgsym_0.6.0-1+b1_amd64.deb
+ 5c6740e5c45cd5f87818a2f9a3f046a2cd4d497d0bf0994a3c59bf2dc1c7b762 21536 libfstrm0_0.6.0-1+b1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 13 Nov 2019 19:27:42 +0000
+Build-Path: /build/fstrm-FU7Qe2/fstrm-0.6.0
+Build-Tainted-By:
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-9),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.46),
+ bash (= 5.0-5),
+ binutils (= 2.33.1-2),
+ binutils-common (= 2.33.1-2),
+ binutils-x86-64-linux-gnu (= 2.33.1-2),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.34-0.1),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-2),
+ coreutils (= 8.30-3+b1),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.2.1-19),
+ dash (= 0.5.10.2-6),
+ debconf (= 1.5.73),
+ debhelper (= 12.7.1),
+ debianutils (= 4.9),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.6.2-1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.19.7),
+ dpkg-dev (= 1.19.7),
+ dwz (= 0.13-2),
+ fdisk (= 2.34-0.1),
+ file (= 1:5.37-6),
+ findutils (= 4.7.0-1),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.2.1-19),
+ gcc (= 4:9.2.1-3.1),
+ gcc-9 (= 9.2.1-19),
+ gcc-9-base (= 9.2.1-19),
+ gettext (= 0.19.8.1-9),
+ gettext-base (= 0.19.8.1-9),
+ grep (= 3.3-1),
+ groff-base (= 1.22.4-3),
+ gzip (= 1.9-3+b1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.57),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-5),
+ libarchive-zip-perl (= 1.67-1),
+ libasan5 (= 9.2.1-19),
+ libatomic1 (= 9.2.1-19),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-2),
+ libaudit1 (= 1:2.8.5-2),
+ libbinutils (= 2.33.1-2),
+ libblkid1 (= 2.34-0.1),
+ libbsd0 (= 0.10.0-1),
+ libbz2-1.0 (= 1.0.8-2),
+ libc-bin (= 2.29-3),
+ libc-dev-bin (= 2.29-3),
+ libc6 (= 2.29-3),
+ libc6-dev (= 2.29-3),
+ libcap-ng0 (= 0.7.9-2.1),
+ libcc1-0 (= 9.2.1-19),
+ libcroco3 (= 0.6.13-1),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.250),
+ libdebhelper-perl (= 12.7.1),
+ libdpkg-perl (= 1.19.7),
+ libelf1 (= 0.176-1.1),
+ libevent-2.1-7 (= 2.1.11-stable-1),
+ libevent-core-2.1-7 (= 2.1.11-stable-1),
+ libevent-dev (= 2.1.11-stable-1),
+ libevent-extra-2.1-7 (= 2.1.11-stable-1),
+ libevent-openssl-2.1-7 (= 2.1.11-stable-1),
+ libevent-pthreads-2.1-7 (= 2.1.11-stable-1),
+ libfdisk1 (= 2.34-0.1),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 1.6.2-1),
+ libgcc-9-dev (= 9.2.1-19),
+ libgcc1 (= 1:9.2.1-19),
+ libgcrypt20 (= 1.8.5-3),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.62.2-3),
+ libgmp10 (= 2:6.1.2+dfsg-4),
+ libgomp1 (= 9.2.1-19),
+ libgpg-error0 (= 1.36-7),
+ libicu63 (= 63.2-2),
+ libisl21 (= 0.21-2),
+ libitm1 (= 9.2.1-19),
+ liblsan0 (= 9.2.1-19),
+ liblz4-1 (= 1.9.2-1),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.37-6),
+ libmagic1 (= 1:5.37-6),
+ libmount1 (= 2.34-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libncurses6 (= 6.1+20191019-1),
+ libncursesw6 (= 6.1+20191019-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.32-5+b1),
+ libpcre3 (= 2:8.39-12+b1),
+ libperl5.30 (= 5.30.0-9),
+ libpipeline1 (= 1.5.1-2),
+ libquadmath0 (= 9.2.1-19),
+ libseccomp2 (= 2.4.1-2),
+ libselinux1 (= 2.9-2+b2),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.34-0.1),
+ libssl1.1 (= 1.1.1d-2),
+ libstdc++-9-dev (= 9.2.1-19),
+ libstdc++6 (= 9.2.1-19),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 242-8),
+ libtinfo6 (= 6.1+20191019-1),
+ libtool (= 2.4.6-11),
+ libtsan0 (= 9.2.1-19),
+ libubsan1 (= 9.2.1-19),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 242-8),
+ libunistring2 (= 0.9.10-2),
+ libuuid1 (= 2.34-0.1),
+ libxml2 (= 2.9.4+dfsg1-7+b3),
+ linux-libc-dev (= 5.3.9-1),
+ login (= 1:4.7-2),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.2.1-1.2),
+ man-db (= 2.9.0-1),
+ mawk (= 1.3.3-17+b3),
+ ncurses-base (= 6.1+20191019-1),
+ ncurses-bin (= 6.1+20191019-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.0-9),
+ perl-base (= 5.30.0-9),
+ perl-modules-5.30 (= 5.30.0-9),
+ pkg-config (= 0.29-6),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.96-1),
+ tar (= 1.30+dfsg-6+b1),
+ util-linux (= 2.34-0.1),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-1+b1)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1573673227"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEAhVek9X+wT43OcLs2XlcsAphr14FAl3MWTIACgkQ2XlcsAph
+r14xtA/+Lrwq5cff1o4udyS7hpSdcQ132x6rU3i4KYlBTmni9BOg1Gx6wEx7bgU4
+gHkC//WOD2s0sDUHinJPTIk6sAPtYh7Ppv9RclnSBryjJcKOyMGGnIQl1Aj4mH4m
+B2x9Q1AqqkeEVISsDpl4ojifeEHa1KOyszA9BxO0knjH4N18kwJ7ND/0zzx9gBda
+ahT+qJ94YMr72S3A0J8bnAV51j7VH8CnIXri/OWXrCspJUZpGuAeyR5DV6jH7tXD
+pXovjezm75ufOeoVHUJI6jfgwhT7jeS/Gee0JB4cEh7atRrfC5L7uAvjdsyYFLH8
+KWf3mjzFEN22hY45RfwywjoNLvRTAbw+MIUaLFL8Jvz15NcQERLoyB+iCiXvogcS
+MisK9n+9UH5UAhilt/SpKJfbAQI5y31Xa0qT9jDtanC4OB3VKisl9/t8VSMn1ml6
+ZO7I8cBwIBccMUnvck2A+8PT2PzpeUgdOmat3Ty936U+qukEvU3sxnKazrre9iBx
+VPSFnuJe/aG+Kh8c74CU8LgY8hc5bjIXx/CFrFm7MERyS7AAVDwAsK4PF+SwEB3r
+nEs/pZTToaqa61+XWe7qzwxj33cKREA2T5m5KXBRKUmEJ9T3oQlARmQX4KF9vfPA
+bOwfk4AyH7T2BaqgGLeYHxw77MWbl6mZ21WCNm0/NPFffnvAAh8=
+=QX8i
+-----END PGP SIGNATURE-----

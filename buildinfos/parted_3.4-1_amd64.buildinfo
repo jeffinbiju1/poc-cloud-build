@@ -1,0 +1,250 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: parted
+Binary: libparted-dev libparted-fs-resize0 libparted-fs-resize0-dbgsym libparted-fs-resize0-udeb libparted2 libparted2-dbgsym libparted2-udeb parted parted-dbgsym parted-udeb
+Architecture: amd64
+Version: 3.4-1
+Checksums-Md5:
+ 9aa2707d4bb6dfba490b17be5d4d9fb7 407812 libparted-dev_3.4-1_amd64.deb
+ bca20a21edf922209ddd6ffdcf33749f 134712 libparted-fs-resize0-dbgsym_3.4-1_amd64.deb
+ e87aaa3bd7f6e797a145d1b357249ca1 35636 libparted-fs-resize0-udeb_3.4-1_amd64.udeb
+ 951c1b8da7b360bd56d45c87071e49a4 222816 libparted-fs-resize0_3.4-1_amd64.deb
+ aa062d723dd759646893c47571fd97f2 517168 libparted2-dbgsym_3.4-1_amd64.deb
+ 3d699e82aa751f519ce19673690f7960 133056 libparted2-udeb_3.4-1_amd64.udeb
+ 016f7f0d1eba0c5e130dab13d740272c 334760 libparted2_3.4-1_amd64.deb
+ 53080662f9eae3d3a2e5c86b8bedba00 92864 parted-dbgsym_3.4-1_amd64.deb
+ 0b29b29463df1a672981f86684f43498 25060 parted-udeb_3.4-1_amd64.udeb
+ 54f1c39a9e92aae55acc7ecf6bc32b5f 218740 parted_3.4-1_amd64.deb
+Checksums-Sha1:
+ 44ce096b5c8f704930a3788f8835bed5cc84d2a6 407812 libparted-dev_3.4-1_amd64.deb
+ 0ab4966c1e88e0239adec502d98f6f845135979e 134712 libparted-fs-resize0-dbgsym_3.4-1_amd64.deb
+ 44873376edd7ea7bac6abaa5b3a94be8c1ae764c 35636 libparted-fs-resize0-udeb_3.4-1_amd64.udeb
+ f5c23b31c7122872b820eed8c43bd45c6503ec55 222816 libparted-fs-resize0_3.4-1_amd64.deb
+ 59cf6b20d24ae16be807deb20f7867f53ae2ac10 517168 libparted2-dbgsym_3.4-1_amd64.deb
+ 1b00a2eec1ca377d22c6faf688816732bad77674 133056 libparted2-udeb_3.4-1_amd64.udeb
+ fd4a91bb5fab8f64187ad02bc66abd965a7546ab 334760 libparted2_3.4-1_amd64.deb
+ fe087de283380a220c7121662b24692046342ad5 92864 parted-dbgsym_3.4-1_amd64.deb
+ 7f6277498d700fe5abbfb791d15fa57d8f1f86a7 25060 parted-udeb_3.4-1_amd64.udeb
+ c62a2fcf9cd55cb49328fed6ba378a459f1d3f8e 218740 parted_3.4-1_amd64.deb
+Checksums-Sha256:
+ e6612db9293542d8af458824fde72a72b856f3eaeed8f6f8c9a23b9673cd9589 407812 libparted-dev_3.4-1_amd64.deb
+ b45b95299a8edda5b67ad668d3f2937f71df615ad56bb29e0372914c1728e9ee 134712 libparted-fs-resize0-dbgsym_3.4-1_amd64.deb
+ 579ae8f0a87d9a8c83561a2da71245018ae4189439ac6f2c8cb30c3e89ba3acf 35636 libparted-fs-resize0-udeb_3.4-1_amd64.udeb
+ 3df32848b39573fb4c1063beb64745a6147f6badf27886f5e3699d8b54496aca 222816 libparted-fs-resize0_3.4-1_amd64.deb
+ 32c410a8d531ed9beba9e4960e17c1e0bd863f3f8895bee73192fbf1c1c34936 517168 libparted2-dbgsym_3.4-1_amd64.deb
+ 577bdacdc557193eabc7040410965e22bd33998b1c00fc9a5f66233197b64b93 133056 libparted2-udeb_3.4-1_amd64.udeb
+ 588e16ff2e0683e133322a10f613e104c69bcc3d6c886ef222d762b03cff57a2 334760 libparted2_3.4-1_amd64.deb
+ 2e76613e11dbcf91c67566da50ffa38c2211cd6c861b652e9c39ed3c412371f6 92864 parted-dbgsym_3.4-1_amd64.deb
+ 192ac8f3d77b31bdf42b78b6ede9a743d4c0e94f9c14b6eca8e07000517b9b2b 25060 parted-udeb_3.4-1_amd64.udeb
+ c6b7f7248d9792530f6f94dc375254d02c4bee7cad7b8a31bfef4f2a087b3fd1 218740 parted_3.4-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sat, 30 Jan 2021 00:47:55 +0000
+Build-Path: /build/parted-U4hzcl/parted-3.4
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-3),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.48),
+ bash (= 5.1-2),
+ binutils (= 2.35.1-7),
+ binutils-common (= 2.35.1-7),
+ binutils-x86-64-linux-gnu (= 2.35.1-7),
+ bsdextrautils (= 2.36.1-6),
+ bsdutils (= 1:2.36.1-6),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ check (= 0.15.2-2),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.74),
+ debhelper (= 13.3.1),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 19),
+ dh-exec (= 0.23.2),
+ dh-strip-nondeterminism (= 1.10.0-1),
+ diffutils (= 1:3.7-5),
+ dmsetup (= 2:1.02.175-2),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20210126-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-3),
+ gettext-base (= 0.21-3),
+ gperf (= 3.1-1),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-9),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.1-7),
+ libblkid-dev (= 2.36.1-6),
+ libblkid1 (= 2.36.1-6),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.45.6-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.1-7),
+ libctf0 (= 2.35.1-7),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.1),
+ libdevmapper-dev (= 2:1.02.175-2),
+ libdevmapper-event1.02.1 (= 2:1.02.175-2),
+ libdevmapper1.02.1 (= 2:1.02.175-2),
+ libdpkg-perl (= 1.20.7.1),
+ libelf1 (= 0.182-3),
+ libffi7 (= 3.3-5),
+ libfile-stripnondeterminism-perl (= 1.10.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-2),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.4-3),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libicu67 (= 67.1-6),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-6),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libncurses-dev (= 6.2+20201114-2),
+ libncurses6 (= 6.2+20201114-2),
+ libncursesw6 (= 6.2+20201114-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-2),
+ libpam-modules-bin (= 1.4.0-2),
+ libpam-runtime (= 1.4.0-2),
+ libpam0g (= 1.4.0-2),
+ libpcre2-16-0 (= 10.36-2),
+ libpcre2-32-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre2-dev (= 10.36-2),
+ libpcre2-posix2 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.0-6),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline-dev (= 8.1-1),
+ libreadline8 (= 8.1-1),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-2+b2),
+ libselinux1-dev (= 3.1-2+b2),
+ libsepol1 (= 3.1-1),
+ libsepol1-dev (= 3.1-1),
+ libsigsegv2 (= 2.12-3),
+ libsmartcols1 (= 2.36.1-6),
+ libssl1.1 (= 1.1.1i-2),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsubunit-dev (= 1.4.0-2),
+ libsubunit0 (= 1.4.0-2),
+ libsystemd0 (= 247.2-5),
+ libtext-unidecode-perl (= 1.30-1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev-dev (= 247.2-5),
+ libudev1 (= 247.2-5),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-6),
+ libxml-libxml-perl (= 2.0134+dfsg-2+b1),
+ libxml-namespacesupport-perl (= 1.12-1.1),
+ libxml-sax-base-perl (= 1.09-1.1),
+ libxml-sax-perl (= 1.02+dfsg-1),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libzstd1 (= 1.4.8+dfsg-1),
+ linux-libc-dev (= 5.10.9-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.3-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.0-6),
+ perl-base (= 5.32.0-6),
+ perl-modules-5.32 (= 5.32.0-6),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.32+dfsg-1),
+ tex-common (= 6.15),
+ texinfo (= 6.7.0.dfsg.2-6),
+ ucf (= 3.0043),
+ util-linux (= 2.36.1-6),
+ uuid-dev (= 2.36.1-6),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1611965432"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/7vrlRgMAcjt3zQ5J9KdAI8x88oFAmAUrL8ACgkQJ9KdAI8x
+88o5kRAAk2z3aKv9nYX/iC+dfCq+ApkBHArJSg0Ce+KAEsE07kH9hRixhF8nG0Qn
+96SJArGh5JW1JhgyG1vFe9/y6xHXJMTdXVVSatckKOdTi3g+1O2Zf/SAIgyqXxPc
+vwfQIH5iSTYyiQZYJfS7xVWwLSan0q2+mnEPd7HzVAMeBIOBu6z+Sb7bYkdpFm+u
+MylywKyT1LUE2ZYAS37dSj1n6QVEOdyfMdaFb487DmFnb7wolMOTGkzjxbqP1F1U
+iZv4v7JV6aR4DByP950ZuJMDvHAmnywILfAXd3Vja2AdidRwBDa+mrcDJhUTR9/g
+3a0/XwC2dilztmMffkWNJk8NOfgFe3lAulJQRHrzVqA0KnVWSwJeTTnKXTfDCQlg
+VyfsZpWyVWjzOGg7niiFK5IlrRqtTRN0mUmfcCi1ITkNgmSgRajcs1a2CYOCTKmE
+I5kmYaBM8LT/GaNSNhTLiBGbJXPorz4pgfaukAaUYjYyw/4IKEGR6DfG6dmZiiHl
+qsBGtZEqXlUh1/UeA67pUFM8gVDpqTRVd9Ven0N55mr57ACu86mrtYnmc8dxC48Y
+KAfjmZgxi+86QeDiCUR+CuzFeVDj864Rw25V0nHnp1d7NEoVqYALuleL53QpvNMn
+AinDwEeOvcvoi1CvBkIQtr6rLuhL7jEBrUa12EbYAU+ZaVbju7M=
+=F8AQ
+-----END PGP SIGNATURE-----

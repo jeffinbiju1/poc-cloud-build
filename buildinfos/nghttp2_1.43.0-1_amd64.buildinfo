@@ -1,0 +1,236 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: nghttp2
+Binary: libnghttp2-14 libnghttp2-14-dbgsym libnghttp2-dev nghttp2-client nghttp2-client-dbgsym nghttp2-proxy nghttp2-proxy-dbgsym nghttp2-server nghttp2-server-dbgsym
+Architecture: amd64
+Version: 1.43.0-1
+Checksums-Md5:
+ 9302f4a6e9888985f7ff2f117901b5e8 213768 libnghttp2-14-dbgsym_1.43.0-1_amd64.deb
+ fafbe886c04bae9b6c5ff4a87a7ba958 77120 libnghttp2-14_1.43.0-1_amd64.deb
+ 0b4f8f0a3bb385f8e9a214b20d7da46b 113204 libnghttp2-dev_1.43.0-1_amd64.deb
+ 72151cbb5debb7ab966efda6e7624b5a 1879640 nghttp2-client-dbgsym_1.43.0-1_amd64.deb
+ 921f616b0afc173b9c0087fdc440b832 165352 nghttp2-client_1.43.0-1_amd64.deb
+ 464a54ecedb578820c886181fd61c6e9 5280648 nghttp2-proxy-dbgsym_1.43.0-1_amd64.deb
+ 6182c1c8aa0912823d471df0ec43e922 388296 nghttp2-proxy_1.43.0-1_amd64.deb
+ 4b5e41b6320c3fc3661f4b1a3e2d3390 946100 nghttp2-server-dbgsym_1.43.0-1_amd64.deb
+ 1753e508f8a611d9736d872a12e69680 98768 nghttp2-server_1.43.0-1_amd64.deb
+Checksums-Sha1:
+ b266923340f1719998fdff604bcb167051dc00df 213768 libnghttp2-14-dbgsym_1.43.0-1_amd64.deb
+ 61b8e087ed9958953cfda35612f3e1c02ca44b9a 77120 libnghttp2-14_1.43.0-1_amd64.deb
+ d07ae3c525714bd299cd938f1943811aaa1d34e1 113204 libnghttp2-dev_1.43.0-1_amd64.deb
+ a0af2ab1b6fdf12232654f22b46dca3fa5d8ea43 1879640 nghttp2-client-dbgsym_1.43.0-1_amd64.deb
+ 166d956f483497a160adc0ebc51aff9a76bd59e3 165352 nghttp2-client_1.43.0-1_amd64.deb
+ 9095309debc164244ed74004bf1dd7637bdb199b 5280648 nghttp2-proxy-dbgsym_1.43.0-1_amd64.deb
+ 161cd989b425e41c0df37eed4c0150a192142843 388296 nghttp2-proxy_1.43.0-1_amd64.deb
+ d5fb94ae2790f33dd379154afe308d3d79e98add 946100 nghttp2-server-dbgsym_1.43.0-1_amd64.deb
+ 6d722637cac31c3af558c7b919c091e667b628df 98768 nghttp2-server_1.43.0-1_amd64.deb
+Checksums-Sha256:
+ 71db668563aedf9414b081e5cbe1ecb33422d41507cad7f7d7d23ce60158cd0b 213768 libnghttp2-14-dbgsym_1.43.0-1_amd64.deb
+ a1a8aae24ced43025c94a9cb0c0eabfb3fc070785de9ee51c9a3a4fe86f0d11e 77120 libnghttp2-14_1.43.0-1_amd64.deb
+ a6e6e34e72e913d6f3f851e61f83d4f86a5ffd5353889f9db8b701df43c5b424 113204 libnghttp2-dev_1.43.0-1_amd64.deb
+ 275777ad0f9fdc71e782e1ac038fdba862df44210c64a9e850a131fa28ca1c18 1879640 nghttp2-client-dbgsym_1.43.0-1_amd64.deb
+ df7786a3d1fb9d4446e7947e3b607e8de8c63361c844c4c8f5cbecead96955f5 165352 nghttp2-client_1.43.0-1_amd64.deb
+ 330d76b32fa14ad7fe78212c4e8ce8c41f17f5ef8dd2b641c429e6970f9461f2 5280648 nghttp2-proxy-dbgsym_1.43.0-1_amd64.deb
+ c75fe3f1dd296db88e9ad7923c4659636683967ccf6779547a5c034b5345c756 388296 nghttp2-proxy_1.43.0-1_amd64.deb
+ 4af9d3bbfd5c3601577db179762e3af0b994deb3b62baca678d59473a2390e34 946100 nghttp2-server-dbgsym_1.43.0-1_amd64.deb
+ fc14c009fc6bcb8d0f4a2f060ce8735ee7002dc60fdeb005987ff66da1b7d060 98768 nghttp2-server_1.43.0-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sat, 13 Feb 2021 18:13:45 +0000
+Build-Path: /build/nghttp2-9azv32/nghttp2-1.43.0
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.49),
+ bash (= 5.1-2),
+ binutils (= 2.35.1-7),
+ binutils-common (= 2.35.1-7),
+ binutils-x86-64-linux-gnu (= 2.35.1-7),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.74),
+ debhelper (= 13.3.3),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.11.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ icu-devtools (= 67.1-6),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.1-7),
+ libblkid1 (= 2.36.1-7),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-ares-dev (= 1.17.1-1),
+ libc-ares2 (= 1.17.1-1),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.1-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.1-7),
+ libctf0 (= 2.35.1-7),
+ libcunit1 (= 2.1-3-dfsg-2.3),
+ libcunit1-dev (= 2.1-3-dfsg-2.3),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.3),
+ libdpkg-perl (= 1.20.7.1),
+ libelf1 (= 0.183-1),
+ libev-dev (= 1:4.33-1),
+ libev4 (= 1:4.33-1),
+ libevent-2.1-7 (= 2.1.12-stable-1),
+ libevent-core-2.1-7 (= 2.1.12-stable-1),
+ libevent-dev (= 2.1.12-stable-1),
+ libevent-extra-2.1-7 (= 2.1.12-stable-1),
+ libevent-openssl-2.1-7 (= 2.1.12-stable-1),
+ libevent-pthreads-2.1-7 (= 2.1.12-stable-1),
+ libffi7 (= 3.3-5),
+ libfile-stripnondeterminism-perl (= 1.11.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-2),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.7-1),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libicu-dev (= 67.1-6),
+ libicu67 (= 67.1-6),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjansson-dev (= 2.13.1-1.1),
+ libjansson4 (= 2.13.1-1.1),
+ libjemalloc-dev (= 5.2.1-2),
+ libjemalloc2 (= 5.2.1-2),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-4),
+ libpam-modules-bin (= 1.4.0-4),
+ libpam-runtime (= 1.4.0-4),
+ libpam0g (= 1.4.0-4),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-2),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-7),
+ libssl-dev (= 1.1.1i-3),
+ libssl1.1 (= 1.1.1i-3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd-dev (= 247.3-1),
+ libsystemd0 (= 247.3-1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-7),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libxml2-dev (= 2.9.10+dfsg-6.3+b1),
+ libzstd1 (= 1.4.8+dfsg-1),
+ linux-libc-dev (= 5.10.13-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.4-1),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-2),
+ perl-base (= 5.32.1-2),
+ perl-modules-5.32 (= 5.32.1-2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.32+dfsg-1),
+ util-linux (= 2.36.1-7),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1613238444"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEcU6S3GjxzS183/1jeHlhQ1ylJm8FAmAoFt0ACgkQeHlhQ1yl
+Jm80RBAAkx1SOQsogcfNpZ+aSkW1wYQ4IuVj5ihjhrhIjGCMMIn83b0etHCWZnCS
+bpNBt2zK7Gj/3Cr2rufwNLptb8LMa57Sm1kkJNjJrVPlwY35/jx6N2NhgUSVIUJ+
+yv69A17GbP7dMguMYq+jRjIIy8kQv7rz/XOMKIJVyHt8oBBz7oO6QQCV53mvQr6C
+2dEaswA8sNfoxuZbRgfADT2bhqJkBGKrPPZaM+xDwtVNrVwZvEGjqckbhYCcpLv6
+FhSevE5VKsgu43EpKtsKwN1bKzwAuBm1jdtN8PegiydBgE3N+6XTdjjZviXv1Rvr
+L7JoRfmFOxjanQ9OxXucAU5RZq+QtC1Rw+g/8Y/6zsK5CdVWXZ1pMWZkG/l/jqIK
+iw5qRUkuGHtnYAIg4rqeAgJ3dIzAgoK8o0nBE092+jHqob3fx5+czI3Q4hT555vG
+ZeTyjWYqpoV+fsaGEP/eyIk6/VJUHWtbnZkOfTyC6xCLt/uADc7hG4o4RtbggBIl
+LQu4WPekKZi7mJoncBUUqRhzlhIOa1nrF8li4NjcvIvJCmxNa4e36OUUnJ6t+4B5
+ktSefnIJPXOGu65dyyAUUh/GspfDzNkZOqaDgZnCSo1f4xZr/IJa1oW23JBSE6Zj
+ru6nJvbV546xjJHxWaBSMj8HKNx/Tt8gpGWVEzOI/TeA13s1peI=
+=jNHJ
+-----END PGP SIGNATURE-----

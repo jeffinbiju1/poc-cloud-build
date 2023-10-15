@@ -1,0 +1,225 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: libzstd
+Binary: libzstd-dev libzstd1 libzstd1-dbgsym libzstd1-udeb zstd zstd-dbgsym
+Architecture: amd64
+Version: 1.4.8+dfsg-2.1
+Checksums-Md5:
+ 5eb78917ee0a687c595e968c8acfb366 382316 libzstd-dev_1.4.8+dfsg-2.1_amd64.deb
+ 8e88f2df88a1eb825762c654c265279d 1922376 libzstd1-dbgsym_1.4.8+dfsg-2.1_amd64.deb
+ 291ced0335c309becef4b17e7510d504 298060 libzstd1-udeb_1.4.8+dfsg-2.1_amd64.udeb
+ abc4238706c10db45ceeddf52718860e 318644 libzstd1_1.4.8+dfsg-2.1_amd64.deb
+ 0a3453c15a0c84727400b59c9ec8b9fe 4342096 zstd-dbgsym_1.4.8+dfsg-2.1_amd64.deb
+ b17da6f4bc338b47d3011a827a88c820 629716 zstd_1.4.8+dfsg-2.1_amd64.deb
+Checksums-Sha1:
+ 7054cd5dc36c8e6c1e8a581143c8298dbbdf8bcd 382316 libzstd-dev_1.4.8+dfsg-2.1_amd64.deb
+ 194ca1ca1fc69126fb4aacdd3ea9809b6abcfa13 1922376 libzstd1-dbgsym_1.4.8+dfsg-2.1_amd64.deb
+ af3fc94d3189845e095eaed95549d1b3299b1f71 298060 libzstd1-udeb_1.4.8+dfsg-2.1_amd64.udeb
+ 649d60bc71ea1c64c7cc1e021698fcbf6d3de8cc 318644 libzstd1_1.4.8+dfsg-2.1_amd64.deb
+ 34dc96c4226190c01f70ad7e2dcd7bc082709aa9 4342096 zstd-dbgsym_1.4.8+dfsg-2.1_amd64.deb
+ 8b34f89016a34e30aa1d0c206ccc04befdaa593a 629716 zstd_1.4.8+dfsg-2.1_amd64.deb
+Checksums-Sha256:
+ d95e92c8b24e36e5f230a645e447dd6b951e4eea9226c8f2a1d7cf8adbb7c4e1 382316 libzstd-dev_1.4.8+dfsg-2.1_amd64.deb
+ 6e3bcb6194c1663a4fc0715ad367b0a74a5489f64f78396d313e5a41875c6b6a 1922376 libzstd1-dbgsym_1.4.8+dfsg-2.1_amd64.deb
+ 35b172e55cb8c1795105d37fedbe01f80ec1ca5b01b91d768c551490a20df70d 298060 libzstd1-udeb_1.4.8+dfsg-2.1_amd64.udeb
+ 5dcadfbb743bfa1c1c773bff91c018f835e8e8c821d423d3836f3ab84773507b 318644 libzstd1_1.4.8+dfsg-2.1_amd64.deb
+ 63cc8b63bcb75306f6f62de6230e5b501032769ffe0d46a1b43cb5dd28705f0e 4342096 zstd-dbgsym_1.4.8+dfsg-2.1_amd64.deb
+ 0a13a89b98943e1e7c1f0a547b0269f15c39d4d2b944541e21a1f7100af3e236 629716 zstd_1.4.8+dfsg-2.1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Mon, 01 Mar 2021 19:38:39 +0000
+Build-Path: /build/libzstd-SzXv4x/libzstd-1.4.8+dfsg
+Installed-Build-Depends:
+ adduser (= 3.118),
+ apt (= 2.2.0),
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.49),
+ bash (= 5.1-2+b1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ d-shlibs (= 0.98),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.75),
+ debhelper (= 13.3.3),
+ debian-archive-keyring (= 2021.1.1),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.11.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ gpgv (= 2.2.27-1),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-3),
+ help2man (= 1.48.1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libapt-pkg6.0 (= 2.2.0),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-7),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.1-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.3),
+ libdpkg-perl (= 1.20.7.1),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.11.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-3),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgnutls30 (= 3.7.0-7),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libhogweed6 (= 3.7-2.1),
+ libicu67 (= 67.1-6),
+ libidn2-0 (= 2.3.0-5),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblocale-gettext-perl (= 1.07-4+b1),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblz4-dev (= 1.9.3-1),
+ liblzma-dev (= 5.2.5-1.0),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnettle8 (= 3.7-2.1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-6),
+ libpam-modules-bin (= 1.4.0-6),
+ libpam-runtime (= 1.4.0-6),
+ libpam0g (= 1.4.0-6),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-3),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libsemanage-common (= 3.1-1),
+ libsemanage1 (= 3.1-1+b2),
+ libsepol1 (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-7),
+ libssl1.1 (= 1.1.1j-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-1),
+ libtasn1-6 (= 4.16.0-2),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-7),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libxxhash0 (= 0.8.0-2),
+ libzstd1 (= 1.4.8+dfsg-2),
+ linux-libc-dev (= 5.10.13-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ passwd (= 1:4.8.1-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-3),
+ perl-base (= 5.32.1-3),
+ perl-modules-5.32 (= 5.32.1-3),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-6),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-7),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1614619432"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEo33KWLLUve5CxgHZGOxRpKJm/V0FAmA9QsUACgkQGOxRpKJm
+/V20sw//cpji+mGmdO5TxTftqXpSv5BIdGq6j3mp5EHZMbVid2aP8z8sf3Q2R5p7
+1xgy59aXvjAkB0oUv4/TLjRFC4xKDjZc3bl+OHDVUhbR8hNatSyumw7viRdBHRaD
+05/a0RNULnPzWn6dv7PWWxQjGIj5UaSYa3G9Y3lWUs++T66KMG9HdDd8a0KekD5F
+exq+hhj5+z1oTiUAxgsE86Gii2mehUGUuLz7sC2Y282LOuiacmuaDCGS1BU40jyz
+LadnwFA1/Cl7LWSZaHNfzrW3iZcQ5qeYbrWgwa6hkgwp/M8/XQJOWF3GrTCCfO0J
+4QfgjTilew3Zr+/dsbmABLGhjQLMntm6MkdZjfG2Oy8Q1ND+ad3ckJKo3Yq6T8nb
+V8FRkrPG3zy4UDW+4nAbr2WtFdrwy2uMmz1j7cCBmAHAIPhUuFE6YFTKK/GMzh3Q
+Jqu+a1Xr5cj9iOfFIO4M9O8sCbMM+Dthnu0zCiTwhwVHPLf+o7gCrI1bY53uD5+X
+KbO7d9eehvTRQfx/Njr/IHvu2U9wk37CdQ68j6QjyVXdVj7006EPI5lB39ydCono
+jurGxojYLuF7b/0I2iLb3tGtzznFxB8cVAYh9YUQCf7xlnrl+yIZW8M8Bnk+Nftv
+OUDmMQ6/xkWvrTPYtnaJD5nBceDuZ4Qvq3UX4s5PApLVJr5UqXw=
+=Z+aQ
+-----END PGP SIGNATURE-----

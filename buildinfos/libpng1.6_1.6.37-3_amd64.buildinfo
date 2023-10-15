@@ -1,0 +1,194 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: libpng1.6
+Binary: libpng-dev libpng-tools libpng-tools-dbgsym libpng16-16 libpng16-16-dbgsym libpng16-16-udeb
+Architecture: amd64
+Version: 1.6.37-3
+Checksums-Md5:
+ e2fc5a0b025475fc9a19da40c1b4c083 298044 libpng-dev_1.6.37-3_amd64.deb
+ 3dc70ed951d5d00a7fe858d4e2dbd501 49860 libpng-tools-dbgsym_1.6.37-3_amd64.deb
+ a87888d058445753397461bb55b5940f 141224 libpng-tools_1.6.37-3_amd64.deb
+ a72d40862206944883fd9658761e7c83 255348 libpng16-16-dbgsym_1.6.37-3_amd64.deb
+ c5f71c6d73db02f028f1ec2c57a80061 96988 libpng16-16-udeb_1.6.37-3_amd64.udeb
+ a59c4a36f015b0f248b41d717e584bbb 294460 libpng16-16_1.6.37-3_amd64.deb
+Checksums-Sha1:
+ 46dd7f0b8f87eac11641a68637bb470d72cb4276 298044 libpng-dev_1.6.37-3_amd64.deb
+ 93887b3dbe7be421cc4d83695884dc7296513298 49860 libpng-tools-dbgsym_1.6.37-3_amd64.deb
+ 53e9020a3db2d6d11c808de36f36c67818df39d2 141224 libpng-tools_1.6.37-3_amd64.deb
+ 273311a6a4a53b0d75f82ed97f8b2deb1fee354f 255348 libpng16-16-dbgsym_1.6.37-3_amd64.deb
+ 06b106f71f572aadcee43b98698cff2b99122c69 96988 libpng16-16-udeb_1.6.37-3_amd64.udeb
+ 6795f529f0349fa9ef60cd54747490951ec1e4b2 294460 libpng16-16_1.6.37-3_amd64.deb
+Checksums-Sha256:
+ 7be93d99bdab4fd3e230f67ad17739fdfa2bb1fb94ddd84f670e442ffbcabf39 298044 libpng-dev_1.6.37-3_amd64.deb
+ 60a9a6c5fc24b867ec1195b6b17d193178c840521d19e961aeeb836eabfd441b 49860 libpng-tools-dbgsym_1.6.37-3_amd64.deb
+ 834b8edee0a7bbcf721c132dd6658996e4ad1aa3ad60b6d7eeccbb9da46337ef 141224 libpng-tools_1.6.37-3_amd64.deb
+ 2bc58d90b4d77cb60d80be73ed1908a344cda6f6dd0ab044d558fe5cf86d1b50 255348 libpng16-16-dbgsym_1.6.37-3_amd64.deb
+ 8163c46e52490e4bd154ac589803b8e719c075055ad69ced343c96d454255517 96988 libpng16-16-udeb_1.6.37-3_amd64.udeb
+ 7d5336af395d1f658d0e66d74d0e1f4c632028750e7e04314d1a650e0317f3d6 294460 libpng16-16_1.6.37-3_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 16 Sep 2020 06:24:48 +0000
+Build-Path: /build/libpng1.6-9u27kQ/libpng1.6-1.6.37
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.2-4),
+ autopoint (= 0.19.8.1-10),
+ autotools-dev (= 20180224.1),
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-7),
+ binutils (= 2.35-3),
+ binutils-common (= 2.35-3),
+ binutils-x86-64-linux-gnu (= 2.35-3),
+ bsdextrautils (= 2.36-3),
+ bsdutils (= 1:2.36-3),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-3),
+ cpp (= 4:10.1.0-1),
+ cpp-10 (= 10.2.0-7),
+ dash (= 0.5.10.2-7),
+ debconf (= 1.5.74),
+ debhelper (= 13.2.1),
+ debianutils (= 4.11.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.9.0-1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.20.5),
+ dpkg-dev (= 1.20.5),
+ dwz (= 0.13-5),
+ file (= 1:5.38-5),
+ findutils (= 4.7.0-1),
+ g++ (= 4:10.1.0-1),
+ g++-10 (= 10.2.0-7),
+ gcc (= 4:10.1.0-1),
+ gcc-10 (= 10.2.0-7),
+ gcc-10-base (= 10.2.0-7),
+ gettext (= 0.19.8.1-10),
+ gettext-base (= 0.19.8.1-10),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-5),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.58),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-8),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.0-7),
+ libatomic1 (= 10.2.0-7),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-3),
+ libaudit1 (= 1:2.8.5-3+b1),
+ libbinutils (= 2.35-3),
+ libblkid1 (= 2.36-3),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-3),
+ libc-dev-bin (= 2.31-3),
+ libc6 (= 2.31-3),
+ libc6-dev (= 2.31-3),
+ libcap-ng0 (= 0.7.9-2.2),
+ libcc1-0 (= 10.2.0-7),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35-3),
+ libctf0 (= 2.35-3),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.253),
+ libdebhelper-perl (= 13.2.1),
+ libdpkg-perl (= 1.20.5),
+ libelf1 (= 0.181-1),
+ libffi7 (= 3.3-4),
+ libfile-stripnondeterminism-perl (= 1.9.0-1),
+ libgcc-10-dev (= 10.2.0-7),
+ libgcc-s1 (= 10.2.0-7),
+ libgcrypt20 (= 1.8.6-2),
+ libgdbm-compat4 (= 1.18.1-5.1),
+ libgdbm6 (= 1.18.1-5.1),
+ libglib2.0-0 (= 2.66.0-2),
+ libgmp10 (= 2:6.2.0+dfsg-6),
+ libgomp1 (= 10.2.0-7),
+ libgpg-error0 (= 1.38-2),
+ libicu67 (= 67.1-4),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.2.0-7),
+ liblsan0 (= 10.2.0-7),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmagic-mgc (= 1:5.38-5),
+ libmagic1 (= 1:5.38-5),
+ libmount1 (= 2.36-3),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-13),
+ libperl5.30 (= 5.30.3-4),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.0-7),
+ libseccomp2 (= 2.4.3-1+b1),
+ libselinux1 (= 3.1-2),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.36-3),
+ libstdc++-10-dev (= 10.2.0-7),
+ libstdc++6 (= 10.2.0-7),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 246.4-1),
+ libtinfo6 (= 6.2-1),
+ libtool (= 2.4.6-14),
+ libtsan0 (= 10.2.0-7),
+ libubsan1 (= 10.2.0-7),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 246.4-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36-3),
+ libxml2 (= 2.9.10+dfsg-6),
+ libzstd1 (= 1.4.5+dfsg-4),
+ linux-libc-dev (= 5.8.7-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.3-4),
+ man-db (= 2.9.3-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-1),
+ ncurses-bin (= 6.2-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.3-4),
+ perl-base (= 5.30.3-4),
+ perl-modules-5.30 (= 5.30.3-4),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.30+dfsg-7),
+ util-linux (= 2.36-3),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1600236152"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEcU6S3GjxzS183/1jeHlhQ1ylJm8FAl9hr7QACgkQeHlhQ1yl
+Jm+EdQ/9FgcjaMn6KOM90Y5uY80+8Y0ArZeNrjZCdkjUZ16wQgopyYjN1D18I4Fe
+yT/a7IfpUSL4t3GHoy/ym+ryhGq2YAIZQAOVBMy3IFVz7QjXhPiScCqIjrde8rwz
+gsUr0AaYjOKVaxEUCNw872z0JHP847rtG1+sRqNIS08VWxuQqx+uJ8ATLMleF+UQ
+RTXpWHYe5+sZdwR7M+jwQveyvx4+Yg9DXylPoOK3APoY7ePOv+bgHR5w/W7NtOMB
+VAKQpOUr4EsRDnRzNx6XgcywG1XBWdsmOkpq9e1h61WIRiolTZY2QA0XGBzs4Lv8
+sQDs4R4L5HTh3gvdbWdm9PMUc0G6eELw7GM4vH3fJFnViwU0911F7tv0pWzm7bNz
+lLUZ/mj9zVGqm8clw3mXtsmIIqxaOqsl0r65zFjtKWSoDeBgw7zbPc/efoH6QOyf
+s01rrt/fdDdHh6uO0h9khkXb0pSvYA6CxOaYKciKj7s2qwzFX4rXhPmpewtbAdL3
+tm+fR54hDWLOdnxiDZUJ7QukplBwfgDKUWbE65MZB3R+76gP2NoYcBLCvBjsBJQk
+8pUnDp0h/arL3gonHZe1T+iOO647Ls9RDthc9E2VHQSgjHNPrZt9mPICyyt+PJNq
+TIk6n3sHkiMUHZvEqOzZsf8NhfoVO199gfLYwvDCXIUcBqU0Udw=
+=IxX6
+-----END PGP SIGNATURE-----

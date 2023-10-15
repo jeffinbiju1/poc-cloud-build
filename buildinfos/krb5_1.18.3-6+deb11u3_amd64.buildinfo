@@ -1,0 +1,315 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: krb5
+Binary: krb5-admin-server krb5-admin-server-dbgsym krb5-gss-samples krb5-gss-samples-dbgsym krb5-k5tls krb5-k5tls-dbgsym krb5-kdc krb5-kdc-dbgsym krb5-kdc-ldap krb5-kdc-ldap-dbgsym krb5-kpropd krb5-kpropd-dbgsym krb5-multidev krb5-otp krb5-otp-dbgsym krb5-pkinit krb5-pkinit-dbgsym krb5-user krb5-user-dbgsym libgssapi-krb5-2 libgssrpc4 libk5crypto3 libkadm5clnt-mit12 libkadm5srv-mit12 libkdb5-10 libkrad-dev libkrad0 libkrb5-3 libkrb5-dbg libkrb5-dev libkrb5support0
+Architecture: amd64
+Version: 1.18.3-6+deb11u3
+Checksums-Md5:
+ 46c629bde568f06d47841c3e9c406818 201240 krb5-admin-server-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 8936d13c9d95a8462b325daaf1e5cd69 125372 krb5-admin-server_1.18.3-6+deb11u3_amd64.deb
+ 05dfbc2a9efa72142596709618d1a20c 37008 krb5-gss-samples-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 7db132539ec46b37888ddc393eaade3f 61152 krb5-gss-samples_1.18.3-6+deb11u3_amd64.deb
+ 896e00397b46ec48c7f4cc0c160c898f 19972 krb5-k5tls-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ f845d0e70051bb60c5a68af6a030efc4 51756 krb5-k5tls_1.18.3-6+deb11u3_amd64.deb
+ b330288abcad44d678be7b103df7b5d0 435860 krb5-kdc-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ d12f25c22ef4e16312ddbb7b6cc74163 187144 krb5-kdc-ldap-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 53b7ddbc9c39f9dede1ad93c08d3e7ce 120808 krb5-kdc-ldap_1.18.3-6+deb11u3_amd64.deb
+ 276e4582004d9f3d76942db29482a9d7 211628 krb5-kdc_1.18.3-6+deb11u3_amd64.deb
+ 39942ae9194c8b0970230e7c49099296 42140 krb5-kpropd-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 83f63f457831b6120c99d109ebb77e12 63792 krb5-kpropd_1.18.3-6+deb11u3_amd64.deb
+ 374a308b56b70e4cd3983616d347f583 157608 krb5-multidev_1.18.3-6+deb11u3_amd64.deb
+ 863a9820808b2e76dc33b56f33e11ae6 29380 krb5-otp-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 8dd67c55965ec0f4a953bbf34b4bc500 54188 krb5-otp_1.18.3-6+deb11u3_amd64.deb
+ 2bffad438895e435ed6619017a8b765f 154776 krb5-pkinit-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ fcf64b3f3094de368fe5589edd578984 89008 krb5-pkinit_1.18.3-6+deb11u3_amd64.deb
+ a8e54456f98975f8352c32481468552c 194388 krb5-user-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 1171d28654032d2ae637607daa56d82d 151600 krb5-user_1.18.3-6+deb11u3_amd64.deb
+ 3a6aa461fd5f76ee9f5a2a9aa01ae6c7 165008 libgssapi-krb5-2_1.18.3-6+deb11u3_amd64.deb
+ 04f727ec9e33b0f5d6ff444c76bf1fda 91656 libgssrpc4_1.18.3-6+deb11u3_amd64.deb
+ d4672788b715c08495be1fd2deba4f4b 113872 libk5crypto3_1.18.3-6+deb11u3_amd64.deb
+ a3c0aca04ae792934b25a9a1745b1832 73888 libkadm5clnt-mit12_1.18.3-6+deb11u3_amd64.deb
+ 748633eeae9b6b98fea47d16c9d68239 85748 libkadm5srv-mit12_1.18.3-6+deb11u3_amd64.deb
+ 9fd6384f6d9119ce7fe936ef3c524b74 73368 libkdb5-10_1.18.3-6+deb11u3_amd64.deb
+ 2b5b96c2a692412f379ad26f56533c52 48036 libkrad-dev_1.18.3-6+deb11u3_amd64.deb
+ a08997e0be4a427a6eef65d8d21d8f15 57296 libkrad0_1.18.3-6+deb11u3_amd64.deb
+ 2430805a6033849b17e293a1e48a8be8 363504 libkrb5-3_1.18.3-6+deb11u3_amd64.deb
+ b55cf3f90dce4fcbf0f28550977eb90b 2208048 libkrb5-dbg_1.18.3-6+deb11u3_amd64.deb
+ 744d4454123c42656e379dff48ef4739 47524 libkrb5-dev_1.18.3-6+deb11u3_amd64.deb
+ 31bf02af39f7a5df31bc0bac7fe89964 65484 libkrb5support0_1.18.3-6+deb11u3_amd64.deb
+Checksums-Sha1:
+ 57b5887cdf108da7665448bc003127031cf165b5 201240 krb5-admin-server-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 5a2e9c5b3d4be7e0f0ba3292d8510c7d27eddcfa 125372 krb5-admin-server_1.18.3-6+deb11u3_amd64.deb
+ 4f5cda409fe91654405cac7a9c7407d5bdb06a1f 37008 krb5-gss-samples-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 4eaccf74ad75f2d48294dcfba85d916928eb3d54 61152 krb5-gss-samples_1.18.3-6+deb11u3_amd64.deb
+ f506071ce1f46db592bbc5332b6e55dc02bea156 19972 krb5-k5tls-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ ebe0a1d9a81b3d4ef948fdc06e374494215465d4 51756 krb5-k5tls_1.18.3-6+deb11u3_amd64.deb
+ 9ec25a4bf9f989a377077b6f5a144729a49a35cc 435860 krb5-kdc-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ ad8c7e3d444b964d89858142ac98422c8fdbdcec 187144 krb5-kdc-ldap-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 2a37c8e1027ea2ea904d613d51f133c3e3687966 120808 krb5-kdc-ldap_1.18.3-6+deb11u3_amd64.deb
+ 3b43a8d2c91ebf0f12d256c5f476d8af268258cd 211628 krb5-kdc_1.18.3-6+deb11u3_amd64.deb
+ 7db095e48d6aca47f947b71739d677672d9a299c 42140 krb5-kpropd-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 56e4a06bc47f813e9374d8923c583b7d457227d1 63792 krb5-kpropd_1.18.3-6+deb11u3_amd64.deb
+ 2aba64de6970508405964319f6dac4ad4fa931d0 157608 krb5-multidev_1.18.3-6+deb11u3_amd64.deb
+ 3212b6289da076340c4180d28593cfc770e572e8 29380 krb5-otp-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ b0896676a403737f7471f9e5d6bbbae519c40ae1 54188 krb5-otp_1.18.3-6+deb11u3_amd64.deb
+ ded3218057784ae0e4e331659d75de8e13b6e123 154776 krb5-pkinit-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 6b7a6b46852a9fe3daf7a104cc46f15e15606d58 89008 krb5-pkinit_1.18.3-6+deb11u3_amd64.deb
+ 9b559f76c0a9cf6903627b523748cd066db21568 194388 krb5-user-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ d7e1a0f842974fa8d74e92246810dc8f58269f19 151600 krb5-user_1.18.3-6+deb11u3_amd64.deb
+ 212eedbbc0e7f8a846d549aba338790f981ffefb 165008 libgssapi-krb5-2_1.18.3-6+deb11u3_amd64.deb
+ e26ec3c1ee11ac597dc73935eaa350e02cd9d0de 91656 libgssrpc4_1.18.3-6+deb11u3_amd64.deb
+ 97ca5a45e191c55df51e2f3328015ef8b1e9f59e 113872 libk5crypto3_1.18.3-6+deb11u3_amd64.deb
+ 9d6372b97ec00f0e3228276f50c1308f25a26354 73888 libkadm5clnt-mit12_1.18.3-6+deb11u3_amd64.deb
+ 75921fc46d5f4610d417e74cf91d84b4bc4af68a 85748 libkadm5srv-mit12_1.18.3-6+deb11u3_amd64.deb
+ 4a0e1ea878e26b86ee8096ea1c7d1c3cd6cfce6e 73368 libkdb5-10_1.18.3-6+deb11u3_amd64.deb
+ 9833551d1593c8d5dd9edbcf0fc52e16ef36c53d 48036 libkrad-dev_1.18.3-6+deb11u3_amd64.deb
+ cd9e037ce458f057a705fead69e5d39099d0b1af 57296 libkrad0_1.18.3-6+deb11u3_amd64.deb
+ 6a0f17cc06ec4f9cae9eebd5f8830b253e7f6424 363504 libkrb5-3_1.18.3-6+deb11u3_amd64.deb
+ bbdcdb1cdb31b0d92aece392f5a037e3397aae19 2208048 libkrb5-dbg_1.18.3-6+deb11u3_amd64.deb
+ 7778d6bf0afd8176be7b4f0ede03a3bdb571586a 47524 libkrb5-dev_1.18.3-6+deb11u3_amd64.deb
+ a8a264f544178da9e2210f7600dc6032e3217369 65484 libkrb5support0_1.18.3-6+deb11u3_amd64.deb
+Checksums-Sha256:
+ c257d5541a8f9299344b2988fbfedd3e5de7e0e821fb50d9efb064cc76c92823 201240 krb5-admin-server-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 408bb26660c3570f663d59957e0ec0bbe5f601f238b7a89a736265815d504c2e 125372 krb5-admin-server_1.18.3-6+deb11u3_amd64.deb
+ 62c22a7a092cbf93ca7df081b9d18c38500d992e81dae31fe31fe37598fd5d86 37008 krb5-gss-samples-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ d3b244bb66969957e066ed0ade47af3b25200486383e18d722dd1897c52f6101 61152 krb5-gss-samples_1.18.3-6+deb11u3_amd64.deb
+ e0046d7d15a0a3c4c9ec83546d61482caa4d0545a34e9b64f5f5a2c2d465512a 19972 krb5-k5tls-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 9b4f75b9363e712d01cdcd945982b73cf860c59b6a948130b607117a632c8000 51756 krb5-k5tls_1.18.3-6+deb11u3_amd64.deb
+ 6fc2ba9a8bdb020876cf4bddabeeb6c8303e9c8c1b2e89cb01be5bc60530cb35 435860 krb5-kdc-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ f970941b41e0c016dd61f8859dae607649f1b4ff1bc90fd720ffc4dc387e55a9 187144 krb5-kdc-ldap-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ bcde8d7b997d6e8673f7df58584146f3faf0f6ff8a0d92e1fad2061fe3aba0b1 120808 krb5-kdc-ldap_1.18.3-6+deb11u3_amd64.deb
+ 2a06a18c33584f1a58e61d7842c2387f7b6b4d66ee3797f5afefbe9738ba7a6b 211628 krb5-kdc_1.18.3-6+deb11u3_amd64.deb
+ 573bc336de6d6afea324676f68dfe3df9e8ddc5b3796157dcd6aded59b078634 42140 krb5-kpropd-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 9bd1fbbadb298298a663647c9be9c48a853c3863876d0ba1e185641eec36a675 63792 krb5-kpropd_1.18.3-6+deb11u3_amd64.deb
+ 94800826f292243b82c5a4c863e907545b946f1a31dc04e8046150ba9b29dc85 157608 krb5-multidev_1.18.3-6+deb11u3_amd64.deb
+ 41c227b73f18bdefff0b728654d67a8020eb685dd29149baa15ffd30cf919599 29380 krb5-otp-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ b02c83ff20b12f9d65a54ce3b5a17608d2e2e64c3b6e8e1f7cc8eb3fff854807 54188 krb5-otp_1.18.3-6+deb11u3_amd64.deb
+ bec296b6e55eb06b614179545773dc6260a77e7de735bb3f6d2edeedaeeea501 154776 krb5-pkinit-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 765cff003a4e0a3acb0ecc43cb3188068a7a5c5fdf96952238c9dfb6be84819b 89008 krb5-pkinit_1.18.3-6+deb11u3_amd64.deb
+ 60adfae022f2fcbf787038dec04c3bc9d1f95f30d7bd873cdd74b900ce273c60 194388 krb5-user-dbgsym_1.18.3-6+deb11u3_amd64.deb
+ 7d31b9bfb956a03fa42051a94535c361dd83b98a6260d9ac8a6be4711f3f8177 151600 krb5-user_1.18.3-6+deb11u3_amd64.deb
+ 03d2c35600ebb5b83e6acaf3b130f5ca2012d70fc13e2664564dfec354076562 165008 libgssapi-krb5-2_1.18.3-6+deb11u3_amd64.deb
+ bdf0da63f5c31467a1db62b2b3aa135a17fab81da0ddb01f8aaa8c920bea987e 91656 libgssrpc4_1.18.3-6+deb11u3_amd64.deb
+ 115c090e64614cffed4786ca20038ccf304ab75183714508694d7b979f260c11 113872 libk5crypto3_1.18.3-6+deb11u3_amd64.deb
+ 9cb3318dfe01b2ff0465a2aed53cddbad1b8c12a92f5fcaaeeac809f0ba08115 73888 libkadm5clnt-mit12_1.18.3-6+deb11u3_amd64.deb
+ b3dfef8ae6013bdd7e1c429c5c79a820c1dd204b033f4378c0d99ff061cf7852 85748 libkadm5srv-mit12_1.18.3-6+deb11u3_amd64.deb
+ a2b58612a4dadb4beb4d392449a9b3eb21dc92c3442d44abf46b5ae36d7a042f 73368 libkdb5-10_1.18.3-6+deb11u3_amd64.deb
+ 16b629298ca9301034dc615d6a087a4ec45fd7b74cd3edff40345251867775ae 48036 libkrad-dev_1.18.3-6+deb11u3_amd64.deb
+ 811dfd479a6abdcebc54f62af885743c68f8b7b1c1318eee2dc0e84e6226119f 57296 libkrad0_1.18.3-6+deb11u3_amd64.deb
+ e983d4a5f0d13410383478d5b5686b4f4ea3dc5d379540234bb813ff7a48ba9d 363504 libkrb5-3_1.18.3-6+deb11u3_amd64.deb
+ 0c18cfd8df002db20ee49152dbd66696630068da35d6fad5c2d1cfc05e89660b 2208048 libkrb5-dbg_1.18.3-6+deb11u3_amd64.deb
+ 0400334f5320ecb9bbb581593205db806c43ae7ded3c8c5ba2229b5a8534b646 47524 libkrb5-dev_1.18.3-6+deb11u3_amd64.deb
+ 5ec0151297fd6259ff10c62233894966768fd4e9bafd31be6fb84f7a2f854a0f 65484 libkrb5support0_1.18.3-6+deb11u3_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 18 Nov 2022 15:32:38 +0000
+Build-Path: /build/krb5-d0FKh5/krb5-1.18.3
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u5),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+deb11u1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8+deb11u1),
+ build-essential (= 12.9),
+ byacc (= 20140715-1+b1),
+ bzip2 (= 1.0.8-4),
+ comerr-dev (= 2.1-1.46.2-2),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ docbook (= 4.5-6),
+ docbook-to-man (= 1:2.0.0-45),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4+deb11u1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8+deb11u1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u4),
+ libc-dev-bin (= 2.31-13+deb11u4),
+ libc6 (= 2.31-13+deb11u4),
+ libc6-dev (= 2.31-13+deb11u4),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.12),
+ libelf1 (= 0.183-1),
+ libev4 (= 1:4.33-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgnutls30 (= 3.7.1-5+deb11u2),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u2),
+ libhogweed6 (= 3.7.3-1),
+ libicu67 (= 67.1-7),
+ libidn2-0 (= 2.3.0-5),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-6+deb11u2),
+ libkeyutils-dev (= 1.6.1-2),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6+deb11u2),
+ libkrb5support0 (= 1.18.3-6+deb11u2),
+ libldap-2.4-2 (= 2.4.57+dfsg-3+deb11u1),
+ libldap2-dev (= 2.4.57+dfsg-3+deb11u1),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2.1~deb11u1),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-8+deb11u1),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libncurses-dev (= 6.2+20201114-2),
+ libncurses5-dev (= 6.2+20201114-2),
+ libncurses6 (= 6.2+20201114-2),
+ libncursesw6 (= 6.2+20201114-2),
+ libnettle8 (= 3.7.3-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libosp5 (= 1.5.2-13+b2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libsasl2-2 (= 2.1.27+dfsg-2.1+deb11u1),
+ libsasl2-dev (= 2.1.27+dfsg-2.1+deb11u1),
+ libsasl2-modules-db (= 2.1.27+dfsg-2.1+deb11u1),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-8+deb11u1),
+ libss2 (= 1.46.2-2),
+ libssl-dev (= 1.1.1n-0+deb11u3),
+ libssl1.1 (= 1.1.1n-0+deb11u3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-7+deb11u1),
+ libtasn1-6 (= 4.16.0-2),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1+deb11u1),
+ libtirpc-dev (= 1.3.1-1+deb11u1),
+ libtirpc3 (= 1.3.1-1+deb11u1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-7+deb11u1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8+deb11u1),
+ libverto-dev (= 0.3.1-1),
+ libverto-glib1 (= 0.3.1-1),
+ libverto-libev1 (= 0.3.1-1),
+ libverto1 (= 0.3.1-1),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.140-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ opensp (= 1.5.2-13+b2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sgml-data (= 2.0.11+nmu1),
+ ss-dev (= 2.0-1.46.2-2),
+ sysvinit-utils (= 2.96-7+deb11u1),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-8+deb11u1),
+ xml-core (= 0.18+nmu1),
+ xz-utils (= 5.2.5-2.1~deb11u1),
+ zlib1g (= 1:1.2.11.dfsg-2+deb11u2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="C.UTF-8"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1668714106"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEZ+kjGN6s2Ioxmya1SqddLxw5rsoFAmN3paAACgkQSqddLxw5
+rspqDA/+Oc/eSvwCvFbl21bK3bNhewd3osIkERP/b9D/wbLMZ3XERRd3ywDoIp8V
+RnLRfa2ikgUB+LK1e0s6+gXa0lz4plV9EiXcnY3gyp/Anha9ERDWm3atSVAYJOIl
+DExiQ1MMCB0CQHNZa0NX+kr36/KqrrKCguT+hTjC6sWCARXYRhQtYBD652tUEqpF
+bwIBsfXcrr3mNWZXbNdS+yxGza5qjPajmPa4tc6XT6ltGim/pNM2JbafZSHy+GrV
+BT2xcQ9x9CSXkse3Sj2KffumInvk+zZUHfK/l/WLHCjKXY5MF46kf1pmtlycrYEm
+b+Ds1nY9mcySUD9lhpZRlZ63Dl2VzkH+oHaJCWf3QbDokPp3JYJK3G3uKlaqXkqU
+CXWq5MyYN3WLwISToBfW6YKFrWNhPs/66+jPpsjJ5B2naSnE7KQylKcV6mCHZuW0
+N6fwaC/R+wNcVnQo6YdIbXS04QgJcTmY6JCrfp2jPDFRmFqtNWlc8IpXK27pQRx5
+PFbNQhuTqHSYsAFV+i59YsjbgmevW9obfeFIUvAPi2UTfxaP7eITKIOnPC2jo0uq
+dUGAAvcdBhnPXWlVMeftOaM5VJSonZGFTmzCsSButcxdVrSdsaZE+LuHTlkdLdVF
+Vi7XB1lKeYQFTHdMxxHJRBtNKd/A2FyPj3Waz1WuWlFi5XU2NkM=
+=J1LS
+-----END PGP SIGNATURE-----

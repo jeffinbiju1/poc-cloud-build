@@ -1,0 +1,302 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: exim4
+Binary: exim4-base exim4-base-dbgsym exim4-daemon-heavy exim4-daemon-heavy-dbgsym exim4-daemon-light exim4-daemon-light-dbgsym exim4-dev eximon4 eximon4-dbgsym
+Architecture: amd64
+Version: 4.94.2-7
+Checksums-Md5:
+ 2e50c9a7064d0f21a00e198163482558 112824 exim4-base-dbgsym_4.94.2-7_amd64.deb
+ b25efd140ee027c95bf7a6cf499ba824 1175492 exim4-base_4.94.2-7_amd64.deb
+ 694d481d54d60be2695691d16a197e00 1548256 exim4-daemon-heavy-dbgsym_4.94.2-7_amd64.deb
+ a0ded4b130591667a614b0a5b0bb0e23 713432 exim4-daemon-heavy_4.94.2-7_amd64.deb
+ 62033cbadc8bef530ecad7a88b60d056 1360264 exim4-daemon-light-dbgsym_4.94.2-7_amd64.deb
+ 82fb76ca659024a433a7625c67fa966f 657644 exim4-daemon-light_4.94.2-7_amd64.deb
+ 4f639e296c021d52ef7a10371e0e6f58 117256 exim4-dev_4.94.2-7_amd64.deb
+ 10de0272b05f9423e46055290d8321cf 132200 eximon4-dbgsym_4.94.2-7_amd64.deb
+ 9c832805930fab7409ba96dba50d14ab 151172 eximon4_4.94.2-7_amd64.deb
+Checksums-Sha1:
+ 9d419e8813da03a85a44539c67fcc10e4e431a89 112824 exim4-base-dbgsym_4.94.2-7_amd64.deb
+ 3d304c205b486951144240966a55f82942399cab 1175492 exim4-base_4.94.2-7_amd64.deb
+ e2f507589a7162310964ab70674f2c0a840ddf8a 1548256 exim4-daemon-heavy-dbgsym_4.94.2-7_amd64.deb
+ db801c4c2402d07615613e84d404e285929913f0 713432 exim4-daemon-heavy_4.94.2-7_amd64.deb
+ ad976bac8000c1f8c59b940fdfb721c509042fa0 1360264 exim4-daemon-light-dbgsym_4.94.2-7_amd64.deb
+ c431cfb7ea54e2cc3d868cb123e4c4f35708cf2e 657644 exim4-daemon-light_4.94.2-7_amd64.deb
+ 420e62114a4abc99df55cefd7330d96f4439ef56 117256 exim4-dev_4.94.2-7_amd64.deb
+ 4f28617f73f03493b82ab30945910e51c4c16412 132200 eximon4-dbgsym_4.94.2-7_amd64.deb
+ f2c50ec1affb36c0460b713d0260e5bd78db8a95 151172 eximon4_4.94.2-7_amd64.deb
+Checksums-Sha256:
+ ef73bf833403f79f71f6b4e50296f5ab316af6617d3dae1eac623d6f4e410a50 112824 exim4-base-dbgsym_4.94.2-7_amd64.deb
+ 465a377f1d5d2cb8751b2667fbd7ca3a9d7b94cff63b73f5e4b253b5701e953d 1175492 exim4-base_4.94.2-7_amd64.deb
+ 42b0441b99638baa7f9d1375f80aa17bb1e042fac0e063640509cffffda0fde5 1548256 exim4-daemon-heavy-dbgsym_4.94.2-7_amd64.deb
+ cadda8557ef3fd9791a408365330ea29e381e4dde47c37b66b1dab18b4939517 713432 exim4-daemon-heavy_4.94.2-7_amd64.deb
+ b6d8fd3507a27956e99e845af86b1aaecfaa8ccfa95c9a90c81de46590efdd32 1360264 exim4-daemon-light-dbgsym_4.94.2-7_amd64.deb
+ 6449b69a910b33b72402f8371e3b37eed8fa1a15e0f2bee11ebe614981bccb5f 657644 exim4-daemon-light_4.94.2-7_amd64.deb
+ 9d8ba7d79ab88c3f93e022a805b6524f8b4fd2103ed636e3fbd4df0ca554fcc3 117256 exim4-dev_4.94.2-7_amd64.deb
+ 6cbedf2289b3eaf689020980557e7a3466f3e032dee5cc8b7f04dfb77cbcc4ff 132200 eximon4-dbgsym_4.94.2-7_amd64.deb
+ 7ab07b5ccb03da90f4bc915091e2ff0fb4448d769b29a52dd47355a9eb970bbb 151172 eximon4_4.94.2-7_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Tue, 13 Jul 2021 16:45:58 +0000
+Build-Path: /build/exim4-aBtLZQ/exim4-4.94.2
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-3),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20210120+802ebd4-1),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ default-libmysqlclient-dev (= 1.0.7),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ docbook-xml (= 4.5-9),
+ docbook-xsl (= 1.79.2+dfsg-1),
+ dpkg (= 1.20.9),
+ dpkg-dev (= 1.20.9),
+ dwz (= 0.14-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-7),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13),
+ libc-dev-bin (= 2.31-13),
+ libc6 (= 2.31-13),
+ libc6-dev (= 2.31-13),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdb5.3-dev (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.9),
+ libelf1 (= 0.183-3),
+ libevent-2.1-7 (= 2.1.12-stable-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp-dev (= 2:6.2.1+dfsg-1),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgmpxx4ldbl (= 2:6.2.1+dfsg-1),
+ libgnutls-dane0 (= 3.7.1-5),
+ libgnutls-openssl27 (= 3.7.1-5),
+ libgnutls28-dev (= 3.7.1-5),
+ libgnutls30 (= 3.7.1-5),
+ libgnutlsxx28 (= 3.7.1-5),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-5),
+ libhogweed6 (= 3.7.3-1),
+ libice-dev (= 2:1.0.10-1),
+ libice6 (= 2:1.0.10-1),
+ libicu67 (= 67.1-7),
+ libident (= 0.22-3.1+b1),
+ libident-dev (= 0.22-3.1+b1),
+ libidn11 (= 1.33-3),
+ libidn11-dev (= 1.33-3),
+ libidn2-0 (= 2.3.0-5),
+ libidn2-dev (= 2.3.0-5),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-5),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-5),
+ libkrb5support0 (= 1.18.3-5),
+ libldap-2.4-2 (= 2.4.57+dfsg-3),
+ libldap2-dev (= 2.4.57+dfsg-3),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmariadb-dev (= 1:10.5.10-2),
+ libmariadb-dev-compat (= 1:10.5.10-2),
+ libmariadb3 (= 1:10.5.10-2),
+ libmd0 (= 1.0.3-3),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2),
+ libnettle8 (= 3.7.3-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libp11-kit-dev (= 0.23.22-1),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-9),
+ libpam-modules-bin (= 1.4.0-9),
+ libpam-runtime (= 1.4.0-9),
+ libpam0g (= 1.4.0-9),
+ libpam0g-dev (= 1.4.0-9),
+ libpcre16-3 (= 2:8.39-13),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libpcre3-dev (= 2:8.39-13),
+ libpcre32-3 (= 2:8.39-13),
+ libpcrecpp0v5 (= 2:8.39-13),
+ libperl-dev (= 5.32.1-4),
+ libperl5.32 (= 5.32.1-4),
+ libpipeline1 (= 1.5.3-1),
+ libpq-dev (= 13.3-1),
+ libpq5 (= 13.3-1),
+ libpthread-stubs0-dev (= 0.4-1),
+ libquadmath0 (= 10.2.1-6),
+ libsasl2-2 (= 2.1.27+dfsg-2.1),
+ libsasl2-dev (= 2.1.27+dfsg-2.1),
+ libsasl2-modules-db (= 2.1.27+dfsg-2.1),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsm-dev (= 2:1.2.3-1),
+ libsm6 (= 2:1.2.3-1),
+ libsmartcols1 (= 2.36.1-7),
+ libsqlite3-0 (= 3.34.1-3),
+ libsqlite3-dev (= 3.34.1-3),
+ libssl-dev (= 1.1.1k-1),
+ libssl1.1 (= 1.1.1k-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-5),
+ libtasn1-6 (= 4.16.0-2),
+ libtasn1-6-dev (= 4.16.0-2),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-5),
+ libunbound8 (= 1.13.1-1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-7),
+ libx11-6 (= 2:1.7.1-1),
+ libx11-data (= 2:1.7.1-1),
+ libx11-dev (= 2:1.7.1-1),
+ libxau-dev (= 1:1.0.9-1),
+ libxau6 (= 1:1.0.9-1),
+ libxaw7 (= 2:1.0.13-1.1),
+ libxaw7-dev (= 2:1.0.13-1.1),
+ libxcb1 (= 1.14-3),
+ libxcb1-dev (= 1.14-3),
+ libxdmcp-dev (= 1:1.1.2-3),
+ libxdmcp6 (= 1:1.1.2-3),
+ libxext-dev (= 2:1.3.3-1.1),
+ libxext6 (= 2:1.3.3-1.1),
+ libxml2 (= 2.9.10+dfsg-6.7),
+ libxmu-dev (= 2:1.1.2-2+b3),
+ libxmu-headers (= 2:1.1.2-2),
+ libxmu6 (= 2:1.1.2-2+b3),
+ libxpm-dev (= 1:3.5.12-1),
+ libxpm4 (= 1:3.5.12-1),
+ libxslt1.1 (= 1.1.34-4),
+ libxt-dev (= 1:1.2.0-1),
+ libxt6 (= 1:1.2.0-1),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.46-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ lynx (= 2.9.0dev.6-2),
+ lynx-common (= 2.9.0dev.6-2),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mariadb-common (= 1:10.5.10-2),
+ mawk (= 1.3.4.20200120-2),
+ mysql-common (= 5.8+1.0.7),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ nettle-dev (= 3.7.3-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4),
+ perl-base (= 5.32.1-4),
+ perl-modules-5.32 (= 5.32.1-4),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sgml-data (= 2.0.11+nmu1),
+ sysvinit-utils (= 2.96-7),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-7),
+ x11-common (= 1:7.7+22),
+ x11proto-dev (= 2020.1-1),
+ x11proto-xext-dev (= 2020.1-1),
+ xml-core (= 0.18+nmu1),
+ xorg-sgml-doctools (= 1:1.11-1.1),
+ xsltproc (= 1.1.34-4),
+ xtrans-dev (= 1.4.0-1),
+ xz-utils (= 5.2.5-2),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1626192297"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEo33KWLLUve5CxgHZGOxRpKJm/V0FAmDtw0wACgkQGOxRpKJm
+/V3KVg//bkl70lX2oGjs8gp08/rQEWtaMrW9uz6VHcIqjoMQXG7YnEDixoPPOf/E
+Ep3nlVpiHFPLIRH6PNo1SGtkuCqKeA3GF5NjrAdxSNrANsBx3Um8uvVzMnbuU2lE
+BkEoLJhzJdTU/2ehBbGEYzA8X4bt14wcry6eY8QPPzJl67dnPFwSPonfY0PyP9hG
+/vny+CFphAVNqAZfUyx8vIamMTUfSxAOYp1juW7Ivn8WVsWgowJ36ZhqomuaJrQS
+1omExrICYU04tlIXa7pzBdHwETNsw8bqcEsZNeMv8Ed+P7kXSJan/JegC5nRxXBs
+zKzXoxi6zB7Liy94byBARP4NSI4Z+gCk2eoxZdCdyTZlh6g4llIH5E0M8nXqaLwv
+aBGHEEuVqrSEjawoGtrZvcVBAXEfov8sO8QjFs30m3OzlaLkgzidkg22ku7ztKCa
+fqPUELPUERNilXPbKZJaI6hgUcX/wQRj9HItyUFGvECtmiH+1982jtpoQQCwrHmp
+MkgGcsIwQeD0myzKWYz/wEzlWvvkqvH+H+Wg7DaovpljQENbDUvJGUti5O++vW8p
+tLugHa0lZCIfuaDhucsxKrfmclZ2kWSKqYGYdSZvds8W7LmBU8Vxk5ZlfnXneS7b
+lzuhXdmQsO6yByaz3bmkvTKj/cWHGY4thNigeTphf1tjKpcpUo8=
+=Ihmk
+-----END PGP SIGNATURE-----

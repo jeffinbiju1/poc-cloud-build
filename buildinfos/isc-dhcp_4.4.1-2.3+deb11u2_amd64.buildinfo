@@ -1,0 +1,259 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: isc-dhcp
+Binary: isc-dhcp-client isc-dhcp-client-dbgsym isc-dhcp-client-ddns isc-dhcp-client-ddns-dbgsym isc-dhcp-client-udeb isc-dhcp-common isc-dhcp-dev isc-dhcp-relay isc-dhcp-relay-dbgsym isc-dhcp-server isc-dhcp-server-dbgsym isc-dhcp-server-ldap isc-dhcp-server-ldap-dbgsym
+Architecture: amd64
+Version: 4.4.1-2.3+deb11u2
+Checksums-Md5:
+ a52c96aafc1a7fe5bc3e053264f6a6f6 800496 isc-dhcp-client-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ aa58992ab41c0f59b1097073bc9f7ff8 838800 isc-dhcp-client-ddns-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 15a34d68116e2ab011070010f0819ea0 322948 isc-dhcp-client-ddns_4.4.1-2.3+deb11u2_amd64.deb
+ adae3ee3a5840486ae89499c0ee9b7f3 209572 isc-dhcp-client-udeb_4.4.1-2.3+deb11u2_amd64.udeb
+ ff9396e84c0fbe6c9daa5860fd763c02 342768 isc-dhcp-client_4.4.1-2.3+deb11u2_amd64.deb
+ 6d56c2bc8916215f421c00d8c4dcf4cb 144844 isc-dhcp-common_4.4.1-2.3+deb11u2_amd64.deb
+ 48665b4d9107a308ba885291a5251edb 323108 isc-dhcp-dev_4.4.1-2.3+deb11u2_amd64.deb
+ 5c36e9e3abb44d3f30097726eacfe049 714512 isc-dhcp-relay-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 125867e1670721d9d4e4585348315860 292668 isc-dhcp-relay_4.4.1-2.3+deb11u2_amd64.deb
+ feb9eb02f4f349917db84bb597daaf4f 1889700 isc-dhcp-server-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 8fe1e5148e0d154b7998e69c23ff91a3 1240968 isc-dhcp-server-ldap-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 973fb34713a2d99d6380a94cade6653d 450816 isc-dhcp-server-ldap_4.4.1-2.3+deb11u2_amd64.deb
+ 97e04ae8827738afc7912febd20bb19b 553500 isc-dhcp-server_4.4.1-2.3+deb11u2_amd64.deb
+Checksums-Sha1:
+ 1c785074437537c257e4fb0406a81018e1886624 800496 isc-dhcp-client-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 5ce0512795413d30ebdc3e4463f5264187659270 838800 isc-dhcp-client-ddns-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 4b60bc902a85b692a2aa4c5ba29a01fd64027dc5 322948 isc-dhcp-client-ddns_4.4.1-2.3+deb11u2_amd64.deb
+ 3a527e8dd611c6d635ccf264b90ca2f0e72daed9 209572 isc-dhcp-client-udeb_4.4.1-2.3+deb11u2_amd64.udeb
+ 945ef2b4be49b22607e579021b4ea584bba03f96 342768 isc-dhcp-client_4.4.1-2.3+deb11u2_amd64.deb
+ 105deceacedeb19a495e50ba6caccbc60df49c55 144844 isc-dhcp-common_4.4.1-2.3+deb11u2_amd64.deb
+ bcf3de9684c589f446929292aa4a654f06364040 323108 isc-dhcp-dev_4.4.1-2.3+deb11u2_amd64.deb
+ 88ad2dd940419b1cd2bf88430c20664e22cd58b4 714512 isc-dhcp-relay-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 5b603f1ad637a33311d49303dc947db8a2af71e6 292668 isc-dhcp-relay_4.4.1-2.3+deb11u2_amd64.deb
+ bb7fa09a32452cd64519e1866c8a3bacf12bb18f 1889700 isc-dhcp-server-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 98445fa612a622b5a9b111cb9d5726dd2b75c4cb 1240968 isc-dhcp-server-ldap-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 31a8faf50a41cf9720b62bc3c97e7c56f36acec2 450816 isc-dhcp-server-ldap_4.4.1-2.3+deb11u2_amd64.deb
+ 76eb9802fbaa91a0c431b73f28e585a270b01c31 553500 isc-dhcp-server_4.4.1-2.3+deb11u2_amd64.deb
+Checksums-Sha256:
+ 172776160968ac7509c1e2e2473ed66ed639624510149a84f273619bf8a521b1 800496 isc-dhcp-client-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 3abb749203abd0db4f1c53a6a560fceacd40b659c39442391a1f0c39c182c49c 838800 isc-dhcp-client-ddns-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 20d77154e8c447c7a0af444af7cf7794f2a65629ce2763393e6c6bdced0bbf9c 322948 isc-dhcp-client-ddns_4.4.1-2.3+deb11u2_amd64.deb
+ a4413f66c510d0beb52940a557037f5bd749ae891941863fd200d1f472dc54fc 209572 isc-dhcp-client-udeb_4.4.1-2.3+deb11u2_amd64.udeb
+ ae718e5d2a17f3927b8826b720bf958dd20985b72c514377d36e70ec6c1f01ff 342768 isc-dhcp-client_4.4.1-2.3+deb11u2_amd64.deb
+ db458838b9c6bbf9290ab9c4b69491448b7fd33f2432da8db7d350bb846634a4 144844 isc-dhcp-common_4.4.1-2.3+deb11u2_amd64.deb
+ 4d1ed3137f98f8ae6b1bb27bf3c5a5f46ff9df5801cc523d6d73158345416329 323108 isc-dhcp-dev_4.4.1-2.3+deb11u2_amd64.deb
+ e8191aa621a03fae315c4c3b10dbe5e628fc1d9b8980b1e57fbee387dedb9c6b 714512 isc-dhcp-relay-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 6a149c2addf45aa87152a585ea8190d67ae3b7294320cee7eccd951f387feebe 292668 isc-dhcp-relay_4.4.1-2.3+deb11u2_amd64.deb
+ 1b7505cf17b2a2a5c109bf232d69b3a35a7b0a930a72cfad394a37ff7de73926 1889700 isc-dhcp-server-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ b02bf4659e8a79ec8aa1ca3095a21c1d20b6bcd4eb3ad46872dfa65deeba93a4 1240968 isc-dhcp-server-ldap-dbgsym_4.4.1-2.3+deb11u2_amd64.deb
+ 37e07d77a40242174ef583461d66188e1af3ad32857058913caa221f4fe46d37 450816 isc-dhcp-server-ldap_4.4.1-2.3+deb11u2_amd64.deb
+ 64f3b9c5eb7bcfb43b4da45b9281dc5d46306dbc0f81b0250b94b284931528e9 553500 isc-dhcp-server_4.4.1-2.3+deb11u2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Fri, 24 Feb 2023 03:16:49 +0000
+Build-Path: /build/isc-dhcp-iCZpCD/isc-dhcp-4.4.1
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u6),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+deb11u1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-8+deb11u1),
+ bsdutils (= 1:2.36.1-8+deb11u1),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff (= 1.22.4-6),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4+deb11u1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbind-export-dev (= 1:9.11.19+dfsg-2.1),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8+deb11u1),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u5),
+ libc-dev-bin (= 2.31-13+deb11u5),
+ libc6 (= 2.31-13+deb11u5),
+ libc6-dev (= 2.31-13+deb11u5),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdns-export1110 (= 1:9.11.19+dfsg-2.1),
+ libdpkg-perl (= 1.20.12),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgnutls30 (= 3.7.1-5+deb11u2),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u3),
+ libhogweed6 (= 3.7.3-1),
+ libice6 (= 2:1.0.10-1),
+ libicu67 (= 67.1-7),
+ libidn2-0 (= 2.3.0-5),
+ libirs-export161 (= 1:9.11.19+dfsg-2.1),
+ libisc-export1105 (= 1:9.11.19+dfsg-2.1),
+ libisccc-export161 (= 1:9.11.19+dfsg-2.1),
+ libisccfg-export163 (= 1:9.11.19+dfsg-2.1),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-6+deb11u3),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-6+deb11u3),
+ libkrb5support0 (= 1.18.3-6+deb11u3),
+ libldap-2.4-2 (= 2.4.57+dfsg-3+deb11u1),
+ libldap2-dev (= 2.4.57+dfsg-3+deb11u1),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2.1~deb11u1),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmd0 (= 1.0.3-3),
+ libmount1 (= 2.36.1-8+deb11u1),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libnettle8 (= 3.7.3-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libsasl2-2 (= 2.1.27+dfsg-2.1+deb11u1),
+ libsasl2-modules-db (= 2.1.27+dfsg-2.1+deb11u1),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsm6 (= 2:1.2.3-1),
+ libsmartcols1 (= 2.36.1-8+deb11u1),
+ libssl1.1 (= 1.1.1n-0+deb11u3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-7+deb11u1),
+ libtasn1-6 (= 4.16.0-2+deb11u1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1+deb11u1),
+ libtirpc-dev (= 1.3.1-1+deb11u1),
+ libtirpc3 (= 1.3.1-1+deb11u1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-7+deb11u1),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8+deb11u1),
+ libx11-6 (= 2:1.7.2-1),
+ libx11-data (= 2:1.7.2-1),
+ libxau6 (= 1:1.0.9-1),
+ libxaw7 (= 2:1.0.13-1.1),
+ libxcb1 (= 1.14-3),
+ libxdmcp6 (= 1:1.1.2-3),
+ libxext6 (= 2:1.3.3-1.1),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libxmu6 (= 2:1.1.2-2+b3),
+ libxpm4 (= 1:3.5.12-1.1~deb11u1),
+ libxt6 (= 1:1.2.0-1),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.158-2),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sysvinit-utils (= 2.96-7+deb11u1),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-8+deb11u1),
+ x11-common (= 1:7.7+22),
+ xz-utils (= 5.2.5-2.1~deb11u1),
+ zlib1g (= 1:1.2.11.dfsg-2+deb11u2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1676881183"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHWxRmfLuR591d5l2LWlxuzKfiVUFAmP4LCcACgkQLWlxuzKf
+iVXUfBAAqLNpfevNOUL1m2h3/NwNgpj3pQ2iBnH0flyFD6YsmOOzcgKRPlQ3X/EY
+IsfS/ocEMi+uDcTO+2MlTOBJuN2nk0UkeiQGhY/8RKdaV+FgJ97+LW8wWXI717og
+RHkPWWwNyUYdJ2yMySqpwItCTSkzlXtVgd0raX7fawjvhm6fVMBtevEQdOowNZv7
+1R0i/f8yBli5/qy13Cv1GNs5RZ4i3ig/q70tXtznumHg5Flj/pnb4X63Nemhv9D1
+cP9QTbIBtOlzzPIzAfzW5aya8Wj2cqnebm8q4N0sh4NX0+sJ59N4KBHUMPs810WU
+HnSdUb9TLNmEv0AYKrvUt8iXsqPgaZBV4aGNEvl079EsbgIArd7ytZI9bqOJmKqq
+JFzMRVabgQQNtgs6SqEnIpTa13mb4YjPr7qL2jbBjF6xmJjVT4OKs0ucYaRJT1ce
+RSfmVcO4Uc+rCw6nGKrHbCGDz0i0kH9DrwpdfV5YpXzdh/D9Wa8UfdE7juzEqiHI
+F5/NWdR7ZhjtDLOaA6U/iR3N8280pZXGXUensLUVHjt8IsIBb9mSp7B1ygbsH3MI
+QlWITvCbKnEFtaW0IE8JFQ7Xyzg2+Gb/c7Bf8f1tB76nkNt6jK7EgytXAmc71KuU
+lkJqz4HP9Hi3X1novR+bzYYk1IjBO0usfU3z+AHVtbbeMAQ2QwU=
+=vV9n
+-----END PGP SIGNATURE-----

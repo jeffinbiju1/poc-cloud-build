@@ -1,0 +1,348 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: libselinux
+Binary: libselinux1 libselinux1-dbgsym libselinux1-dev libselinux1-udeb python3-selinux python3-selinux-dbgsym ruby-selinux ruby-selinux-dbgsym selinux-utils selinux-utils-dbgsym
+Architecture: amd64
+Version: 3.1-3
+Checksums-Md5:
+ c486392cf3bd67d63303ec6617e83866 201908 libselinux1-dbgsym_3.1-3_amd64.deb
+ b11538e7b43bf96307e03b126c1f0ce1 168436 libselinux1-dev_3.1-3_amd64.deb
+ 1bbf484d9882f6bea370334d57cc5a12 64408 libselinux1-udeb_3.1-3_amd64.udeb
+ 54f3790fe67396277bc85c6a91f61dbd 88124 libselinux1_3.1-3_amd64.deb
+ 2eeef98b7dee4e14d84754b926716fc5 261432 python3-selinux-dbgsym_3.1-3_amd64.deb
+ 373ceee527811d8f462821b3d9a35ebb 159604 python3-selinux_3.1-3_amd64.deb
+ 6fd4fc5e98827de2c66418fc966fe9fd 190492 ruby-selinux-dbgsym_3.1-3_amd64.deb
+ 0bfa1e7537b68e37539953d18e2fdcab 61880 ruby-selinux_3.1-3_amd64.deb
+ 35dcab41473461c10404044f54441355 147616 selinux-utils-dbgsym_3.1-3_amd64.deb
+ 20287a0dccb330ec04d33d3cb5a01b84 141860 selinux-utils_3.1-3_amd64.deb
+Checksums-Sha1:
+ b7cb67b8b7eccd5d552b8ebdcdd4d6bf29bb9f52 201908 libselinux1-dbgsym_3.1-3_amd64.deb
+ 9f6d66c0e8df6dfba45b1b8670b4b9625280c3b0 168436 libselinux1-dev_3.1-3_amd64.deb
+ e594134717703a58a3b2cc18cb3fb1a9a54e0519 64408 libselinux1-udeb_3.1-3_amd64.udeb
+ abc198eb94eaa9796489271276179f28b34cc9ce 88124 libselinux1_3.1-3_amd64.deb
+ 058fb5c374d6780090ed7e4c9e15c13a7425bc49 261432 python3-selinux-dbgsym_3.1-3_amd64.deb
+ 32f466711a094054fbe21447cb2b788e42442bb7 159604 python3-selinux_3.1-3_amd64.deb
+ 94c04f8f18770b49a1d54267746e2749d4d662bc 190492 ruby-selinux-dbgsym_3.1-3_amd64.deb
+ b0259a79b39d239954f48935d681f6e781381613 61880 ruby-selinux_3.1-3_amd64.deb
+ fbd3e18197a380c0cbd22b71c3cfd815d7434938 147616 selinux-utils-dbgsym_3.1-3_amd64.deb
+ c203e7c1dbc02e1c0bd5f95c2c10224cb7fa26e2 141860 selinux-utils_3.1-3_amd64.deb
+Checksums-Sha256:
+ 2b45d27c66b5f2c10025e57ada61c66460f3c68bf9d443d2b2aa328b3754305b 201908 libselinux1-dbgsym_3.1-3_amd64.deb
+ 16b14d7e8ed88b9b07d1b52d84d04ab2fcdfcdc4b8cecc9dd34df06f3ce7d3fb 168436 libselinux1-dev_3.1-3_amd64.deb
+ cd5b8b57db48ae9bb738eb9796f9c243844012fae04729b015e633d25e7b632f 64408 libselinux1-udeb_3.1-3_amd64.udeb
+ 339f5ede10500c16dd7192d73169c31c4b27ab12130347275f23044ec8c7d897 88124 libselinux1_3.1-3_amd64.deb
+ 03801983e6b112e542a6fec1601934002ff37840f44e5883a1b9a3aaec1199e8 261432 python3-selinux-dbgsym_3.1-3_amd64.deb
+ 871fff2c78fd2a3b8733fd011617764849ef1f08dab4d0cf8fb6d5ae19d72ab8 159604 python3-selinux_3.1-3_amd64.deb
+ cce387211943e449902a11fca738c13b5beaca54a06c31d462f92cc7e9180d27 190492 ruby-selinux-dbgsym_3.1-3_amd64.deb
+ c33567f81a691cab6a890dadaa7f1bca514da39e90ae6fdf6d7638dbb3e5c474 61880 ruby-selinux_3.1-3_amd64.deb
+ 01225b6617c2805458a1e69f1a5d999d0434d9b46180cb3fd7b6738ef6a81034 147616 selinux-utils-dbgsym_3.1-3_amd64.deb
+ 35d6c1e380bbdf9943babd9f618c9520455d822a228137c8c264012e1c4e481c 141860 selinux-utils_3.1-3_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Tue, 09 Feb 2021 10:12:20 +0000
+Build-Path: /build/libselinux-naPz2V/libselinux-3.1
+Installed-Build-Depends:
+ adduser (= 3.118),
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.49),
+ bash (= 5.1-2),
+ binutils (= 2.35.1-7),
+ binutils-common (= 2.35.1-7),
+ binutils-x86-64-linux-gnu (= 2.35.1-7),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ ca-certificates (= 20210119),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.74),
+ debhelper (= 13.3.3),
+ debianutils (= 4.11.2),
+ devscripts (= 2.20.5),
+ dh-autoreconf (= 20),
+ dh-python (= 4.20201102),
+ dh-strip-nondeterminism (= 1.11.0-1),
+ diffutils (= 1:3.7-5),
+ dirmngr (= 2.2.27-1),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.13+20210201-1),
+ fakeroot (= 1.25.3-1.1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gem2deb (= 1.4),
+ gem2deb-test-runner (= 1.4),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ gnupg (= 2.2.27-1),
+ gnupg-l10n (= 2.2.27-1),
+ gnupg-utils (= 2.2.27-1),
+ gpg (= 2.2.27-1),
+ gpg-agent (= 2.2.27-1),
+ gpg-wks-client (= 2.2.27-1),
+ gpg-wks-server (= 2.2.27-1),
+ gpgconf (= 2.2.27-1),
+ gpgsm (= 2.2.27-1),
+ gpgv (= 2.2.27-1),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libassuan0 (= 2.5.4-1),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libb-hooks-op-check-perl (= 0.22-1+b3),
+ libbinutils (= 2.35.1-7),
+ libblkid1 (= 2.36.1-7),
+ libbsd0 (= 0.11.3-1),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-9),
+ libc-dev-bin (= 2.31-9),
+ libc6 (= 2.31-9),
+ libc6-dev (= 2.31-9),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libclass-method-modifiers-perl (= 2.13-1),
+ libcom-err2 (= 1.45.7-1),
+ libcrypt-dev (= 1:4.4.17-1),
+ libcrypt1 (= 1:4.4.17-1),
+ libctf-nobfd0 (= 2.35.1-7),
+ libctf0 (= 2.35.1-7),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.256),
+ libdebhelper-perl (= 13.3.3),
+ libdevel-callchecker-perl (= 0.008-1+b2),
+ libdpkg-perl (= 1.20.7.1),
+ libdynaloader-functions-perl (= 0.003-1.1),
+ libedit2 (= 3.1-20191231-2+b1),
+ libelf1 (= 0.183-1),
+ libencode-locale-perl (= 1.05-1.1),
+ libexpat1 (= 2.2.10-1),
+ libexpat1-dev (= 2.2.10-1),
+ libfakeroot (= 1.25.3-1.1),
+ libffi7 (= 3.3-5),
+ libfile-dirlist-perl (= 0.05-2),
+ libfile-homedir-perl (= 1.006-1),
+ libfile-listing-perl (= 6.14-1),
+ libfile-stripnondeterminism-perl (= 1.11.0-1),
+ libfile-touch-perl (= 0.11-1),
+ libfile-which-perl (= 1.23-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-2),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.6-2),
+ libgmp-dev (= 2:6.2.1+dfsg-1),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgmpxx4ldbl (= 2:6.2.1+dfsg-1),
+ libgnutls30 (= 3.7.0-5),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libhogweed6 (= 3.7-2),
+ libhtml-parser-perl (= 3.75-1+b1),
+ libhtml-tagset-perl (= 3.20-4),
+ libhtml-tree-perl (= 5.07-2),
+ libhttp-cookies-perl (= 6.10-1),
+ libhttp-date-perl (= 6.05-1),
+ libhttp-message-perl (= 6.27-1),
+ libhttp-negotiate-perl (= 6.01-1),
+ libicu67 (= 67.1-6),
+ libidn2-0 (= 2.3.0-5),
+ libimport-into-perl (= 1.002005-1),
+ libio-html-perl (= 1.004-1),
+ libio-pty-perl (= 1:1.15-2),
+ libio-socket-ssl-perl (= 2.069-1),
+ libipc-run-perl (= 20200505.0-1),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ libksba8 (= 1.5.0-3),
+ libldap-2.4-2 (= 2.4.57+dfsg-1),
+ liblsan0 (= 10.2.1-6),
+ liblwp-mediatypes-perl (= 6.04-1),
+ liblwp-protocol-https-perl (= 6.10-1),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-1.0),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmd0 (= 1.0.3-3),
+ libmodule-runtime-perl (= 0.016-1),
+ libmoo-perl (= 2.004004-1),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-1),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2),
+ libnet-http-perl (= 6.20-1),
+ libnet-ssleay-perl (= 1.88-3+b1),
+ libnettle8 (= 3.7-2),
+ libnpth0 (= 1.6-3),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-4),
+ libpam-modules-bin (= 1.4.0-4),
+ libpam-runtime (= 1.4.0-4),
+ libpam0g (= 1.4.0-4),
+ libparams-classify-perl (= 0.015-1+b3),
+ libpcre2-16-0 (= 10.36-2),
+ libpcre2-32-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre2-dev (= 10.36-2),
+ libpcre2-posix2 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-2),
+ libpipeline1 (= 1.5.3-1),
+ libpython3-all-dev (= 3.9.1-1),
+ libpython3-dev (= 3.9.1-1),
+ libpython3-stdlib (= 3.9.1-1),
+ libpython3.9 (= 3.9.1-4),
+ libpython3.9-dev (= 3.9.1-4),
+ libpython3.9-minimal (= 3.9.1-4),
+ libpython3.9-stdlib (= 3.9.1-4),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ librole-tiny-perl (= 2.002004-1),
+ libruby2.7 (= 2.7.2-4),
+ libsasl2-2 (= 2.1.27+dfsg-2),
+ libsasl2-modules-db (= 2.1.27+dfsg-2),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-2+b2),
+ libsemanage-common (= 3.1-1),
+ libsemanage1 (= 3.1-1+b2),
+ libsepol1 (= 3.1-1),
+ libsepol1-dev (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-7),
+ libsqlite3-0 (= 3.34.1-1),
+ libssl1.1 (= 1.1.1i-3),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libstrictures-perl (= 2.000006-1),
+ libsub-override-perl (= 0.09-2),
+ libsub-quote-perl (= 2.006006-1),
+ libsystemd0 (= 247.3-1),
+ libtasn1-6 (= 4.16.0-2),
+ libtimedate-perl (= 2.3300-1),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtry-tiny-perl (= 0.30-1),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-1),
+ libunistring2 (= 0.9.10-4),
+ liburi-perl (= 5.07-1),
+ libuuid1 (= 2.36.1-7),
+ libwww-perl (= 6.52-1),
+ libwww-robotrules-perl (= 6.02-1),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libyaml-0-2 (= 0.2.2-1),
+ libzstd1 (= 1.4.8+dfsg-1),
+ linux-libc-dev (= 5.10.13-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.4-1),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ netbase (= 6.2),
+ openssl (= 1.1.1i-3),
+ passwd (= 1:4.8.1-1),
+ patch (= 2.7.6-7),
+ patchutils (= 0.4.2-1),
+ perl (= 5.32.1-2),
+ perl-base (= 5.32.1-2),
+ perl-modules-5.32 (= 5.32.1-2),
+ perl-openssl-defaults (= 5),
+ pinentry-curses (= 1.1.0-4),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ python3 (= 3.9.1-1),
+ python3-all (= 3.9.1-1),
+ python3-all-dev (= 3.9.1-1),
+ python3-dev (= 3.9.1-1),
+ python3-distutils (= 3.9.1-2),
+ python3-lib2to3 (= 3.9.1-2),
+ python3-minimal (= 3.9.1-1),
+ python3.9 (= 3.9.1-4),
+ python3.9-dev (= 3.9.1-4),
+ python3.9-minimal (= 3.9.1-4),
+ rake (= 13.0.3-1),
+ readline-common (= 8.1-1),
+ ruby (= 1:2.7+2),
+ ruby-all-dev (= 1:2.7+2),
+ ruby-minitest (= 5.13.0-1),
+ ruby-net-telnet (= 0.1.1-2),
+ ruby-power-assert (= 1.1.7-1),
+ ruby-rubygems (= 3.2.5-2),
+ ruby-test-unit (= 3.3.9-1),
+ ruby-xmlrpc (= 0.3.0-2),
+ ruby2.7 (= 2.7.2-4),
+ ruby2.7-dev (= 2.7.2-4),
+ rubygems-integration (= 1.18),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ swig (= 4.0.2-1),
+ swig4.0 (= 4.0.2-1),
+ sysvinit-utils (= 2.96-5),
+ tar (= 1.32+dfsg-1),
+ tzdata (= 2021a-1),
+ util-linux (= 2.36.1-7),
+ wdiff (= 1.2.2-2+b1),
+ xz-utils (= 5.2.5-1.0),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ SOURCE_DATE_EPOCH="1612862390"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEB0DaZsfXBcbc9rpNxLW3Jkp2Je4FAmAiYAgACgkQxLW3Jkp2
+Je7wkw/+Iw2IHAXAtFv1NJaOslswExhgFYN2NnUW40934hWRu3oxC04XU6hN0Ws+
+Ex5hjArBGX++20DkFpfI7oF7bt6MNBDY6QQ5ZMi+4x3EdVM+5ESmBXGQPZvwznsP
+fuKBxY6sOxbTnC2LaKZXtpOcoC4tw4phg7Z8ro8nCJQ1je1ROqXPO6W9CadXBE86
+LVFuxRuTR0tXhXkQag7lprOOW8I6r13uQnBiqMzhvWSdE8TnxPL2+SYesC26q7l+
+dY+dUzRqeuFW7b6TAZxI/V0jAow/84upbtvzHDBaea/RkPGLpB4ap7drtvb+K0ux
+KMZiNtpb0asOdXkv6rLhKlfazfFY/X1JHKNdbcEJcKwMWJN03KlP2IPdZpTkacqa
+yiP2NLvFToFvOYenN67zYw9wd4sLjg0mdXa/THMIfZfAIFr76BJ4KRJt366Gaw2y
+TOuIqJFIJcvRhlHQ59nFh3bMhFKGzkqduUfVm7MCkliseuL56AMZrk+yGDIhDVjG
+ohkRUb9S3L95F8DBFqajID2e28Dp5xtpM7Uo+os2UeMWFrtDR/u4d+45i4uPXMmG
+V0gUUMkJTkVymFtO0laoxBDQkZFRd82iEW1zDbC5MD+Pc8NKP4Lsf1PbtqYqnUNR
+8d2avQHp0YSs7A6mLqJMUmjW/GqeC36rp0xw4XYBCIw+V8oyMo4=
+=RLKy
+-----END PGP SIGNATURE-----

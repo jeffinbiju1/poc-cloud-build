@@ -1,0 +1,278 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: python3-defaults
+Binary: libpython3-all-dbg libpython3-all-dev libpython3-dbg libpython3-dev libpython3-stdlib python3 python3-all python3-all-dbg python3-all-dev python3-dbg python3-dev python3-full python3-minimal python3-venv
+Architecture: amd64
+Version: 3.9.2-3
+Checksums-Md5:
+ 72dafb1ae64eb2f1e18557f345fc4a0b 1064 libpython3-all-dbg_3.9.2-3_amd64.deb
+ 4ddcd426467edd5a9b53b2c267752e45 1068 libpython3-all-dev_3.9.2-3_amd64.deb
+ 40860cd72b02abdc3159ffe37049b79d 21644 libpython3-dbg_3.9.2-3_amd64.deb
+ 57921d88b811c1daaba725ea93df75ff 21656 libpython3-dev_3.9.2-3_amd64.deb
+ f85467b5ab713cd1adfc3afdfbb34ea5 21400 libpython3-stdlib_3.9.2-3_amd64.deb
+ e87d3bccf877453bef52ff1b4167a915 1064 python3-all-dbg_3.9.2-3_amd64.deb
+ dbcabd863f22fb0816fec00e23caa55e 1064 python3-all-dev_3.9.2-3_amd64.deb
+ 82305bafe97fa8760b7fc74045cd35b1 1056 python3-all_3.9.2-3_amd64.deb
+ 142ab2d05b44f2186cbd224df81d3210 1224 python3-dbg_3.9.2-3_amd64.deb
+ 77ba281532ade084dc6a0971e1cbdfad 24824 python3-dev_3.9.2-3_amd64.deb
+ d6a3c80e1b155a03273edb882021949d 1324 python3-full_3.9.2-3_amd64.deb
+ b59c58de49dbd98b3fd1205a886645cb 38248 python3-minimal_3.9.2-3_amd64.deb
+ 9af7cd7fd8e47b99b6a861283fc6a331 1188 python3-venv_3.9.2-3_amd64.deb
+ fd9e70928363facaac8df346d06716bb 37880 python3_3.9.2-3_amd64.deb
+Checksums-Sha1:
+ ee1e75c05ecf3396b01890a2ce6bafe31d671dbb 1064 libpython3-all-dbg_3.9.2-3_amd64.deb
+ 437c47b90d2e335972d473542e20d120f0aa0050 1068 libpython3-all-dev_3.9.2-3_amd64.deb
+ 6ae29e52ef2a3c94ac9f91a8f23fe242d544b6b1 21644 libpython3-dbg_3.9.2-3_amd64.deb
+ 27b8930aa53af47edc46865ed1eae55f512e142d 21656 libpython3-dev_3.9.2-3_amd64.deb
+ a341cbaf8f9ad9fe49fc681a193854d5f426dc9a 21400 libpython3-stdlib_3.9.2-3_amd64.deb
+ 179d94a08ee456fcbf9d516f70f3e6cabb94647d 1064 python3-all-dbg_3.9.2-3_amd64.deb
+ 6881cf1e6a0accec527bea1d3bf7cdd1590e28ca 1064 python3-all-dev_3.9.2-3_amd64.deb
+ dba2eb883f78dcb2a16a2868215c27eae811f90f 1056 python3-all_3.9.2-3_amd64.deb
+ f6e0a8cd82cfbdf88b36106cdd63e099fb6fcb14 1224 python3-dbg_3.9.2-3_amd64.deb
+ 158906652d448bd3a187470f992c1827c1d20c8f 24824 python3-dev_3.9.2-3_amd64.deb
+ 36f537f5d1e37bc6afa5a2c89167ee7510acd2ff 1324 python3-full_3.9.2-3_amd64.deb
+ e58a32d43c3ab055bde0ad06ef60ba29ceed81a4 38248 python3-minimal_3.9.2-3_amd64.deb
+ 01aac897f0d0332c0dcd2857ac96684290d66826 1188 python3-venv_3.9.2-3_amd64.deb
+ 123ddabdd5c12608b2b5a363816cb9f4e059f8c3 37880 python3_3.9.2-3_amd64.deb
+Checksums-Sha256:
+ 1326026cca6c9c28c6fb2d0100690d5372007c83bc429a49c7a1dcd80e68921d 1064 libpython3-all-dbg_3.9.2-3_amd64.deb
+ 380687fb9c2d181d552071d43bdd64fb5b61ef4a6372344538883c15d9406f08 1068 libpython3-all-dev_3.9.2-3_amd64.deb
+ ca26cca8b057d1bf0367b3b3bf22b8a693f3101291653ff4886824d7fc041069 21644 libpython3-dbg_3.9.2-3_amd64.deb
+ 8e81c69eb7f17cd2fc7935d76e97882d1532ff8cdf45db731ee2c7f217155a37 21656 libpython3-dev_3.9.2-3_amd64.deb
+ f903a5e24fd155cf09f25823a75c95a7de03a408ab699fe05c2c2930cbe018e3 21400 libpython3-stdlib_3.9.2-3_amd64.deb
+ 1a7b50ba9dd27fb7f2a81d54f179037e61bfa78010f3dfc86cd6ca46c7c88e22 1064 python3-all-dbg_3.9.2-3_amd64.deb
+ 9778eb016b07a8b80a1a87f6076f01e9cd995ae905a6fe335535ff05686aa7a1 1064 python3-all-dev_3.9.2-3_amd64.deb
+ 333620bae97eb2cbd705ed41ac092f2b68e4400daac872088045804ad5009646 1056 python3-all_3.9.2-3_amd64.deb
+ e0e636ff58140259d873daa3ed81120b27278879ac3ad4a1a3be56cf7451ea6a 1224 python3-dbg_3.9.2-3_amd64.deb
+ d378f376dd8443b35198326cc875fa93d541b61ef4ae29354c65ac6fe05da485 24824 python3-dev_3.9.2-3_amd64.deb
+ 58e539ffeb9e16ac7ed48b05f0bd8c780a01eb0a2a294befd4839b05bee13c95 1324 python3-full_3.9.2-3_amd64.deb
+ 159320ef8a2d740dcc2245c7f0ac0e678b2796354044c90760fe2a4c6ef117b4 38248 python3-minimal_3.9.2-3_amd64.deb
+ d8e2ffa60a34e9e5adf667646fd5e09a7465d81807255604e51df7345d9a7d5d 1188 python3-venv_3.9.2-3_amd64.deb
+ 6d9375916c5c0d670df708bed3e8c033ce4b197a580d536ce39d1170c67a4c95 37880 python3_3.9.2-3_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Mon, 05 Apr 2021 12:27:10 +0000
+Build-Path: /build/python3-defaults-Sx6sUI/python3-defaults-3.9.2
+Installed-Build-Depends:
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11),
+ base-passwd (= 3.5.49),
+ bash (= 5.1-2+b1),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bsdextrautils (= 2.36.1-7),
+ bsdutils (= 1:2.36.1-7),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ ca-certificates (= 20210119),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20210120+802ebd4-1),
+ debconf (= 1.5.76),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.11.0-1),
+ diffutils (= 1:3.7-5),
+ distro-info-data (= 0.46),
+ docutils-common (= 0.16+dfsg-3),
+ dpkg (= 1.20.7.1),
+ dpkg-dev (= 1.20.7.1),
+ dwz (= 0.14-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4),
+ hostname (= 3.23),
+ html2text (= 1.3.2a-28),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libarchive-zip-perl (= 1.68-1),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-7),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-11),
+ libc-dev-bin (= 2.31-11),
+ libc6 (= 2.31-11),
+ libc6-dev (= 2.31-11),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-1),
+ libcrypt-dev (= 1:4.4.18-2),
+ libcrypt1 (= 1:4.4.18-2),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.257),
+ libdebhelper-perl (= 13.3.4),
+ libdpkg-perl (= 1.20.7.1),
+ libelf1 (= 0.183-3),
+ libexpat1 (= 2.2.10-2),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.11.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-3),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libgmp10 (= 2:6.2.1+dfsg-1),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-4),
+ libicu67 (= 67.1-6),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjs-jquery (= 3.5.1+dfsg+~3.5.5-7),
+ libjs-sphinxdoc (= 3.4.3-2),
+ libjs-underscore (= 1.9.1~dfsg-3),
+ libk5crypto3 (= 1.18.3-4),
+ libkeyutils1 (= 1.6.1-2),
+ libkrb5-3 (= 1.18.3-4),
+ libkrb5support0 (= 1.18.3-4),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-1),
+ liblzma5 (= 5.2.5-2),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-7),
+ libmpc3 (= 1.2.0-1),
+ libmpdec3 (= 2.5.1-2),
+ libmpfr6 (= 4.1.0-3),
+ libncursesw6 (= 6.2+20201114-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libpam-modules (= 1.4.0-7),
+ libpam-modules-bin (= 1.4.0-7),
+ libpam-runtime (= 1.4.0-7),
+ libpam0g (= 1.4.0-7),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-3),
+ libpipeline1 (= 1.5.3-1),
+ libpython3-stdlib (= 3.9.2-2),
+ libpython3.9-minimal (= 3.9.2-1),
+ libpython3.9-stdlib (= 3.9.2-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ libseccomp2 (= 2.5.1-1),
+ libselinux1 (= 3.1-3),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-7),
+ libsqlite3-0 (= 3.34.1-3),
+ libssl1.1 (= 1.1.1k-1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 247.3-3),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 247.3-3),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-7),
+ libxml2 (= 2.9.10+dfsg-6.3+b1),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.26-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ lsb-release (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ media-types (= 4.0.0),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ openssl (= 1.1.1k-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-3),
+ perl-base (= 5.32.1-3),
+ perl-modules-5.32 (= 5.32.1-3),
+ po-debconf (= 1.0.21+nmu1),
+ python-babel-localedata (= 2.8.0+dfsg.1-6),
+ python3 (= 3.9.2-2),
+ python3-alabaster (= 0.7.8-1.1),
+ python3-babel (= 2.8.0+dfsg.1-6),
+ python3-certifi (= 2020.6.20-1),
+ python3-chardet (= 4.0.0-1),
+ python3-distutils (= 3.9.2-1),
+ python3-docutils (= 0.16+dfsg-3),
+ python3-idna (= 2.10-1),
+ python3-imagesize (= 1.2.0-2),
+ python3-jinja2 (= 2.11.3-1),
+ python3-lib2to3 (= 3.9.2-1),
+ python3-markupsafe (= 1.1.1-1+b3),
+ python3-minimal (= 3.9.2-2),
+ python3-packaging (= 20.9-2),
+ python3-pkg-resources (= 52.0.0-3),
+ python3-pygments (= 2.7.1+dfsg-2),
+ python3-pyparsing (= 2.4.7-1),
+ python3-requests (= 2.25.1+dfsg-2),
+ python3-roman (= 2.0.0-5),
+ python3-six (= 1.15.0-2),
+ python3-snowballstemmer (= 2.1.0-1),
+ python3-sphinx (= 3.4.3-2),
+ python3-tz (= 2021.1-1),
+ python3-urllib3 (= 1.26.2-1),
+ python3.9 (= 3.9.2-1),
+ python3.9-minimal (= 3.9.2-1),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ sgml-base (= 1.30),
+ sphinx-common (= 3.4.3-2),
+ sysvinit-utils (= 2.96-6),
+ tar (= 1.34+dfsg-1),
+ tzdata (= 2021a-1),
+ util-linux (= 2.36.1-7),
+ xml-core (= 0.18+nmu1),
+ xz-utils (= 5.2.5-2),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1617624048"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEcU6S3GjxzS183/1jeHlhQ1ylJm8FAmBrAiMACgkQeHlhQ1yl
+Jm+7UxAAupf7SgGdvSK7hZxQb4b22uX3HNlFZG95iqile6syLMF4I2tH2W874tYc
+WMMkwOSPlhCIgJOm2CRQVSOz80dEa1LvSIYE49OHpBTTGKX82XVF0p5dj502gh+H
+Q8HhJ+MKSzF6ymNJzdgfZoPSFaOa/DOnLiWxBVbUx+MFnzobEM64zPRHySUhHkRS
+26PdL6nW2bX3G5MeXVZ20N8WdP4yO5JQj/RCoDwe+frXq9FKtpv7QspGnAIyKXNb
+sCgbOdLYwJFdPsvTIBIDcctVkxNOH6P0rQpSkmfoDxSRCxr+PJD96m3W7t/LV1sT
+Cy35i+El8kM/rvJDNfF8LklyIgdC+K37X8lujSalHttaOCXh9t8SyPPRtn/LqY/X
+EgY/liFaVE7LTRGfqJ4H8ceidY4l0oCjKdoIvcjViQRMFKSFUxsSnVWSXO0Hg7Gy
+ghs7wi7jIfuGEubB3U2JXBSXXEj0q1ujX1t0oA/kARLd+tfTrtOpeRDK8ZpPmL6S
+4ab+7btC8ph19LgxGyTBESAJ8xlwYlQrvw0/7DNlf4SPxPVxZRXQB7HcaHw1tcPA
+IN3NSZ+8wKutuwnOdI6nICMhG4iD+xVFh6yLdZcI6CBUzQwCC5Fb+dA8MaQ8t2uq
+VNam4cErLV6L+bWe4b9f8Bmc7N8hhYnhhYMpRcHP+hHPe2IXAt8=
+=JN4T
+-----END PGP SIGNATURE-----

@@ -1,0 +1,352 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.0
+Source: util-linux
+Binary: bsdextrautils bsdextrautils-dbgsym bsdutils bsdutils-dbgsym eject eject-dbgsym eject-udeb fdisk fdisk-dbgsym fdisk-udeb libblkid-dev libblkid1 libblkid1-dbgsym libblkid1-udeb libfdisk-dev libfdisk1 libfdisk1-dbgsym libfdisk1-udeb libmount-dev libmount1 libmount1-dbgsym libmount1-udeb libsmartcols-dev libsmartcols1 libsmartcols1-dbgsym libsmartcols1-udeb libuuid1 libuuid1-dbgsym libuuid1-udeb mount mount-dbgsym rfkill rfkill-dbgsym util-linux util-linux-dbgsym util-linux-udeb uuid-dev uuid-runtime uuid-runtime-dbgsym
+Architecture: amd64
+Version: 2.36.1-8+deb11u1
+Checksums-Md5:
+ d442c4f1d7ec4b8dc7ea03fb192c3655 184336 bsdextrautils-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 0e3882c7b416af7a5602b3f5c75d0b2a 145480 bsdextrautils_2.36.1-8+deb11u1_amd64.deb
+ 789b07ce91c97cba310ccc59ddf3b930 226752 bsdutils-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ c386240b9a9510668ae24b5f6aed5ce2 148484 bsdutils_2.36.1-8+deb11u1_amd64.deb
+ 88338d834540771fc398105b28bf70a6 83876 eject-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 20a742c6aea725a3b0a1b403b336f009 29684 eject-udeb_2.36.1-8+deb11u1_amd64.udeb
+ a3b2c2568866df130fafe515d45f01b6 102468 eject_2.36.1-8+deb11u1_amd64.deb
+ b1fd6325d3e1b3648a5659020b2a90c7 379520 fdisk-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 7bed7112084f3d4939773f39f190d56a 676048 fdisk-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 460cc080cbd6e781273dea6e09a203bc 192116 fdisk_2.36.1-8+deb11u1_amd64.deb
+ 88dd481e24e04d6b867df64e725a51a5 224896 libblkid-dev_2.36.1-8+deb11u1_amd64.deb
+ 0481829005f4ca425a46e2824ae97b87 412804 libblkid1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 2b2be6b2bd040f638f33ab5066f5c098 123532 libblkid1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 7aac595ae201e8227196257523e8a218 193380 libblkid1_2.36.1-8+deb11u1_amd64.deb
+ 6b88d976075517bd406b76b8fba7ebfa 77308 libfdisk-dev_2.36.1-8+deb11u1_amd64.deb
+ cfe5ca25fd8d6488d0da2bc1d7326891 492252 libfdisk1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 703b77fe74941c61d720fdc99696810b 165696 libfdisk1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ a141200de2356800c71ae43d77c052ef 237428 libfdisk1_2.36.1-8+deb11u1_amd64.deb
+ f31107db8e587b71e9ee576d3c2ce0a0 78036 libmount-dev_2.36.1-8+deb11u1_amd64.deb
+ b10c836acb9646f11eaba9266dad9d45 410592 libmount1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 7e81d6a1af816f896e772bfb71278d95 139924 libmount1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ d5f84a33b1005fcdc89ddeb353fcc303 211752 libmount1_2.36.1-8+deb11u1_amd64.deb
+ faced67892e52d6c77a57e4ac84bca77 73840 libsmartcols-dev_2.36.1-8+deb11u1_amd64.deb
+ 49bf61746d89051406e1eb54aad414a5 273388 libsmartcols1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 5538ae1a9e4d8e1e130681d4ed7a6d70 85964 libsmartcols1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 309b370d808494c2db25fe4bf00c72c2 157508 libsmartcols1_2.36.1-8+deb11u1_amd64.deb
+ 71443fc26b31226a4cac40894de5ac8b 28220 libuuid1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 97cd52b75a38214382f66a6644fc1912 13020 libuuid1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 0c05a4da0faa24f895e7543f043f4ccf 83856 libuuid1_2.36.1-8+deb11u1_amd64.deb
+ f7307e94b69765a4e6c12fc981d1b154 233744 mount-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 09003c4d8ad3bd74b0ac1eb153db3bf9 185764 mount_2.36.1-8+deb11u1_amd64.deb
+ a975870714b3bd7507b1f5c87b9b55c1 42036 rfkill-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ be488630df2ceb65515c2b3afc19e17f 88568 rfkill_2.36.1-8+deb11u1_amd64.deb
+ 76e544fabbb1b1865bc97284de0e1048 3047372 util-linux-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 679c565e87f25d9945c32a0fa8c5944b 395104 util-linux-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 40b16f6827466172f560042bc281509c 1141128 util-linux_2.36.1-8+deb11u1_amd64.deb
+ afff5b8d7ed4025f8468a4e64a3ee7dd 99372 uuid-dev_2.36.1-8+deb11u1_amd64.deb
+ aec43ccb0d6c6773e71efc249b9eb5f8 74792 uuid-runtime-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 7ab24edee455986742f4e3b84b9a3938 101172 uuid-runtime_2.36.1-8+deb11u1_amd64.deb
+Checksums-Sha1:
+ 774bce8c3018ca7d6767d39b273db68c2177ad0b 184336 bsdextrautils-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 45b529f0ec7bf56b396ea904a197a1f6cb872c20 145480 bsdextrautils_2.36.1-8+deb11u1_amd64.deb
+ e3c730c0ac64503772fa2cca3ff0f8ba0b23c3cc 226752 bsdutils-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 8e5c58e0aa90f593bf1ce92c97a65f29d18b237d 148484 bsdutils_2.36.1-8+deb11u1_amd64.deb
+ 3f93ae773641c7b6c1614c087b445800518e2d2d 83876 eject-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 1fedd7054de4ce8712d7d8e7f8c52c31435f4df8 29684 eject-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 8e2c02b1d4e16eebe24944c9222c3ce324f91800 102468 eject_2.36.1-8+deb11u1_amd64.deb
+ 2bcd284a3da6401f0358eb61e1c89342cfab5a3d 379520 fdisk-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ ac397a6d7735b51baeebff2a7e371b2710dfc40a 676048 fdisk-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 6c09ffc4d52ae62f375bbb60a5482aadf299cbb1 192116 fdisk_2.36.1-8+deb11u1_amd64.deb
+ e13f92f1b179437f65455612b06e171f34826809 224896 libblkid-dev_2.36.1-8+deb11u1_amd64.deb
+ a49ce98bbfa3fe183e88562a9b1b95bceb4442b8 412804 libblkid1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ d58174ca1aa5043f35242afbbcaef825be331419 123532 libblkid1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 23e969cfc455fa0e2693ae80b13a83c597f8a87e 193380 libblkid1_2.36.1-8+deb11u1_amd64.deb
+ dc5735cd5476ba0f23a3106b5f0bb3d6e45aca96 77308 libfdisk-dev_2.36.1-8+deb11u1_amd64.deb
+ 22fcbda254bcfd015987e93c325b2c33a226f11e 492252 libfdisk1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ a200a184cc414b050f205309ad62ab74f52bd894 165696 libfdisk1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 537c30fc9f388f0f82bfd46902e8a589d83f355d 237428 libfdisk1_2.36.1-8+deb11u1_amd64.deb
+ 2632ce1c3d86ae4ea0dfe0f5127e2fefa479e522 78036 libmount-dev_2.36.1-8+deb11u1_amd64.deb
+ 90542b8608e5b35e07f4af8f8ce7337985944c76 410592 libmount1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ b6d25498a73d2cd2b15b7af512c2c68c356521fa 139924 libmount1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 74da05ce8d63eab46b220fb0624d0944f16cd0e3 211752 libmount1_2.36.1-8+deb11u1_amd64.deb
+ 9fd60a98b19a56b90ab785b9ac527c3f1640c2ae 73840 libsmartcols-dev_2.36.1-8+deb11u1_amd64.deb
+ 8b5857b1b9287d91bf976fc17c9d16411affacc0 273388 libsmartcols1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 54b48de4f580ca7126613353cf40d4c4394fd8a0 85964 libsmartcols1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ ed2f061235bb1adda1300df96e6f37fb0f2071e8 157508 libsmartcols1_2.36.1-8+deb11u1_amd64.deb
+ 938c088f2f245fc8db0304bc26a8aec02130fe18 28220 libuuid1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 5495e7b2928702446ce551e155a52b7a6386aadb 13020 libuuid1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 3b591696dd821d4d5ce6162ee44acd7937a5a6b5 83856 libuuid1_2.36.1-8+deb11u1_amd64.deb
+ 35cba286ada914c95afbc4aa8b4d0f08341735d9 233744 mount-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ bd02bc4e07229389c0cdbd132158c86ae96a4420 185764 mount_2.36.1-8+deb11u1_amd64.deb
+ 8c0d59036d83970b97f91a31f5707beb576dd223 42036 rfkill-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 4115073367259a0d8dd0451ea327068515a4fa66 88568 rfkill_2.36.1-8+deb11u1_amd64.deb
+ 2de8de97d5abbbd4113e1f7125c40b5fa244cf68 3047372 util-linux-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 4e8d88ab999f0271444617a14ffaddad8d780aa3 395104 util-linux-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 00b29913742d7cfe8a91a4793e1683384f6e39ef 1141128 util-linux_2.36.1-8+deb11u1_amd64.deb
+ cc8b408653550579eb2076ceb9f0347ee4a963c6 99372 uuid-dev_2.36.1-8+deb11u1_amd64.deb
+ b9e18929508fe0423b1266b7af98a7d7c2e827a5 74792 uuid-runtime-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ c8109661eeb45e7275fb2ee26d285dabdee7a6ef 101172 uuid-runtime_2.36.1-8+deb11u1_amd64.deb
+Checksums-Sha256:
+ 19d7ab98b01743e1b1a7c310dbb1ccb709fb161174302c7307add7428a34e24a 184336 bsdextrautils-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ b8aa7fdc9136815b4dc05949c81f354ddd4a294ae41bdaee82cd371aaa5ef702 145480 bsdextrautils_2.36.1-8+deb11u1_amd64.deb
+ 4c990dbacf94baea77018d5ade5736dce0190973eb07a40d460ceaf51a6895b6 226752 bsdutils-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ dbde09eadd41fb531b2eeb25666835426fb01d9cb9f4f85495968de844655d9c 148484 bsdutils_2.36.1-8+deb11u1_amd64.deb
+ bf8baeb9dc71c745b9ed19668e9dbe665613244bbfc6fb01dab7ceedc68adb19 83876 eject-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ d73cfb74e780bab73ff69c1923a4a170f68b36f160d91d3599aac3e64e4f1a47 29684 eject-udeb_2.36.1-8+deb11u1_amd64.udeb
+ fffea010d602134d5fed7cba9f9e82fc7e12eb41092530655726fee69a4d77d9 102468 eject_2.36.1-8+deb11u1_amd64.deb
+ 6eddb6a3b49607237beebe00ba8dd43bb805647c782d4293f790133cbf851622 379520 fdisk-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 43116e15fc7867210bfcbe2cef746b700ac7c333acfb698fb04e92752308126f 676048 fdisk-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 9ff6017670d7f1d25d759ad9be8fd21ed94239129f4a5cd90e7cd34b9c4cc7a7 192116 fdisk_2.36.1-8+deb11u1_amd64.deb
+ 3f224b3dc4d094367b45b31c4bc367dd9528f45eba22af77229a7f9be7e6005d 224896 libblkid-dev_2.36.1-8+deb11u1_amd64.deb
+ f8d00a3fb02bb870aa239e76317c7cfb8661c5f29d9bc72eadfa2763c6edf76e 412804 libblkid1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ db8496553b5b41e353cca2bd2e116e54becf1623a5b6efdc8fa9455fda94e947 123532 libblkid1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 9026ddd9f211008531ce6024d5ce042c723e237ecadfbf1f9343cb44aff492b9 193380 libblkid1_2.36.1-8+deb11u1_amd64.deb
+ 79cf98129a1782811635a331b93ac446672e2139c5cdd85223e811bff841a185 77308 libfdisk-dev_2.36.1-8+deb11u1_amd64.deb
+ d828eede3e037cad1896a6b3fc56d42969f642c138496bfe8aff67d3b2d24f1e 492252 libfdisk1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 78cc1ee8e36591762ff3a94ff611d0628ff8d1c9ce54cb714117693844d9b1b6 165696 libfdisk1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ bfd5f642aba1d5ca38c80efd100b7727e42a247cfd7315f0d7b456bb20666be6 237428 libfdisk1_2.36.1-8+deb11u1_amd64.deb
+ e2ab59f02398ff5f50d58ba5702a3dc27d47b6b028fccab03d0e8060e317f328 78036 libmount-dev_2.36.1-8+deb11u1_amd64.deb
+ 559293df0e085bda4c4e2886c282453050ef4b0910316b06a34e9ce5a23237dc 410592 libmount1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 3804ac5ffc9d9aa8f769eb3147b202acc58f8fd2916cdcb1895490a5a0b4c2c1 139924 libmount1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ a3d8673804f32e9716e33111714e250b6f1092770a52e21fab99d0ab4b48c5d9 211752 libmount1_2.36.1-8+deb11u1_amd64.deb
+ 96f8e9bb125dec43e45746b46ee8a33ec6aa163406c671b7e9aa516e2dc1ace4 73840 libsmartcols-dev_2.36.1-8+deb11u1_amd64.deb
+ be997a10e456219a8ba1eb5974b412e01baa3fa190ce10dde6e7a8f6e97bccb7 273388 libsmartcols1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 4b92d461df2eeb90ce004177b18586d8fab4467216757f22f571b998c81e3a9d 85964 libsmartcols1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 157d0da18adc3b3531e7e619b4851de3f0f5ef4311b1db506ff05da7407249d3 157508 libsmartcols1_2.36.1-8+deb11u1_amd64.deb
+ 845653ad3ef6f4f700e0f02c1bdd2cd6224da02f49703a7eaa72b5c805f4c88e 28220 libuuid1-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 7536dbb26806977e45e76e2c3a3d537802e5b02af9fc47d660cfc1ce9f0593b3 13020 libuuid1-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 31250af4dd3b7d1519326a9a6764d1466a93d8f498cf6545058761ebc38b2823 83856 libuuid1_2.36.1-8+deb11u1_amd64.deb
+ 36ecfbba3c0dc8274bcda95e430bb3903e0dbfad4ee8bfececa6c9619c75e0cc 233744 mount-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ bb527cae6fc22bc3a4d7eeb046d0c985b4b19029e3e1f9935ce59c469b795a4f 185764 mount_2.36.1-8+deb11u1_amd64.deb
+ a6734515439c56e9515f9838477e36ed9959ab8b5f5cc36b9bf49c7e63a8e708 42036 rfkill-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ b4decbdc547f42ed6e95d013e86d552138f1452bdf9b4d095fcaf509247b068b 88568 rfkill_2.36.1-8+deb11u1_amd64.deb
+ 9cbe04098c13785601150cf98267f9049f42f1c946343f393ef2e4e1ff1acde7 3047372 util-linux-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 183e0154772943193994e4e077748e8ba839a2061b8ab94b492f023ffc48fef3 395104 util-linux-udeb_2.36.1-8+deb11u1_amd64.udeb
+ 28eec23a3b699bab69e9fcebc84db54ebf2f07b11f70e09ac72c67c65d1b6356 1141128 util-linux_2.36.1-8+deb11u1_amd64.deb
+ 90a533bbb3b82f5c9bedc5da28965ca8223913099f8ac67213e4f8828bfdd2a1 99372 uuid-dev_2.36.1-8+deb11u1_amd64.deb
+ b7be874cd85d54049172cc003421ef49cda61303e4f698d78599c3caf40815ca 74792 uuid-runtime-dbgsym_2.36.1-8+deb11u1_amd64.deb
+ 6cb992d19568a2d7a09676e7c56fa1b8516b712c586b2a482f2fd06173d840f9 101172 uuid-runtime_2.36.1-8+deb11u1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sat, 22 Jan 2022 09:53:54 +0000
+Build-Path: /build/util-linux-KMTHss/util-linux-2.36.1
+Installed-Build-Depends:
+ adduser (= 3.118),
+ autoconf (= 2.69-14),
+ automake (= 1:1.16.3-2),
+ autopoint (= 0.21-4),
+ autotools-dev (= 20180224.1+nmu1),
+ base-files (= 11.1+deb11u2),
+ base-passwd (= 3.5.51),
+ bash (= 5.1-2+b3),
+ bc (= 1.07.1-2+b2),
+ binutils (= 2.35.2-2),
+ binutils-common (= 2.35.2-2),
+ binutils-x86-64-linux-gnu (= 2.35.2-2),
+ bison (= 2:3.7.5+dfsg-1),
+ bsdextrautils (= 2.36.1-8),
+ bsdutils (= 1:2.36.1-8),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-4),
+ coreutils (= 8.32-4+b1),
+ cpp (= 4:10.2.1-1),
+ cpp-10 (= 10.2.1-6),
+ dash (= 0.5.11+git20200708+dd9ef66-5),
+ debconf (= 1.5.77),
+ debhelper (= 13.3.4),
+ debianutils (= 4.11.2),
+ dh-autoreconf (= 20),
+ dh-exec (= 0.23.2),
+ dh-strip-nondeterminism (= 1.12.0-1),
+ diffutils (= 1:3.7-5),
+ dmsetup (= 2:1.02.175-2.1),
+ dpkg (= 1.20.9),
+ dpkg-dev (= 1.20.9),
+ dwz (= 0.13+20210201-1),
+ file (= 1:5.39-3),
+ findutils (= 4.8.0-1),
+ g++ (= 4:10.2.1-1),
+ g++-10 (= 10.2.1-6),
+ gcc (= 4:10.2.1-1),
+ gcc-10 (= 10.2.1-6),
+ gcc-10-base (= 10.2.1-6),
+ gettext (= 0.21-4),
+ gettext-base (= 0.21-4),
+ grep (= 3.6-1),
+ groff-base (= 1.22.4-6),
+ gzip (= 1.10-4),
+ hostname (= 3.23),
+ init-system-helpers (= 1.60),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-10),
+ libapparmor1 (= 2.13.6-10),
+ libarchive-zip-perl (= 1.68-1),
+ libargon2-1 (= 0~20171227-0.2),
+ libasan6 (= 10.2.1-6),
+ libatomic1 (= 10.2.1-6),
+ libattr1 (= 1:2.4.48-6),
+ libaudit-common (= 1:3.0-2),
+ libaudit-dev (= 1:3.0-2),
+ libaudit1 (= 1:3.0-2),
+ libbinutils (= 2.35.2-2),
+ libblkid1 (= 2.36.1-8),
+ libbz2-1.0 (= 1.0.8-4),
+ libc-bin (= 2.31-13+deb11u2),
+ libc-dev-bin (= 2.31-13+deb11u2),
+ libc6 (= 2.31-13+deb11u2),
+ libc6-dev (= 2.31-13+deb11u2),
+ libcap-ng-dev (= 0.7.9-2.2+b1),
+ libcap-ng0 (= 0.7.9-2.2+b1),
+ libcap2 (= 1:2.44-1),
+ libcc1-0 (= 10.2.1-6),
+ libcom-err2 (= 1.46.2-2),
+ libcrypt-dev (= 1:4.4.18-4),
+ libcrypt1 (= 1:4.4.18-4),
+ libcryptsetup12 (= 2:2.3.5-1),
+ libctf-nobfd0 (= 2.35.2-2),
+ libctf0 (= 2.35.2-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.8),
+ libdebconfclient0 (= 0.260),
+ libdebhelper-perl (= 13.3.4),
+ libdevmapper1.02.1 (= 2:1.02.175-2.1),
+ libdpkg-perl (= 1.20.9),
+ libelf1 (= 0.183-1),
+ libffi7 (= 3.3-6),
+ libfile-stripnondeterminism-perl (= 1.12.0-1),
+ libgcc-10-dev (= 10.2.1-6),
+ libgcc-s1 (= 10.2.1-6),
+ libgcrypt20 (= 1.8.7-6),
+ libgdbm-compat4 (= 1.19-2),
+ libgdbm6 (= 1.19-2),
+ libglib2.0-0 (= 2.66.8-1),
+ libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
+ libgnutls30 (= 3.7.1-5),
+ libgomp1 (= 10.2.1-6),
+ libgpg-error0 (= 1.38-2),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u1),
+ libhogweed6 (= 3.7.3-1),
+ libicu67 (= 67.1-7),
+ libidn2-0 (= 2.3.0-5),
+ libip4tc2 (= 1.8.7-1),
+ libisl23 (= 0.23-1),
+ libitm1 (= 10.2.1-6),
+ libjson-c5 (= 0.15-2),
+ libk5crypto3 (= 1.18.3-6+deb11u1),
+ libkeyutils1 (= 1.6.1-2),
+ libkmod2 (= 28-1),
+ libkrb5-3 (= 1.18.3-6+deb11u1),
+ libkrb5support0 (= 1.18.3-6+deb11u1),
+ liblsan0 (= 10.2.1-6),
+ liblz4-1 (= 1.9.3-2),
+ liblzma5 (= 5.2.5-2),
+ libmagic-mgc (= 1:5.39-3),
+ libmagic1 (= 1:5.39-3),
+ libmount1 (= 2.36.1-8),
+ libmpc3 (= 1.2.0-1),
+ libmpfr6 (= 4.1.0-3),
+ libncurses-dev (= 6.2+20201114-2),
+ libncurses5-dev (= 6.2+20201114-2),
+ libncurses6 (= 6.2+20201114-2),
+ libncursesw6 (= 6.2+20201114-2),
+ libnettle8 (= 3.7.3-1),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libp11-kit0 (= 0.23.22-1),
+ libpam-modules (= 1.4.0-9+deb11u1),
+ libpam-modules-bin (= 1.4.0-9+deb11u1),
+ libpam-runtime (= 1.4.0-9+deb11u1),
+ libpam0g (= 1.4.0-9+deb11u1),
+ libpam0g-dev (= 1.4.0-9+deb11u1),
+ libpcre2-16-0 (= 10.36-2),
+ libpcre2-32-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2),
+ libpcre2-dev (= 10.36-2),
+ libpcre2-posix2 (= 10.36-2),
+ libpcre3 (= 2:8.39-13),
+ libperl5.32 (= 5.32.1-4+deb11u2),
+ libpipeline1 (= 1.5.3-1),
+ libquadmath0 (= 10.2.1-6),
+ libreadline8 (= 8.1-1),
+ libseccomp2 (= 2.5.1-1+deb11u1),
+ libselinux1 (= 3.1-3),
+ libselinux1-dev (= 3.1-3),
+ libsemanage-common (= 3.1-1),
+ libsemanage1 (= 3.1-1+b2),
+ libsepol1 (= 3.1-1),
+ libsepol1-dev (= 3.1-1),
+ libsigsegv2 (= 2.13-1),
+ libsmartcols1 (= 2.36.1-8),
+ libssl1.1 (= 1.1.1k-1+deb11u1),
+ libstdc++-10-dev (= 10.2.1-6),
+ libstdc++6 (= 10.2.1-6),
+ libsub-override-perl (= 0.09-2),
+ libsystemd-dev (= 247.3-6),
+ libsystemd0 (= 247.3-6),
+ libtasn1-6 (= 4.16.0-2),
+ libtinfo6 (= 6.2+20201114-2),
+ libtirpc-common (= 1.3.1-1),
+ libtirpc-dev (= 1.3.1-1),
+ libtirpc3 (= 1.3.1-1),
+ libtool (= 2.4.6-15),
+ libtsan0 (= 10.2.1-6),
+ libubsan1 (= 10.2.1-6),
+ libuchardet0 (= 0.0.7-1),
+ libudev-dev (= 247.3-6),
+ libudev1 (= 247.3-6),
+ libunistring2 (= 0.9.10-4),
+ libuuid1 (= 2.36.1-8),
+ libwrap0 (= 7.6.q-31),
+ libxml2 (= 2.9.10+dfsg-6.7),
+ libzstd1 (= 1.4.8+dfsg-2.1),
+ linux-libc-dev (= 5.10.84-1),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-5),
+ make (= 4.3-4.1),
+ man-db (= 2.9.4-2),
+ mawk (= 1.3.4.20200120-2),
+ mount (= 2.36.1-8),
+ ncurses-base (= 6.2+20201114-2),
+ ncurses-bin (= 6.2+20201114-2),
+ netbase (= 6.3),
+ passwd (= 1:4.8.1-1),
+ patch (= 2.7.6-7),
+ perl (= 5.32.1-4+deb11u2),
+ perl-base (= 5.32.1-4+deb11u2),
+ perl-modules-5.32 (= 5.32.1-4+deb11u2),
+ pkg-config (= 0.29.2-1),
+ po-debconf (= 1.0.21+nmu1),
+ readline-common (= 8.1-1),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.14),
+ socat (= 1.7.4.1-3),
+ systemd (= 247.3-6),
+ systemd-timesyncd (= 247.3-6),
+ sysvinit-utils (= 2.96-7),
+ tar (= 1.34+dfsg-1),
+ util-linux (= 2.36.1-8),
+ xz-utils (= 5.2.5-2),
+ zlib1g (= 1:1.2.11.dfsg-2),
+ zlib1g-dev (= 1:1.2.11.dfsg-2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1642709435"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE8DPOGMaQHbqWZUKpt/b36/s0kbEFAmHr1D8ACgkQt/b36/s0
+kbHvPRAAiaUkJyjN1tgPrkDn+bQyOBVqlVxiZxU1JF1DNtznc0IQpBtRfak0MfJa
+hwULsv9Xo36ByyQawsJlflKeXojQPTFWmFdlwNsTHQk/I09TrUMXy7OTIuF0SpiE
+Qn2dQN4dq9lqtOTDAZ57KyfueEHkLLWffNa8i5m4nDLHgbgh6rP4jRWqZT8ow4Su
+xCMhwUJQTf4Xi0dfGNmRSqJwhmatJWbp+PeMw1B8spCnhVe/C0LU0dN10s153FMR
+a1bj6mz3lD16rt7mtMIrr1dUWQrF5I9QnNR1ZvZhRWmL+yJeEir4nDMrTNIYI6Pb
+nuRPLbGQbLmymBVjd4IguHSnMxGA+BFkDrOvr3JLOFhjYCmDNmWNxOJzqNorImlj
+h5u+dCVHxfmYtWeH4uANqdxbLLd5mtBT/iT+iAW6ocId1T1ZglfYi3ArWfigQvtr
+alA5Y/w/vpxQd7ic5Z2D7yN4xCGk/H2rlgSeuVIJOBpABt0+f2lVU8gj7iB62UQB
+QNhBLm5Elu2BVMvT6FqZa/psm208D2MyzukC2lvU7kSnljtxPVkTy6Sk7Al0V/gE
+gS2P/xGG1Q7kMUdGZj/G2gJaG+tpXVUq639KQUlfvrh83W4HW1daWh/0phCHIyMP
+IRInk0MdZFiO30QWmBB5lmW/scmpxv4Z7e0RJghJDXmQJ/YfEnk=
+=mMBE
+-----END PGP SIGNATURE-----

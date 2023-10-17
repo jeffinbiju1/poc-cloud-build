@@ -1,0 +1,101 @@
+# wf-debian.yaml
+name: debian
+serviceAccount: "projects/cloud-aoss-1p-dev/serviceAccounts/cloudbuildgen2@cloud-aoss-1p-dev.iam.gserviceaccount.com"
+
+
+params:
+  - name: pkg
+    default: apt_2.2.4_amd64
+workspaces:
+  - name: default-workspace
+    volume:
+      storage: 10gb
+pipeline:
+  spec:
+    workspaces:
+      - name: default-workspace
+    tasks:
+      - name: clone-repo
+        timeout: "360000s"
+        taskRef:
+          resolver: gcb-repo
+          params:
+          - name: repository
+            value: projects/gcb-catalog-release/locations/us-central1/connections/github-conn/repositories/git-tkn
+          - name: revision
+            value: main
+          - name: pathInRepo
+            value: task/git-clone/git-clone.yaml
+        params:
+        - name: url
+          value: "https://github.com/jeffinbiju1/poc-cloud-build" # public repo for test
+        - name: revision
+          value: main
+        workspaces:
+        - name: output
+          workspace: default-workspace
+      - name: build-pkg
+        timeout: "360000s"
+        runAfter:
+          - "clone-repo"
+        workspaces:
+          - name: source
+            workspace: default-workspace
+        taskSpec:
+          workspaces:
+            - name: source
+          results:
+          - name: pkg_ARTIFACT_DIGEST
+            description: package digest
+          - name: pkg_ARTIFACT_URI
+            description: package URI
+          steps:
+            - name: pull-and-build
+              image: docker.io/library/perl
+              script: |
+                #!/bin/sh
+                echo $(params.pkg)
+                cpan install File::HomeDir
+                apt-get update
+                apt-get install -y libstring-shellquote-perl
+                apt-get install -y libwww-perl
+                apt-get install -y python3-pycurl
+                apt-get install -y python3-requests
+                apt-get install -y python3-debian
+                apt-get install -y equivs
+                apt-get install -y apt-utils
+                apt-get install -y mmdebstrap
+                cd $(workspaces.source.path)
+                ls
+                ./debrebuild.pl --buildresults=./artifacts --builder=mmdebstrap ./buildinfos/$(params.pkg).buildinfo
+                echo "sha256:" | tee hash
+                sha256sum artifacts/$(params.pkg).deb | cut -d " " -f 1 >> hash 
+                tr -d '\n' < hash > $(results.pkg_ARTIFACT_DIGEST.path)
+                ls artifacts | tr -d '\n' | tee $(results.pkg_ARTIFACT_URI.path) 
+
+      - name: store
+        timeout: "360000s"
+        runAfter: 
+        - "build-pkg"
+        workspaces:
+          - name: source
+            workspace: default-workspace
+        taskSpec:
+          workspaces:
+            - name: source
+          steps:
+            - name: store-artifact    
+              image: gcr.io/cloud-builders/gcloud
+              script: |
+                cd $(workspaces.source.path)
+                gcloud artifacts apt upload apt-repo --location=us-central1 --source=artifacts/$(params.pkg).deb
+
+
+options:
+  executionEnvironment:
+    workerPool: "projects/cloud-aoss-1p-dev/locations/us-central1/workerPools/jeffin-test-pool"
+  timeouts:
+    pipeline: "360000s"
+    tasks: "360000s"
+
+

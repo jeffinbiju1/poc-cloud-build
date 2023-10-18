@@ -343,7 +343,7 @@ Installed-Build-Depends:
  zlib1g (= 1:1.2.11.dfsg-2),
  zlib1g-dev (= 1:1.2.11.dfsg-2)
 Environment:
- DEB_BUILD_OPTIONS='buildinfo=+all reproducible=+all,-fixfilepath parallel=4 nocheck'
+ DEB_BUILD_OPTIONS="buildinfo=+all reproducible=+all,-fixfilepath parallel=4 nocheck"
  LC_ALL="C.UTF-8"
  SOURCE_DATE_EPOCH="1614531824"
 

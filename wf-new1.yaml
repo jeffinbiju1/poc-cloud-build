@@ -1,5 +1,5 @@
 # wf-debian.yaml
-name: newwf
+name: newwf1
 serviceAccount: "projects/cloud-aoss-1p-dev/serviceAccounts/cloudbuildgen2@cloud-aoss-1p-dev.iam.gserviceaccount.com"
 
 
@@ -14,41 +14,16 @@ pipeline:
   spec:
     workspaces:
       - name: default-workspace
-    tasks:
-      - name: clone-repo
-        timeout: "3600s"
-        taskRef:
-          resolver: gcb-repo
-          params:
-          - name: repository
-            value: projects/gcb-catalog-release/locations/us-central1/connections/github-conn/repositories/git-tkn
-          - name: revision
-            value: main
-          - name: pathInRepo
-            value: task/git-clone/git-clone.yaml
-        params:
-        - name: url
-          value: "https://github.com/jeffinbiju1/poc-cloud-build" # public repo for test
-        - name: revision
-          value: main
-        workspaces:
-        - name: output
-          workspace: default-workspace
+  tasks:
       - name: build-pkg
-        timeout: "18000s"
-        runAfter:
-          - "clone-repo"
+        #runAfter:
+        #- "clone-repo"
         workspaces:
           - name: source
             workspace: default-workspace
         taskSpec:
           workspaces:
             - name: source
-          results:
-          - name: pkg_ARTIFACT_DIGEST
-            description: package digest
-          - name: pkg_ARTIFACT_URI
-            description: package URI
           steps:
             - name: pull-and-build
               image: docker.io/library/perl
@@ -72,10 +47,9 @@ pipeline:
                 #sha256sum artifacts/$(params.pkg).deb | cut -d " " -f 1 >> hash 
                 #tr -d '\n' < hash > $(results.pkg_ARTIFACT_DIGEST.path)
                 #ls artifacts | tr -d '\n' | tee $(results.pkg_ARTIFACT_URI.path) 
-
       - name: store
-        runAfter: 
-        - "build-pkg"
+        #runAfter: 
+        #- "clone-repo"
         workspaces:
           - name: source
             workspace: default-workspace

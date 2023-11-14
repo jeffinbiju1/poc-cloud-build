@@ -1,0 +1,43 @@
+# wf-helloworld.yaml
+
+name: hello
+serviceAccount: "projects/cloud-aoss-1p-dev/serviceAccounts/cloudbuildgen2@cloud-aoss-1p-dev.iam.gserviceaccount.com"
+
+workspaces:
+  - name: default-workspace
+    volume:
+      storage: 10gb
+
+pipeline:
+  spec:
+    workspaces:
+      - name: default-workspace
+    tasks:
+    - name: pipeline-task
+      workspaces:
+        - name: source
+          workspace: default-workspace
+      taskSpec:
+        workspaces:
+        - name: source
+        steps:
+        - image: gcr.io/gcp-runtimes/ubuntu_20_0_4
+          script: |
+            set -euxo pipefail
+            dpkg-query --showformat '${binary:Package}=${Version}\n' --show > package1
+            cat package1
+            apt-get update && apt-get install --no-install-recommends -y wget xz-utils
+            wget https://cloud.debian.org/images/cloud/bullseye/20230912-1501/debian-11-nocloud-amd64-20230912-1501.tar.xz || true
+            tar xf debian-11-nocloud-amd64-20230912-1501.tar.xz
+            mkdir -p img_mnt/
+            mount -o offset=$(fdisk -l disk.raw | awk '/Sector size/ {size = $4} /Linux/ {print $2*size}') disk.raw img_mnt/
+            chroot img_mnt dpkg-query --showformat '${binary:Package}=${Version}\n' --show > package
+            cat package
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+options:
+  executionEnvironment:
+    workerPool: "projects/cloud-aoss-1p-dev/locations/us-central1/workerPools/jeffin-test-pool"
+
+
